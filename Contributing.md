@@ -49,6 +49,7 @@ Many people use VBA in business environments because they don't have better tool
 * 💣 - Requires installation
 * 🏺 - 32-bit/VB6 only 
 * 💲 - Link includes/leads to paid content
+* 🔒 - VBA source code is password protected and/or hidden.
 
 #### 4. Symbology should contain tooltips
 

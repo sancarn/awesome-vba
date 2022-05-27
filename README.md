@@ -18,10 +18,11 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * 🅰️ - Access
 * 📧 - Outlook
 * 🎞️ - Powerpoint
-* 🦆 - Misecellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
+* 🦆 - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
 
 #### Other important information
 
+* 🔒 - Written in VBA but the code is password protected
 * 👽 - Requires external dependencies e.g. DLLs
 * 💣 - Requires installation
 * 🏺 - 32-bit/VB6 only 
@@ -54,6 +55,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
     - [UI Ribbon](#ui-ribbon)
     - [UI Userforms](#ui-userforms)
     - [VBE UI](#vbe-ui)
+    - [Games](#games)
   - [Style Guides](#style-guides)
   - [Resources](#resources)
     - [Books / Websites](#books--websites)
@@ -88,7 +90,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 #### Array-List
 
-* 👑⭐ [Better array](https://github.com/Senipah/VBA-Better-Array/tree/master/src) - An array class providing features found in more modern languages
+* 👑⭐ [Better array](https://github.com/Senipah/VBA-Better-Array/tree/master/src) - An array class providing features found in more modern languages.
 
 #### Dictionary
 
@@ -101,7 +103,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ### Database tools
 
-* [SQL Library](https://github.com/Beakerboy/VBA-SQL-Library) - An OOP SQL Library for psql, mssql, mysql databases
+* [SQL Library](https://github.com/Beakerboy/VBA-SQL-Library) - An OOP SQL Library for psql, mssql, mysql databases.
 
 ### Userform tools
 
@@ -121,24 +123,30 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 ## Developer tools
 
 * 🪟⭐💣 [Rubberduck](https://rubberduckvba.com/) - An open-source COM add-in project that integrates with the Visual Basic Editor to add modern-day features to the familiar IDE. Works in VBA6, VBA7.x (x86/x64), and yes, in VB6 too!
-* 👑⭐ [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS)
+* 👑⭐ [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
 
 ## Examples
 
 ### UI Ribbon
 
-TBC
+* [Ron de Bruin - Ribbons/QAT](https://www.rondebruin.nl/win/section2.htm) - A leading resource for information/samples on developing custom ribbons.
 
 ### UI Userforms
 
-TBC
+* [VBA Material Design](https://github.com/todar/VBA-Material-Design) - Implementation of Material Design principles to userforms/controls.
+* [VBA Userform Transitions and Animations](https://github.com/todar/VBA-Userform-Animations) - An excellent library for implementing animation easings into the Userform.
 
 ### VBE UI
 
 TBC
 
+### Games
+
+TBC
+
 ## Style Guides
 
+* [VBA Standard](https://sslinky.github.io/VBA-Standard/) - Guide prepared by moderators of the r/vba subreddit.
 * [todar's style guide](https://github.com/todar/VBA-Style-Guide) 
 * [RubberDuck's style guide](https://rubberduckvba.wordpress.com/2021/05/29/rubberduck-style-guide/)
 
@@ -149,27 +157,34 @@ TBC
 * [MSDN VBA Documentation](https://msdn.microsoft.com/en-us/vba/office-vba-reference)
 * [MS-VBAL Language Spec](https://docs.microsoft.com/en-gb/openspecs/microsoft_general_purpose_programming_languages/ms-vbal/d5418146-0bd2-45eb-9c7a-fd9502722c74)
 * [VB6 Coding conventions](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa240822(v%3dvs.60))
-* [Ron de Bruin](https://www.rondebruin.nl/index.htm) - Simple-Intermediate topics
-* [Bytecomb VBA Reference](https://bytecomb.com/vba-reference/) - Intermediate-advanced topics
+* [Ron de Bruin](https://www.rondebruin.nl/index.htm) - Simple-Intermediate topics.
+* [Bytecomb VBA Reference](https://bytecomb.com/vba-reference/) - Intermediate-advanced topics.
 * [Chip Pearson's website](http://www.cpearson.com/excel) - Great resource for beginners-intermediate.
 * [VBA for smarties](http://www.snb-vba.eu/inhoud_en.html) - A great reference to numerous data structures and mechanics.
 * 💲[Automate Excel's cheat sheets](https://www.automateexcel.com/vba/cheatsheets/)
 * 💲[Excel VBA Programming For Dummies book](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book)
 * [VBA E-Book for beginners](https://goalkicker.com/VBABook/)
 * [Excel VBA E-Book for beginners](https://goalkicker.com/ExcelVBABook/)
-* [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics
+* [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics.
 
 ### Youtube
 
-* [Excel Macro Mastery](https://www.youtube.com/c/Excelmacromastery) - A lot of simple-intermediate tutorial content.
-* [WiseOwl's VBA tutorials](https://www.youtube.com/playlist?list=PLNIs-AWhQzckr8Dgmgb3akx_gFMnpxTN5) - A tutorial for beginners
-* 💲[VBA A2Z](https://www.youtube.com/c/VBAA2Z) - Many tutorials, some paid content.
+* [Excel Macro Mastery](https://www.youtube.com/c/Excelmacromastery) - Youtube channel for Paul Kelly (MVP) - excelmacromastery.com. 
+* [Sigma Coding](https://www.youtube.com/c/SigmaCoding) - Large catalogue of tutorials - beginner through to advanced. Delves into interesting areas of VBA and it uses not explored by other content creators.
+* [WiseOwl's VBA tutorials](https://www.youtube.com/playlist?list=PLNIs-AWhQzckr8Dgmgb3akx_gFMnpxTN5) - Great all-round resource for VBA. Perfect introduction for beginners. In-depth lessons into all aspects of VBA. Huge playlist that covers most types of VBA. 
+* 💲[VBA A2Z](https://www.youtube.com/c/VBAA2Z) - Many tutorials, some paid content. Good array of intereting and different topics - in-depth tutorials into different parts of VBA, with some .NET/VSTO videos. Strong focus on UI development.
+* [Excel VBA Is Fun](https://www.youtube.com/c/ExcelVbaIsFun)
+* [Excel for Freelancers](https://www.youtube.com/c/ExcelForFreelancers) - Hands-on tutorials to developing specific applications from beginning through to end. All levels.
+* [Leila Gharani](https://www.youtube.com/c/LeilaGharani) - Office-wide focus - useful for beginners.
 
 ### Forums
 
 * [Reddit](http://reddit.co.uk/r/vba) - Daily VBA Q&A. Occasional Pro-Tip sharing and Show & Tell library publishing.
 * [Visual Basic Discord](https://discord.gg/gpcSue9f) - A chat room for VB.NET/VBA/VB6 fanatics.
 * [MrExcel](https://www.mrexcel.com/board/) - Mostly Excel generic, but a lot of VBA content can be found here also.
+* [Excel Forum](https://www.excelforum.com/)
+* 📧[Slipstick](https://www.slipstick.com/outlook) - Excellent forum for the Slipstick website (Outlook VBA) of Diane Poremsky (MVP). Diane is quick to respond, and her answers are extremely helpful.
+* [VBForums - Office Development](https://www.vbforums.com/forumdisplay.php?37-Office-Development) - Forum with focus on VB6/.NET with VBA section.
 
 ## Contributing
 

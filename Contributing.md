@@ -23,6 +23,8 @@ This repository uses symbology to indicate restrictions in compatibility. This i
 
 #### 1. Specifying Platform Compatibility
 
+Platform compatibility is especially important for Mac users as many libraries are windows only. If you've used `CreateObject` to create an object e.g. `Scripting.Dictionary`, `VBScript.Dictionary` etc. then your library is likely Windows OS Only. Additionally if you've used external DLL functions, the likelihood is your library is Windows only. In order to make these mac-compatible the library needs to use Mac-native functions from libc or objc.
+
 * 👑 - Compatible on all platforms
 * 🍎 - Mac OS only
 * 🖼 - Windows OS only

@@ -59,13 +59,38 @@ As suggested in #1 tooltips should be added to symbology to further help new use
 * [👑](# "Compatible on all platforms")[⭐]("All applications")
 ```
 
+In order to keep the document clean, several IDs have been added for common tooltips:
+
+```
+[p_all]: #  "Compatible on all platforms"
+[p_mac]: #  "Mac OS only"
+[p_win]: #  "Windows OS only"
+
+[a_all]: #  "All applications"
+[a_wd]:  #  "Word"
+[a_xl]:  #  "Excel"
+[a_ac]:  #  "Access"
+[a_ol]:  #  "Outlook"
+[a_pp]:  #  "PowerPoint"
+
+[o_32]: #  "32-bit only"
+```
+
+These can be used as follows:
+
+```md
+* [👑][p_all][⭐][a_all]
+```
+
 Tooltips can be modified to give further helpful detail and should be considered especially for 👽, 💲 and 🦆.
 
 ```md
-* [👑](# "Compatible on all platforms")[⭐]("All applications")[👽](# "Requires external DLL")
-* [👑](# "Compatible on all platforms")[⭐]("All applications")[💲](# "Some non-FOSS cheatsheets")
-* [👑](# "Compatible on all platforms")[⭐]("All applications")[🦆](# "Works in Auto-CAD")
+* [👑][p_all][⭐][a_all][👽](# "Requires external DLL")
+* [👑][p_all][⭐][a_all][💲](# "Some non-FOSS cheatsheets")
+* [👑][p_all][⭐][a_all][🦆](# "Works in Auto-CAD")
 ```
+
+
 
 ### Symbology Examples
 

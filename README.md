@@ -6,25 +6,39 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 #### Platform Compatibility
 
-* [👑](# "Compatible on all platforms") - Compatible on all platforms
-* [🍎](# "Mac OS only") - Mac compatible
-* [🖼](# "Windows OS only") - Windows compatible
+[p_all]: # "Compatible on all platforms"
+[p_mac]: # "Mac OS only"
+[p_win]: # "Windows OS only"
+
+* [👑][p_all] - Compatible on all platforms
+* [🍎][p_mac] - Mac compatible
+* [🖼][p_win] - Windows compatible
 
 #### Application compatibility 
 
-* [⭐](# "All applications") - All applications
-* [✒️](# "Word") - Word
-* [📊](# "Excel") - Excel
-* [🅰️](# "Access") - Access
-* [📧](# "Outlook") - Outlook
-* [🎞️](# "Powerpoint") - Powerpoint
-* [🦆](# "Miscellaneous applications") - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
+[a_all]: #  "All applications"
+[a_wd]: #   "Word"
+[a_xl]: #   "Excel"
+[a_ac]: #   "Access"
+[a_ol]: #   "Outlook"
+[a_pp]: #   "PowerPoint"
+
+
+* [⭐][a_all] - All applications
+* [✒️][a_wd] - Word
+* [📊][a_xl] - Excel
+* [🅰️][a_ac] - Access
+* [📧][a_ol] - Outlook
+* [🎞️][a_pp] - Powerpoint
+* [🦆](# "Misc") - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
 
 #### Other important information
 
+[o_32]: #  "32-bit only"
+
+* [🏺][o_32] - 32-bit only 
 * [👽](# "Requires external dependencies") - Requires external dependencies e.g. DLLs
 * [💣](# "Requires installation") - Requires installation
-* [🏺](# "32-bit/VB6 only") - 32-bit/VB6 only 
 * [💲](# "Link includes/leads to paid content") - Link includes/leads to paid content
 
 ## Contents
@@ -55,8 +69,8 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ## Frameworks
 
-* [🖼](# "Windows OS only")[⭐](# "All applications") [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
-* [🖼](# "Windows OS only")[⭐](# "All applications")[🏺](# "32-bit/VB6 only") [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
+* [🖼][p_win][⭐][a_all] [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
+* [🖼][p_win][⭐][a_all][🏺][o_32] [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
 
 ## Libraries
 
@@ -64,30 +78,30 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 #### JSON
 
-* [👑](# "Compatible on all platforms")[⭐](# "All applications") [VBA-JSON](https://github.com/VBA-tools/VBA-JSON) - JSON conversion and parsing.
+* [👑][p_all][⭐][a_all] [VBA-JSON](https://github.com/VBA-tools/VBA-JSON) - JSON conversion and parsing.
 
 #### CSV
 
-* [👑](# "Compatible on all platforms")[⭐](# "All applications") [VBA-CSV-interface](https://github.com/ws-garcia/VBA-CSV-interface) - Powerful, fast and comprehensive RFC-4180 compliant CSV/TSV/DSV data management library.
+* [👑][p_all][⭐][a_all] [VBA-CSV-interface](https://github.com/ws-garcia/VBA-CSV-interface) - Powerful, fast and comprehensive RFC-4180 compliant CSV/TSV/DSV data management library.
 
 #### XML
 
-* [👑](# "Compatible on all platforms")[⭐](# "All applications") [VBA-XML](https://github.com/VBA-tools/VBA-XML) - XML conversion and parsing.
+* [👑][p_all][⭐][a_all] [VBA-XML](https://github.com/VBA-tools/VBA-XML) - XML conversion and parsing.
 
 ### Data Structures
 
 #### Array-List
 
-* [👑](# "Compatible on all platforms")[⭐](# "All applications") [Better array](https://github.com/Senipah/VBA-Better-Array/tree/master/src) - An array class providing features found in more modern languages
+* [👑][p_all][⭐][a_all] [Better array](https://github.com/Senipah/VBA-Better-Array/tree/master/src) - An array class providing features found in more modern languages
 
 #### Dictionary
 
-* [👑](# "Compatible on all platforms")[⭐](# "All applications") [VBA-Dictionary](https://github.com/VBA-tools/VBA-Dictionary) - A dictionary object which stores key-value pairs.
-* [🖼](# "Windows OS only")[⭐](# "All applications") [VBA-ExtendedDictionary](https://github.com/SSlinky/VBA-ExtendedDictionary) - A dictionary object using Scripting.Dictionary but exposes some additional useful functionality.
+* [👑][p_all][⭐][a_all] [VBA-Dictionary](https://github.com/VBA-tools/VBA-Dictionary) - A dictionary object which stores key-value pairs.
+* [🖼][p_win][⭐][a_all] [VBA-ExtendedDictionary](https://github.com/SSlinky/VBA-ExtendedDictionary) - A dictionary object using Scripting.Dictionary but exposes some additional useful functionality.
 
 ### Math libraries
 
-* [👑](# "Compatible on all platforms")[⭐](# "All applications") [VBA-Math-Objects](https://github.com/Beakerboy/VBA-Math-Objects) - A matrix and vector library.
+* [👑][p_all][⭐][a_all] [VBA-Math-Objects](https://github.com/Beakerboy/VBA-Math-Objects) - A matrix and vector library.
 
 ### Database tools
 
@@ -95,23 +109,23 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ### Userform tools
 
-* [🖼](# "Windows OS only")[⭐](# "All applications") [Material UI](https://github.com/todar/VBA-Material-Design) - Make your userform feel modern with Material UI.
-* [👑](# "Compatible on all platforms")[⭐](# "All applications") [Easy EventListener](https://github.com/todar/VBA-Userform-EventListener) - Consolodate all event handling of a userform into 1 callback.
-* [🖼](# "Windows OS only")[⭐](# "All applications")[👽](# "Requires external DLL") [Modern UI Components](https://github.com/krishKM/Modern-UI-Components-for-VBA) - Custom modern looking controls. 
-* [🖼](# "Windows OS only")[⭐](# "All applications") [MVVM](https://github.com/rubberduck-vba/MVVM) - Model-View-ViewModel Infrastructure for maintainable userform development.
+* [🖼][p_win][⭐][a_all] [Material UI](https://github.com/todar/VBA-Material-Design) - Make your userform feel modern with Material UI.
+* [👑][p_all][⭐][a_all] [Easy EventListener](https://github.com/todar/VBA-Userform-EventListener) - Consolodate all event handling of a userform into 1 callback.
+* [🖼][p_win][⭐][a_all][👽](# "Requires external DLL") [Modern UI Components](https://github.com/krishKM/Modern-UI-Components-for-VBA) - Custom modern looking controls. 
+* [🖼][p_win][⭐][a_all] [MVVM](https://github.com/rubberduck-vba/MVVM) - Model-View-ViewModel Infrastructure for maintainable userform development.
 
 ### Memory tools
 
-* [👑](# "Compatible on all platforms")[⭐](# "All applications") [VBA-MemoryTools](https://github.com/cristianbuse/VBA-MemoryTools)
+* [👑][p_all][⭐][a_all] [VBA-MemoryTools](https://github.com/cristianbuse/VBA-MemoryTools)
 
 ### Web tools
 
-* [👑](# "Compatible on all platforms")[⭐](# "All applications") [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
+* [👑][p_all][⭐][a_all] [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
 
 ## Developer tools
 
-* [🖼](# "Windows OS only")[⭐](# "All applications")[💣](# "Requires installation") [Rubberduck](https://rubberduckvba.com/) - An open-source COM add-in project that integrates with the Visual Basic Editor to add modern-day features to the familiar IDE. Works in VBA6, VBA7.x (x86/x64), and yes, in VB6 too!
-* [👑](# "Compatible on all platforms")[⭐](# "All applications") [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS)
+* [🖼][p_win][⭐][a_all][💣](# "Requires installation") [Rubberduck](https://rubberduckvba.com/) - An open-source COM add-in project that integrates with the Visual Basic Editor to add modern-day features to the familiar IDE. Works in VBA6, VBA7.x (x86/x64), and yes, in VB6 too!
+* [👑][p_all][⭐][a_all] [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS)
 
 ## Examples
 
@@ -159,6 +173,7 @@ TBC
 
 * [Reddit](http://reddit.co.uk/r/vba) - Daily VBA Q&A. Occasional Pro-Tip sharing and Show & Tell library publishing.
 * [Visual Basic Discord](https://discord.gg/gpcSue9f) - A chat room for VB.NET/VBA/VB6 fanatics.
+* [Excel Discord](https://discord.gg/PU2vVDeb) - Focus on helping Excel users.
 * [MrExcel](https://www.mrexcel.com/board/) - Mostly Excel generic, but a lot of VBA content can be found here also.
 
 ## Contributing

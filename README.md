@@ -34,9 +34,11 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 #### Other important information
 
-[o_32]: #  "32-bit only"
+[o_32]:   #  "32-bit only"
+[o_pass]: #  "VBA is password protected"  
 
 * [🏺][o_32] - 32-bit only 
+* [🔒][o_pass] - Written in VBA but the code is password protected
 * [👽](# "Requires external dependencies") - Requires external dependencies e.g. DLLs
 * [💣](# "Requires installation") - Requires installation
 * [💲](# "Link includes/leads to paid content") - Link includes/leads to paid content

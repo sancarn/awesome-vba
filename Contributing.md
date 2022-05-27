@@ -62,18 +62,19 @@ As suggested in #1 tooltips should be added to symbology to further help new use
 In order to keep the document clean, several IDs have been added for common tooltips:
 
 ```
-[p_all]: #  "Compatible on all platforms"
-[p_mac]: #  "Mac OS only"
-[p_win]: #  "Windows OS only"
-
-[a_all]: #  "All applications"
-[a_wd]:  #  "Word"
-[a_xl]:  #  "Excel"
-[a_ac]:  #  "Access"
-[a_ol]:  #  "Outlook"
-[a_pp]:  #  "PowerPoint"
-
-[o_32]: #  "32-bit only"
+[p_all]:  #  "Compatible on all platforms"
+[p_mac]:  #  "Mac OS only"
+[p_win]:  #  "Windows OS only"
+ 
+[a_all]:  #  "All applications"
+[a_wd]:   #  "Word"
+[a_xl]:   #  "Excel"
+[a_ac]:   #  "Access"
+[a_ol]:   #  "Outlook"
+[a_pp]:   #  "PowerPoint"
+ 
+[o_32]:   #  "32-bit only"
+[o_pass]: #  "VBA is password protected"  
 ```
 
 These can be used as follows:

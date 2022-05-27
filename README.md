@@ -6,27 +6,42 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 #### Platform Compatibility
 
-* 👑 - Compatible on all platforms
-* 🍎 - Mac compatible
-* 🪟 - Windows compatible
+[p_all]: # "Compatible on all platforms"
+[p_mac]: # "Mac OS only"
+[p_win]: # "Windows OS only"
+
+* [👑][p_all] - Compatible on all platforms
+* [🍎][p_mac] - Mac compatible
+* [🖼][p_win] - Windows compatible
 
 #### Application compatibility 
 
-* ⭐ - All applications
-* ✒️ - Word
-* 📊 - Excel
-* 🅰️ - Access
-* 📧 - Outlook
-* 🎞️ - Powerpoint
-* 🦆 - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
+[a_all]: #  "All applications"
+[a_wd]: #   "Word"
+[a_xl]: #   "Excel"
+[a_ac]: #   "Access"
+[a_ol]: #   "Outlook"
+[a_pp]: #   "PowerPoint"
+
+
+* [⭐][a_all] - All applications
+* [✒️][a_wd] - Word
+* [📊][a_xl] - Excel
+* [🅰️][a_ac] - Access
+* [📧][a_ol] - Outlook
+* [🎞️][a_pp] - Powerpoint
+* [🦆](# "Misc") - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
 
 #### Other important information
 
-* 🔒 - Written in VBA but the code is password protected
-* 👽 - Requires external dependencies e.g. DLLs
-* 💣 - Requires installation
-* 🏺 - 32-bit/VB6 only 
-* 💲 - Link includes/leads to paid content
+[o_32]:   #  "32-bit only"
+[o_pass]: #  "VBA is password protected"  
+
+* [🏺][o_32] - 32-bit only 
+* [🔒][o_pass] - Written in VBA but the code is password protected
+* [👽](# "Requires external dependencies") - Requires external dependencies e.g. DLLs
+* [💣](# "Requires installation") - Requires installation
+* [💲](# "Link includes/leads to paid content") - Link includes/leads to paid content
 
 ## Contents
 
@@ -67,8 +82,8 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ## Frameworks
 
-* 🪟⭐ [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
-* 🪟⭐🏺 [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
+* [🖼][p_win][⭐][a_all] [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
+* [🖼][p_win][⭐][a_all][🏺][o_32] [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
 
 ## Libraries
 
@@ -76,30 +91,31 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 #### JSON
 
-* 👑⭐ [VBA-JSON](https://github.com/VBA-tools/VBA-JSON) - JSON conversion and parsing.
+* [👑][p_all][⭐][a_all] [VBA-JSON](https://github.com/VBA-tools/VBA-JSON) - JSON conversion and parsing.
 
 #### CSV
 
-* 👑⭐ [VBA-CSV-interface](https://github.com/ws-garcia/VBA-CSV-interface) - Powerful, fast and comprehensive RFC-4180 compliant CSV/TSV/DSV data management library.
+* [👑][p_all][⭐][a_all] [VBA-CSV-interface](https://github.com/ws-garcia/VBA-CSV-interface) - Powerful, fast and comprehensive RFC-4180 compliant CSV/TSV/DSV data management library.
 
 #### XML
 
-* 👑⭐ [VBA-XML](https://github.com/VBA-tools/VBA-XML) - XML conversion and parsing.
+* [👑][p_all][⭐][a_all] [VBA-XML](https://github.com/VBA-tools/VBA-XML) - XML conversion and parsing.
 
 ### Data Structures
 
 #### Array-List
 
-* 👑⭐ [Better array](https://github.com/Senipah/VBA-Better-Array/tree/master/src) - An array class providing features found in more modern languages.
+* [👑][p_all][⭐][a_all] [Better array](https://github.com/Senipah/VBA-Better-Array/tree/master/src) - An array class providing features found in more modern languages
+
 
 #### Dictionary
 
-* 👑⭐ [VBA-Dictionary](https://github.com/VBA-tools/VBA-Dictionary) - A dictionary object which stores key-value pairs.
-* 🪟⭐ [VBA-ExtendedDictionary](https://github.com/SSlinky/VBA-ExtendedDictionary) - A dictionary object using Scripting.Dictionary but exposes some additional useful functionality.
+* [👑][p_all][⭐][a_all] [VBA-Dictionary](https://github.com/VBA-tools/VBA-Dictionary) - A dictionary object which stores key-value pairs.
+* [🖼][p_win][⭐][a_all] [VBA-ExtendedDictionary](https://github.com/SSlinky/VBA-ExtendedDictionary) - A dictionary object using Scripting.Dictionary but exposes some additional useful functionality.
 
 ### Math libraries
 
-* 👑⭐ [VBA-Math-Objects](https://github.com/Beakerboy/VBA-Math-Objects) - A matrix and vector library.
+* [👑][p_all][⭐][a_all] [VBA-Math-Objects](https://github.com/Beakerboy/VBA-Math-Objects) - A matrix and vector library.
 
 ### Database tools
 
@@ -107,23 +123,24 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ### Userform tools
 
-* 🪟⭐ [Material UI](https://github.com/todar/VBA-Material-Design) - Make your userform feel modern with Material UI.
-* 👑⭐ [Easy EventListener](https://github.com/todar/VBA-Userform-EventListener) - Consolodate all event handling of a userform into 1 callback.
-* 🪟⭐👽 [Modern UI Components](https://github.com/krishKM/Modern-UI-Components-for-VBA) - Custom modern looking controls. 
-* 🪟⭐ [MVVM](https://github.com/rubberduck-vba/MVVM) - Model-View-ViewModel Infrastructure for maintainable userform development.
+* [🖼][p_win][⭐][a_all] [Material UI](https://github.com/todar/VBA-Material-Design) - Make your userform feel modern with Material UI.
+* [👑][p_all][⭐][a_all] [Easy EventListener](https://github.com/todar/VBA-Userform-EventListener) - Consolodate all event handling of a userform into 1 callback.
+* [🖼][p_win][⭐][a_all][👽](# "Requires external DLL") [Modern UI Components](https://github.com/krishKM/Modern-UI-Components-for-VBA) - Custom modern looking controls. 
+* [🖼][p_win][⭐][a_all] [MVVM](https://github.com/rubberduck-vba/MVVM) - Model-View-ViewModel Infrastructure for maintainable userform development.
+* [🖼][p_win][⭐][a_all] [VBA Userform Transitions and Animations](https://github.com/todar/VBA-Userform-Animations) - An excellent library for implementing animation easings into the Userform.
 
 ### Memory tools
 
-* 👑⭐ [VBA-MemoryTools](https://github.com/cristianbuse/VBA-MemoryTools)
+* [👑][p_all][⭐][a_all] [VBA-MemoryTools](https://github.com/cristianbuse/VBA-MemoryTools)
 
 ### Web tools
 
-* 👑⭐ [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
+* [👑][p_all][⭐][a_all] [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
 
 ## Developer tools
 
-* 🪟⭐💣 [Rubberduck](https://rubberduckvba.com/) - An open-source COM add-in project that integrates with the Visual Basic Editor to add modern-day features to the familiar IDE. Works in VBA6, VBA7.x (x86/x64), and yes, in VB6 too!
-* 👑⭐ [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
+* [🖼][p_win][⭐][a_all][💣](# "Requires installation") [Rubberduck](https://rubberduckvba.com/) - An open-source COM add-in project that integrates with the Visual Basic Editor to add modern-day features to the familiar IDE. Works in VBA6, VBA7.x (x86/x64), and yes, in VB6 too!
+* [👑][p_all][⭐][a_all] [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS)
 
 ## Examples
 
@@ -133,8 +150,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ### UI Userforms
 
-* [VBA Material Design](https://github.com/todar/VBA-Material-Design) - Implementation of Material Design principles to userforms/controls.
-* [VBA Userform Transitions and Animations](https://github.com/todar/VBA-Userform-Animations) - An excellent library for implementing animation easings into the Userform.
+TBC
 
 ### VBE UI
 
@@ -161,8 +177,8 @@ TBC
 * [Bytecomb VBA Reference](https://bytecomb.com/vba-reference/) - Intermediate-advanced topics.
 * [Chip Pearson's website](http://www.cpearson.com/excel) - Great resource for beginners-intermediate.
 * [VBA for smarties](http://www.snb-vba.eu/inhoud_en.html) - A great reference to numerous data structures and mechanics.
-* 💲[Automate Excel's cheat sheets](https://www.automateexcel.com/vba/cheatsheets/)
-* 💲[Excel VBA Programming For Dummies book](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book)
+* [💲](# "Some cheatsheets are paid-for content")[Automate Excel's cheat sheets](https://www.automateexcel.com/vba/cheatsheets/)
+* [💲](# "Have to pay for book")[Excel VBA Programming For Dummies book](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book)
 * [VBA E-Book for beginners](https://goalkicker.com/VBABook/)
 * [Excel VBA E-Book for beginners](https://goalkicker.com/ExcelVBABook/)
 * [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics.
@@ -172,18 +188,20 @@ TBC
 * [Excel Macro Mastery](https://www.youtube.com/c/Excelmacromastery) - Youtube channel for Paul Kelly (MVP) - excelmacromastery.com. 
 * [Sigma Coding](https://www.youtube.com/c/SigmaCoding) - Large catalogue of tutorials - beginner through to advanced. Delves into interesting areas of VBA and it uses not explored by other content creators.
 * [WiseOwl's VBA tutorials](https://www.youtube.com/playlist?list=PLNIs-AWhQzckr8Dgmgb3akx_gFMnpxTN5) - Great all-round resource for VBA. Perfect introduction for beginners. In-depth lessons into all aspects of VBA. Huge playlist that covers most types of VBA. 
-* 💲[VBA A2Z](https://www.youtube.com/c/VBAA2Z) - Many tutorials, some paid content. Good array of intereting and different topics - in-depth tutorials into different parts of VBA, with some .NET/VSTO videos. Strong focus on UI development.
+* [💲](# "Some libraries used are non-FOSS and created by VBA A2Z") [VBA A2Z](https://www.youtube.com/c/VBAA2Z) - Many tutorials, some paid content. Good array of intereting and different topics - in-depth tutorials into different parts of VBA, with some .NET/VSTO videos. Strong focus on UI development.
 * [Excel VBA Is Fun](https://www.youtube.com/c/ExcelVbaIsFun)
 * [Excel for Freelancers](https://www.youtube.com/c/ExcelForFreelancers) - Hands-on tutorials to developing specific applications from beginning through to end. All levels.
 * [Leila Gharani](https://www.youtube.com/c/LeilaGharani) - Office-wide focus - useful for beginners.
+
 
 ### Forums
 
 * [Reddit](http://reddit.co.uk/r/vba) - Daily VBA Q&A. Occasional Pro-Tip sharing and Show & Tell library publishing.
 * [Visual Basic Discord](https://discord.gg/gpcSue9f) - A chat room for VB.NET/VBA/VB6 fanatics.
+* [Excel Discord](https://discord.gg/PU2vVDeb) - Focus on helping Excel users.
 * [MrExcel](https://www.mrexcel.com/board/) - Mostly Excel generic, but a lot of VBA content can be found here also.
 * [Excel Forum](https://www.excelforum.com/)
-* 📧[Slipstick](https://www.slipstick.com/outlook) - Excellent forum for the Slipstick website (Outlook VBA) of Diane Poremsky (MVP). Diane is quick to respond, and her answers are extremely helpful.
+* [📧][a_ol] [Slipstick](https://www.slipstick.com/outlook) - Excellent forum for the Slipstick website (Outlook VBA) of Diane Poremsky (MVP). Diane is quick to respond, and her answers are extremely helpful.
 * [VBForums - Office Development](https://www.vbforums.com/forumdisplay.php?37-Office-Development) - Forum with focus on VB6/.NET with VBA section.
 
 ## Contributing

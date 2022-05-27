@@ -141,6 +141,11 @@ TBC
 
 ### VBE UI
 
+### AddIns
+
+* [MenuRighter](https://yoursumbuddy.com/blog/menurighter/)
+* [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
+
 TBC
 
 ## Style Guides

@@ -18,7 +18,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * 🅰️ - Access
 * 📧 - Outlook
 * 🎞️ - Powerpoint
-* 🦆 - Miscelanious applications (MS Project, AutoCAD, etc.) - Specify in short description
+* 🦆 - Misecellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
 
 #### Other important information
 
@@ -29,27 +29,37 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ## Contents
 
-* [Frameworks](#frameworks)
-* [Libraries](#libraries)
-    * [Data Formats](#data-formats)
-        * [JSON](#json)
-        * [CSV](#csv)
-    * [Data Structures](#data-structures)
-        * [Dictionary](#dictionary)
-    * [Database tools](#database-tools)
-    * [Userform tools](#userform-tools)
-    * [Memory tools](#memory-tools)
-    * [Web tools](#web-tools)
-* [Developer tools](#developer-tools)
-* [Examples](#examples)
-    * [UI Ribbon](#ui-ribbon)
-    * [UI Userforms](#ui-userforms)
-    * [VBE UI](#vbe-ui)
-* [Style Guides](#style-guides)
-* [Resources](#resources)
-   * [Books](#books--websites)
-   * [Youtube](#youtube)
-   * [Forums](#forums)
+- [awesome-vba](#awesome-vba)
+  - [A note on symbology](#a-note-on-symbology)
+      - [Platform Compatibility](#platform-compatibility)
+      - [Application compatibility](#application-compatibility)
+      - [Other important information](#other-important-information)
+  - [Contents](#contents)
+  - [Frameworks](#frameworks)
+  - [Libraries](#libraries)
+    - [Data Formats](#data-formats)
+      - [JSON](#json)
+      - [CSV](#csv)
+      - [XML](#xml)
+    - [Data Structures](#data-structures)
+      - [Array-List](#array-list)
+      - [Dictionary](#dictionary)
+    - [Math libraries](#math-libraries)
+    - [Database tools](#database-tools)
+    - [Userform tools](#userform-tools)
+    - [Memory tools](#memory-tools)
+    - [Web tools](#web-tools)
+  - [Developer tools](#developer-tools)
+  - [Examples](#examples)
+    - [UI Ribbon](#ui-ribbon)
+    - [UI Userforms](#ui-userforms)
+    - [VBE UI](#vbe-ui)
+  - [Style Guides](#style-guides)
+  - [Resources](#resources)
+    - [Books / Websites](#books--websites)
+    - [Youtube](#youtube)
+    - [Forums](#forums)
+  - [Contributing](#contributing)
 
 ------
 

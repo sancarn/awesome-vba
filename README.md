@@ -69,15 +69,17 @@ To help you in finding projects suitable for you, this awesome list uses the fol
   - [Developer tools](#developer-tools)
   - [Miscellaneous](#miscellaneous)
   - [Examples](#examples)
+    - [Algorithms, code optimisation, and performance testing](#algorithms-code-optimisation-and-performance-testing)
     - [UI Ribbon](#ui-ribbon)
     - [UI Userforms](#ui-userforms)
     - [VBE UI](#vbe-ui)
     - [AddIns](#addins)
     - [Games / Fun projects](#games--fun-projects)
   - [External tools](#external-tools)
-    - [Games](#games)
   - [Style Guides](#style-guides)
   - [Resources](#resources)
+    - [Win32 API Resources](#win32-api-resources)
+    - [VB6 / VBScript](#vb6--vbscript)
     - [Books / Websites](#books--websites)
     - [Youtube](#youtube)
     - [Forums](#forums)
@@ -99,6 +101,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [👑][p_all][⭐][a_all] [VBA-JSON](https://github.com/VBA-tools/VBA-JSON) - JSON conversion and parsing.
 * [🖼][p_win][⭐][a_all] [mdJSON](https://www.vbforums.com/showthread.php?871695-VB6-VBA-JSON-parsing-to-built-in-VBA-Collections-with-JSON-Path-support) - JSON library with dot-notation for extracting paths.
 * [🖼][p_win][⭐][a_all] [JSONBag](https://www.vbforums.com/showthread.php?738845-VB6-JsonBag-Another-JSON-Parser-Generator) - Uses shebang notation to extract keys from JSON strings. Can also build JSON with this library.
+* [🖼][p_win][⭐][a_all] [VBA JSON Parser](https://github.com/omegastripes/VBA-JSON-parser) - Backus-Naur Form JSON Parser based on RegEx for VBA.
 
 #### CSV
 
@@ -168,6 +171,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [🖼][p_win][📊][a_xl] [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
 * [🖼][p_win][📊][a_xl][✒️][a_wd][🔒][o_pass][🏺][o_32] - AndyPope's Visual Ribbon Editor.
 * [🖼][p_win][📊][a_xl] [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
+* [🖼][p_win][⭐][a_all] [MZ-Tools](https://www.mztools.com/) - VBA Development Tool
 * [🖼][p_win][⭐][a_all] [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if your implementing a new programming language in VBA.
 * [🖼][p_win][⭐][a_all] [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool. 
 
@@ -177,6 +181,13 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [👑][p_all][⭐][a_all] [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
 
 ## Examples
+
+
+
+### Algorithms, code optimisation, and performance testing
+
+* [VBSpeed](http://www.xbeat.net/vbspeed/) - The Visual Basic Performance Site - focus on VB6 but transferrable across to VBA.
+* 
 
 ### UI Ribbon
 
@@ -198,15 +209,12 @@ TBC
 * [🖼][p_win][📊][a_xl] [xlStudio](https://github.com/DylanTallchiefGit/xlStudio) - A DAW for Microsoft Excel. Also check out the awesome [video](https://youtu.be/RFdCM2kHL64).
 * [🖼][p_win][📊][a_xl] [Cellivization](https://s0lly.itch.io/cellivization) - A cool RTS-like game created in Excel. Also check out the awesome [video](https://www.youtube.com/watch?v=PzETBRcr_i8).
 * [🖼][p_win][📊][a_xl] [Arkanoid in Excel](http://leandroascierto.com/blog/juego-arkanoid-en-excel/) - Arkanoid, a retro arcade game, built in Excel. On some machines it runs faster than others.
+* [🖼][p_win][📊][a_xl] [Battleship](https://github.com/rubberduck-vba/Battleship/) - OOP, Model-View-Controller (MVC) architecture implementation of the classic Battleship board game.
 
 ## External tools
 
 * [👑][p_all][⭐][a_all] [oletools](https://github.com/decalage2/oletools) - Python tool which can be used to decode VBA P-Code (VBA's intermediate language).
 * [🖼][p_win][🦆](# "VBA planned but as of 2022-05-27 can only compile to binary") [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
-
-### Games
-
-TBC
 
 ## Style Guides
 
@@ -216,6 +224,16 @@ TBC
 * [VB6 Coding conventions](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa240822(v%3dvs.60)) - Variable/Class/Module naming conventions used in VBA. Greatly helps organisation in VBE (unless you have rubberduck). 
 
 ## Resources
+
+### Win32 API Resources
+
+* [JKP API Declarations](https://jkp-ads.com/Articles/apideclarations.asp)
+* [Microsoft Office Code Compatibility Inspector](https://docs.microsoft.com/en-us/previous-versions/office/office-2010/ee833946(v=office.14)) - The Microsoft Office Code Compatibility Inspector was designed by Microsoft to troubleshoot compatibility issues with VBA code as when upgrading Office from 32-bit to 64-bit. MS has not maintained a link to the software for download from its servers, though versions of it are apparently available on the internet.
+
+### VB6 / VBScript
+
+* [Planet Source Code](https://github.com/Planet-Source-Code/PSCIndex) - The original Github before Github was Github. Now available on Github. Possibly not the entire collection (?) of projects/source code that was previously available at the PSC website, though certainly more than enough for more people, and plenty to keep yourself amused on a Friday evening.
+* [vbAccelerator Archive](https://github.com/tannerhelland/vbAccelerator-Archive) - archived copy of vbAccelerator site (articles, source code, etc.) that disappeared in 2015, reappeared in 2018, and anyone's guess what's going to next... Primarily VB6, but useful VBA resource.
 
 ### Books / Websites
 

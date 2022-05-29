@@ -67,6 +67,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
     - [Low level tools](#low-level-tools)
     - [Web tools](#web-tools)
   - [Developer tools](#developer-tools)
+  - [Miscellaneous](#miscellaneous)
   - [Examples](#examples)
     - [UI Ribbon](#ui-ribbon)
     - [UI Userforms](#ui-userforms)
@@ -74,6 +75,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
     - [AddIns](#addins)
     - [Games / Fun projects](#games--fun-projects)
   - [External tools](#external-tools)
+    - [Games](#games)
   - [Style Guides](#style-guides)
   - [Resources](#resources)
     - [Books / Websites](#books--websites)
@@ -146,7 +148,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [🖼][p_win][⭐][a_all] [Trick's Timer](https://github.com/thetrik/VbTrickTimer) - If you need to run a piece of code continuously and don't have access to `Application.OnTime` (and/or you need to run it faster than once per second), this is the class for you! Also check out the [forum post](https://www.vbforums.com/showthread.php?875635-VB6-VBA-Timer-class) for more information.
 * [🖼][p_win][⭐][a_all][💲](# "~£2 per control/application") [Mark's userform tools](https://www.kubiszyn.co.uk/) - Numerous UI tools and pretty userforms.
 * [🖼][p_win][⭐][a_all] [VBA-UserForm-MouseScroll](https://github.com/cristianbuse/VBA-UserForm-MouseScroll) - Allows Mouse Wheel Scrolling on MSForms Controls and Userforms. 
-
+* [👑][p_all][⭐][a_all] [MSForms (All VBA) Treeview Control](https://jkp-ads.com/Articles/treeview.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
 
 ### Low level tools
 
@@ -168,6 +170,11 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [🖼][p_win][📊][a_xl] [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
 * [🖼][p_win][⭐][a_all] [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if your implementing a new programming language in VBA.
 * [🖼][p_win][⭐][a_all] [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool. 
+
+## Miscellaneous
+
+* [👑][p_all][⭐][a_all] [Excel Name Manager](https://jkp-ads.com/excel-name-manager.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
+* [👑][p_all][⭐][a_all] [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
 
 ## Examples
 
@@ -224,6 +231,9 @@ TBC
 * [VBA E-Book for beginners](https://goalkicker.com/VBABook/)
 * [Excel VBA E-Book for beginners](https://goalkicker.com/ExcelVBABook/)
 * [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics.
+* [📧][a_ol] [Slipstick](https://www.slipstick.com/) - Website of Diane Poremsky (MVP) with focus on Outlook and VBA. 
+* [📧][a_ol] [TechnicLee](https://techniclee.wordpress.com/2011/10/29/exporting-outlook-messages-to-excel/) - Blog of David Lee about Outlook VBA. A great resource comprising VBA code on specific Outlook-related topics in several dozen different variations to cater for a wide range of needs. For example, the site includes 49 different variations on how to [export emails to in Outlook to an Excel spreadsheet](https://techniclee.wordpress.com/2011/10/29/exporting-outlook-messages-to-excel/), [exporting appointments from Outlook to Excel](https://techniclee.wordpress.com/2013/06/21/exporting-appointments-from-outlook-to-excel/), etc. 
+* [🎞️][a_pp] [Powerpoint VBA](https://pptvba.com/) - a site devoted to teaching VBA through making games in Powerpoint.
 
 ### Youtube
 
@@ -241,7 +251,7 @@ TBC
 * [Chandoo](https://chandoo.org/wp/) - Forum for the Chandoo - the blog of Purna Duggirala (MVP). Very active. 
 * [Reddit](http://reddit.co.uk/r/vba) - Daily VBA Q&A. Occasional Pro-Tip sharing and Show & Tell library publishing.
 * [Visual Basic Discord](https://discord.gg/gpcSue9f) - A chat room for VB.NET/VBA/VB6 fanatics.
-* [Excel Discord](https://discord.gg/PU2vVDeb) - Focus on helping Excel users.
+* [Excel Discord](https://discord.gg/PU2vVDeb) - Discord server moderated by Tim Heng (Excel MVP) with focus on helping Excel users.
 * [MrExcel](https://www.mrexcel.com/board/) - Mostly Excel generic, but a lot of VBA content can be found here also.
 * [Excel Forum](https://www.excelforum.com/)
 * [📧][a_ol] [Slipstick](https://www.forums.slipstick.com) - Excellent forum for the Slipstick website (Outlook VBA) of Diane Poremsky (MVP). Diane is quick to respond, and her answers are extremely helpful.

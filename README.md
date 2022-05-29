@@ -95,6 +95,8 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 #### JSON
 
 * [👑][p_all][⭐][a_all] [VBA-JSON](https://github.com/VBA-tools/VBA-JSON) - JSON conversion and parsing.
+* [🖼][p_win][⭐][a_all] [mdJSON](https://www.vbforums.com/showthread.php?871695-VB6-VBA-JSON-parsing-to-built-in-VBA-Collections-with-JSON-Path-support) - JSON library with dot-notation for extracting paths.
+* [🖼][p_win][⭐][a_all] [JSONBag](https://www.vbforums.com/showthread.php?738845-VB6-JsonBag-Another-JSON-Parser-Generator) - Uses shebang notation to extract keys from JSON strings. Can also build JSON with this library.
 
 #### CSV
 
@@ -108,8 +110,10 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 #### Array-List
 
-* [👑][p_all][⭐][a_all] [Better array](https://github.com/Senipah/VBA-Better-Array/tree/master/src) - An array class providing features found in more modern languages
-
+* [👑][p_all][⭐][a_all] [Better array](https://github.com/Senipah/VBA-Better-Array/tree/master/src) - An array class providing features found in more modern languages.
+* From Frameworks:
+    * In `VbCorLib` find `ArrayList` - As above.
+    * In `stdVBA` find `stdArray` - As above. Also includes methods to search the array or perform checks from a callback.
 
 #### Dictionary
 
@@ -118,6 +122,8 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [👑][p_all][⭐][a_all] [cHashList](https://www.vbforums.com/showthread.php?834515-Simple-and-fast-lightweight-HashList-Class-(no-APIs)) - Simple, Fast and lightweight HashList class with no use of Win32 API. Requires string keys however.
 * [🖼][p_win][⭐][a_all] [CollectionEx](https://www.vbforums.com/showthread.php?834579-Wrapper-for-VB6-Collections) - Extends the default VBA(/VB6) collection with methods to retrieve and check for key existence. <!--TODO: This is listed as p_win, but honestly this might work on mac given the correct API declarations. Would be worth testing, see MemoryTools for Copy Memory declares-->
 * [🖼][p_win][⭐][a_all][🏺][o_32] [clsTrickHashTable](https://www.vbforums.com/showthread.php?788247-VB6-Hash-table) - A hash table using machine code injected at runtime. Full replacement for scripting dictionary, with bonus features.
+* From Frameworks:
+    * In `VbCorLib` find `HashTable` - As above.
 
 ### Math libraries
 
@@ -145,7 +151,8 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [👑][p_all][⭐][a_all] [VBA-MemoryTools](https://github.com/cristianbuse/VBA-MemoryTools) - Provides an ultra-fast, copy memory alternative.
 * [🖼][p_win][⭐][a_all] [Safe Subclassing](https://www.mrexcel.com/board/threads/intercepting-resetting-of-vba-editor-as-well-as-unhandled-errors-for-safe-subclassing.1024295/) - Provides the ability to subclass Excel/Word/Powerpoint window or Userforms to perform further automation. In the later threads there is also an example for subclassing other windows from other applications.
 * [🖼][p_win][⭐][a_all] [Calling private module functions](https://codereview.stackexchange.com/questions/274532/low-level-vba-hacking-making-private-functions-public)
-
+* From Frameworks:
+    * In `stdVBA` find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
 
 ### Web tools
 

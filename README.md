@@ -16,12 +16,12 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 #### Application compatibility 
 
-[a_all]: #  "All applications"
-[a_wd]: #   "Word"
-[a_xl]: #   "Excel"
-[a_ac]: #   "Access"
-[a_ol]: #   "Outlook"
-[a_pp]: #   "PowerPoint"
+[a_all]: # "All applications"
+[a_wd]:  # "Word"
+[a_xl]:  # "Excel"
+[a_ac]:  # "Access"
+[a_ol]:  # "Outlook"
+[a_pp]:  # "PowerPoint"
 
 
 * [⭐][a_all] - All applications
@@ -34,8 +34,8 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 #### Other important information
 
-[o_32]:   #  "32-bit only"
-[o_pass]: #  "VBA is password protected"  
+[o_32]:   # "32-bit only"
+[o_pass]: # "VBA is password protected"  
 
 * [🏺][o_32] - 32-bit only 
 * [🔒][o_pass] - Written in VBA but the code is password protected
@@ -137,6 +137,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 ### Userform tools
 
 * [🖼][p_win][⭐][a_all][🏺][o_32] [Task Dialog](https://www.vbforums.com/showthread.php?777021-VB6-TaskDialogIndirect-Complete-class-implementation-of-Vista-Task-Dialogs) - A huge amount of UI functionality from this 1 class, in a strictly dynamic and modular way. Great for data input forms.
+* [🖼][p_win][🅰️][a_ac] [VBATaskDialog](https://accessui.com/Products/VBATaskDialog) - A port of fafaline's VB6 implementation.
 * [🖼][p_win][⭐][a_all] [Material UI](https://github.com/todar/VBA-Material-Design) - Make your userform feel modern with Material UI.
 * [👑][p_all][⭐][a_all] [Easy EventListener](https://github.com/todar/VBA-Userform-EventListener) - Consolidate all event handling of a userform into 1 callback.
 * [🖼][p_win][⭐][a_all] [Pseudo Control Arrays](http://addinbox.sakura.ne.jp/Breakthrough_P-Ctrl_Arrays_Eng.htm) - Optimal means of Consolidating all event handling of a userform. Demonstrates usage of `ConnectToConnectionPoint` API. Also worth looking at [this class](https://stackoverflow.com/questions/61855925/reducing-withevent-declarations-and-subs-with-vba-and-activex#answer-61893857) too. 
@@ -146,7 +147,8 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [🖼][p_win][⭐][a_all] [Trick's Timer](https://github.com/thetrik/VbTrickTimer) - If you need to run a piece of code continuously and don't have access to `Application.OnTime` (and/or you need to run it faster than once per second), this is the class for you! Also check out the [forum post](https://www.vbforums.com/showthread.php?875635-VB6-VBA-Timer-class) for more information.
 * [🖼][p_win][⭐][a_all][💲](# "~£2 per control/application") [Mark's userform tools](https://www.kubiszyn.co.uk/) - Numerous UI tools and pretty userforms.
 * [🖼][p_win][⭐][a_all] [VBA-UserForm-MouseScroll](https://github.com/cristianbuse/VBA-UserForm-MouseScroll) - Allows Mouse Wheel Scrolling on MSForms Controls and Userforms. 
-
+* [🖼][p_win][⭐][a_all] [Custom Userform TitleBar color](https://www.mrexcel.com/board/threads/using-winapi-to-change-the-color-on-the-title-bar-of-a-userform.1205894/page-2#post-5892050)
+* [🖼][p_win][⭐][a_all] [Multi-color ListBox class](https://www.mrexcel.com/board/threads/multicolor-drag-n-drop-listbox-class-win32.1206334/)
 
 ### Low level tools
 
@@ -203,8 +205,6 @@ TBC
 
 ## Style Guides
 
-* [VBA Standard](https://sslinky.github.io/VBA-Standard/) - Guide prepared by moderators of the r/vba subreddit.
-* [todar's style guide](https://github.com/todar/VBA-Style-Guide) - Has some decent basic guidance.
 * [RubberDuck's style guide](https://rubberduckvba.wordpress.com/2021/05/29/rubberduck-style-guide/) - Has some great intermediate - advanced guidance.
 * [VB6 Coding conventions](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa240822(v%3dvs.60)) - Variable/Class/Module naming conventions used in VBA. Greatly helps organisation in VBE (unless you have rubberduck). 
 

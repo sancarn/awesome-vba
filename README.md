@@ -65,6 +65,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
     - [Database tools](#database-tools)
     - [Userform tools](#userform-tools)
     - [Low level tools](#low-level-tools)
+    - [Parsers / Interpreters](#parsers--interpreters)
     - [Web tools](#web-tools)
   - [Developer tools](#developer-tools)
   - [Examples](#examples)
@@ -152,8 +153,8 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [🖼][p_win][⭐][a_all] [VBA-UserForm-MouseScroll](https://github.com/cristianbuse/VBA-UserForm-MouseScroll) - Allows Mouse Wheel Scrolling on MSForms Controls and Userforms. 
 * [🖼][p_win][⭐][a_all] [Custom Userform TitleBar color](https://www.mrexcel.com/board/threads/using-winapi-to-change-the-color-on-the-title-bar-of-a-userform.1205894/page-2#post-5892050)
 * [🖼][p_win][⭐][a_all] [Multi-color ListBox class](https://www.mrexcel.com/board/threads/multicolor-drag-n-drop-listbox-class-win32.1206334/)
-* [🖼][p_win][⭐][a_all][🏺][o_32] [Use of GDIPlus in VBA](https://arkham46.developpez.com/articles/office/clgdiplus/) - GDIPlus can be used to create a `canvas` like element where any image can be drawn to. Additionally check out this [GDI32](https://arkham46.developpez.com/articles/office/clgdi32/) class from the same author.
-* [🖼][p_win][⭐][a_all][🏺][o_32] [Use of OpenGL in VBA](https://arkham46.developpez.com/articles/office/vbaopengl/?page=Page_1) - OpenGL is a cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics. In this article the authors of the GDIPlus class.
+* [🖼][p_win][⭐][a_all] [Use of GDIPlus in VBA](https://arkham46.developpez.com/articles/office/clgdiplus/) - GDIPlus can be used to create a `canvas` like element where any image can be drawn to. Additionally check out this [GDI32](https://arkham46.developpez.com/articles/office/clgdi32/) class from the same author.
+* [🖼][p_win][⭐][a_all] [Use of OpenGL in VBA](https://arkham46.developpez.com/articles/office/vbaopengl/?page=Page_1) - OpenGL is a cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics. In this article the authors of the GDIPlus class.
 * [🖼][p_win][⭐][a_all][🏺][o_32] [VB6 Graph Control](https://vb6awards.blogspot.com/2017/11/vb6-graph-control.html) - Won't work natively in VBA without a `PictureBox` compatible substitute, but an extremely performant graph control regardless.
 
 ### Low level tools
@@ -165,6 +166,14 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * From Frameworks:
     * [🖼][p_win][⭐][a_all] In `stdVBA` find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
 
+### Parsers / Interpreters
+
+* [🖼][p_win][⭐][a_all] [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if your implementing a new programming language in VBA. Wqweto has also included some math expression parsers as tests.
+* [👑][p_all][⭐][a_all] [Volpi's Math Expression Parser](https://web.archive.org/web/20100703220609/http://digilander.libero.it/foxes/mathparser/MathExpressionsParser.htm) - A fast math expression parser. Doesn't allow calls to objects, no callstack.
+* [👑][p_all][⭐][a_all] [VBA Expressions](https://github.com/ws-garcia/VBA-Expressions) - A powerful string expression evaluator focussed on mathematics and data processing.
+* From Frameworks:
+    * [🖼][p_win][⭐][a_all] In `stdVBA` find `stdLambda` - Full programming language including object manipulation, call stack, etc. 
+
 ### Web tools
 
 * [👑][p_all][⭐][a_all] [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
@@ -175,7 +184,6 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [🖼][p_win][📊][a_xl] [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
 * [🖼][p_win][📊][a_xl][✒️][a_wd][🔒][o_pass][🏺][o_32] - AndyPope's Visual Ribbon Editor.
 * [🖼][p_win][📊][a_xl] [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
-* [🖼][p_win][⭐][a_all] [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if your implementing a new programming language in VBA.
 * [🖼][p_win][⭐][a_all] [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool. 
 * [🖼][p_win][⭐][a_all][🏺][o_32] [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries 
 
@@ -205,12 +213,13 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 * [🖼][p_win][📊][a_xl] [xlStudio](https://github.com/DylanTallchiefGit/xlStudio) - A DAW for Microsoft Excel. Also check out the awesome [video](https://youtu.be/RFdCM2kHL64).
 * [🖼][p_win][📊][a_xl] [Cellivization](https://s0lly.itch.io/cellivization) - A cool RTS-like game created in Excel. Also check out the awesome [video](https://www.youtube.com/watch?v=PzETBRcr_i8).
-* [🖼][p_win][📊][a_xl] [Arkanoid in Excel](http://leandroascierto.com/blog/juego-arkanoid-en-excel/) - Arkanoid, a retro arcade game, built in Excel. On some machines it runs faster than others.
+* [🖼][p_win][📊][a_xl] [Arkanoid](http://leandroascierto.com/blog/juego-arkanoid-en-excel/) - Arkanoid, a retro arcade game, built in Excel. On some machines it runs faster than others.
+* [🖼][p_win][📊][a_xl] [Battleships](https://github.com/rubberduck-vba/Battleship)
 
 ## External tools
 
 * [👑][p_all][⭐][a_all] [oletools](https://github.com/decalage2/oletools) - Python tool which can be used to decode VBA P-Code (VBA's intermediate language).
-* [🖼][p_win][🦆](# "VBA planned but as of 2022-05-27 can only compile to binary") [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
+* [🖼][p_win][🦆](# "VBA planned but as of 2022-05-27 can only compile to exe") [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
 
 ## Style Guides
 

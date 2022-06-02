@@ -70,11 +70,13 @@ To help you in finding projects suitable for you, this awesome list uses the fol
   - [Examples](#examples)
     - [UI Ribbon](#ui-ribbon)
     - [UI Userforms](#ui-userforms)
+    - [Low Level Examples](#low-level-examples)
     - [VBE UI](#vbe-ui)
     - [AddIns](#addins)
     - [Games / Fun projects](#games--fun-projects)
   - [External tools](#external-tools)
   - [Style Guides](#style-guides)
+  - [Information](#information)
   - [Resources](#resources)
     - [Books / Websites](#books--websites)
     - [Youtube](#youtube)
@@ -145,16 +147,21 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [🖼][p_win][⭐][a_all] [MVVM](https://github.com/rubberduck-vba/MVVM) - Model-View-ViewModel Infrastructure for maintainable userform development.
 * [🖼][p_win][⭐][a_all] [VBA Userform Transitions and Animations](https://github.com/todar/VBA-Userform-Animations) - An excellent library for implementing animation easings into the Userform.
 * [🖼][p_win][⭐][a_all] [Trick's Timer](https://github.com/thetrik/VbTrickTimer) - If you need to run a piece of code continuously and don't have access to `Application.OnTime` (and/or you need to run it faster than once per second), this is the class for you! Also check out the [forum post](https://www.vbforums.com/showthread.php?875635-VB6-VBA-Timer-class) for more information.
+* [🖼][p_win][⭐][a_all] [Late-bound WebBrowser Control Events](https://www.vbforums.com/showthread.php?847773-VB6-elevated-IE-Control-usage-with-HTML5-elements-and-COM-Event-connectors) - A technique to latch onto WebBrowser events in a late-bound manner.
 * [🖼][p_win][⭐][a_all][💲](# "~£2 per control/application") [Mark's userform tools](https://www.kubiszyn.co.uk/) - Numerous UI tools and pretty userforms.
 * [🖼][p_win][⭐][a_all] [VBA-UserForm-MouseScroll](https://github.com/cristianbuse/VBA-UserForm-MouseScroll) - Allows Mouse Wheel Scrolling on MSForms Controls and Userforms. 
 * [🖼][p_win][⭐][a_all] [Custom Userform TitleBar color](https://www.mrexcel.com/board/threads/using-winapi-to-change-the-color-on-the-title-bar-of-a-userform.1205894/page-2#post-5892050)
 * [🖼][p_win][⭐][a_all] [Multi-color ListBox class](https://www.mrexcel.com/board/threads/multicolor-drag-n-drop-listbox-class-win32.1206334/)
+* [🖼][p_win][⭐][a_all][🏺][o_32] [Use of GDIPlus in VBA](https://arkham46.developpez.com/articles/office/clgdiplus/) - GDIPlus can be used to create a `canvas` like element where any image can be drawn to. Additionally check out this [GDI32](https://arkham46.developpez.com/articles/office/clgdi32/) class from the same author.
+* [🖼][p_win][⭐][a_all][🏺][o_32] [Use of OpenGL in VBA](https://arkham46.developpez.com/articles/office/vbaopengl/?page=Page_1) - OpenGL is a cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics. In this article the authors of the GDIPlus class.
+* [🖼][p_win][⭐][a_all][🏺][o_32] [VB6 Graph Control](https://vb6awards.blogspot.com/2017/11/vb6-graph-control.html) - Won't work natively in VBA without a `PictureBox` compatible substitute, but an extremely performant graph control regardless.
 
 ### Low level tools
 
 * [👑][p_all][⭐][a_all] [VBA-MemoryTools](https://github.com/cristianbuse/VBA-MemoryTools) - Provides an ultra-fast, copy memory alternative.
 * [🖼][p_win][⭐][a_all] [Safe Subclassing](https://www.mrexcel.com/board/threads/intercepting-resetting-of-vba-editor-as-well-as-unhandled-errors-for-safe-subclassing.1024295/) - Provides the ability to subclass Excel/Word/Powerpoint window or Userforms to perform further automation. In the later threads there is also an example for subclassing other windows from other applications.
 * [🖼][p_win][⭐][a_all] [Calling private module functions](https://codereview.stackexchange.com/questions/274532/low-level-vba-hacking-making-private-functions-public)
+* [🖼][p_win][⭐][a_all][🏺][o_32] [Universal DLL Calls](http://www.vbforums.com/showthread.php?781595-VB6-Call-Functions-By-Pointer-(Universall-DLL-Calls)) - A library which can be used to call functions of any function pointer, DLL or object in both `STDCALL` and `CDECL`. 
 * From Frameworks:
     * [🖼][p_win][⭐][a_all] In `stdVBA` find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
 
@@ -170,6 +177,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [🖼][p_win][📊][a_xl] [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
 * [🖼][p_win][⭐][a_all] [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if your implementing a new programming language in VBA.
 * [🖼][p_win][⭐][a_all] [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool. 
+* [🖼][p_win][⭐][a_all][🏺][o_32] [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries 
 
 ## Examples
 
@@ -179,7 +187,12 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ### UI Userforms
 
-TBC
+* [🖼][p_win][⭐][a_all] [Drag and drop control](https://www.vbforums.com/showthread.php?888843-Load-image-into-STATIC-control-Win32&p=5496575&viewfull=1#post5496575) - Dragging and dropping image controls around a userform.
+
+### Low level examples
+
+* [🖼][p_win][⭐][a_all] [Iterating the ROT](https://www.mrexcel.com/board/threads/how-to-target-instances-of-excel.1118789/page-2#post-5395037) - An example of iterating the ROT to find Excel Workbook instances.
+* [🖼][p_win][⭐][a_all] [Iterating Excel Instances via IAccessible](https://www.mrexcel.com/board/threads/how-to-target-instances-of-excel.1118789/page-2#post-5395519) - In some cases Excel instances aren't registered to the ROT. The Excel application however implements `IAccessible`, which not only can be used to automate the UI, but can also be used to obtain the Excel Instance from a hwnd.
 
 ### VBE UI
 
@@ -199,14 +212,20 @@ TBC
 * [👑][p_all][⭐][a_all] [oletools](https://github.com/decalage2/oletools) - Python tool which can be used to decode VBA P-Code (VBA's intermediate language).
 * [🖼][p_win][🦆](# "VBA planned but as of 2022-05-27 can only compile to binary") [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
 
-### Games
-
-TBC
-
 ## Style Guides
 
 * [RubberDuck's style guide](https://rubberduckvba.wordpress.com/2021/05/29/rubberduck-style-guide/) - Has some great intermediate - advanced guidance.
 * [VB6 Coding conventions](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa240822(v%3dvs.60)) - Variable/Class/Module naming conventions used in VBA. Greatly helps organisation in VBE (unless you have rubberduck). 
+
+## Information
+
+* [Thunder - The birth of Visual Basic](http://www.forestmoon.com/birthofvb/birthofvb.html) - A little article about the birth of VB7/VBA
+* [My First Bill Gates Review](https://www.joelonsoftware.com/2006/06/16/my-first-billg-review/) - Joel Spolsky, program manager for the Excel team, recounts his first Bill Gates review. Joel got numerous features added e.g. `IDispatch`, `Variant`, `For each` and `With`. It also discusses the dreaded Date bug ported to Excel from Lotus 123. 
+* [Ruby, EB and DLL composition](https://github.com/sancarn/stdVBA-Inspiration/blob/master/_OtherDocumentation/VBA%20and%20VB6%20History%20-%20Eb%20and%20Ruby/VBA%20History.md) - Translated copy of [VBStreets article](http://bbs.vbstreets.ru/viewtopic.php?f=101&t=56551) created by Russian VBer `Хакер`. Details the composition of the VB6 and VBA dlls in amongst the history of the language.
+* [PCode Internals](https://www.vbforums.com/showthread.php?884919-pcode-internals) - VBA is compiled to PCode. Understanding the lower level P-Code is a topic of heavy interest and research.
+* [How many lines of code in EB](http://bbs.vbstreets.ru/viewtopic.php?f=101&t=56633) - Untranlated article by Russian VBer `Хакер` which estimates the number of lines of code in VB6/VBA.
+* [SAFEARRAYS](https://www.vbforums.com/showthread.php?895566-RESOLVED-SAFEARRAY-Structure-for-an-Array) - The internal structure of arrays.
+
 
 ## Resources
 

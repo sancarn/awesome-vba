@@ -79,7 +79,8 @@ To help you in finding projects suitable for you, this awesome list uses the fol
   - [Style Guides](#style-guides)
   - [Information](#information)
   - [Resources](#resources)
-    - [Books / Websites](#books--websites)
+    - [Websites](#websites)
+    - [Books](#books)
     - [Youtube](#youtube)
     - [Forums](#forums)
   - [Contributing](#contributing)
@@ -90,6 +91,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 * [🖼][p_win][⭐][a_all] [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
 * [🖼][p_win][⭐][a_all][🏺][o_32] [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
+* [🖼][p_win][⭐][a_all][💲](# "Some modules free; Some require $299+ license")[👽](# "Requires external dll") [Chilkat AXL](https://www.chilkatsoft.com/refdoc/activex.asp) - Numerous useful ActiveX libraries hosted from a single zip.
 
 ## Libraries
 
@@ -177,6 +179,8 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 ### Web tools
 
 * [👑][p_all][⭐][a_all] [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
+* From Frameworks
+    * In `Chilkat AXL` find `HTTP`, `HTTPRequest`, `HTTPResponse`, `Auth*`, `OAuth*`, `REST`, `WebSocket` and numerous other useful web-related libraries.
 
 ## Developer tools
 
@@ -186,6 +190,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [🖼][p_win][📊][a_xl] [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
 * [🖼][p_win][⭐][a_all] [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool. 
 * [🖼][p_win][⭐][a_all][🏺][o_32] [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries 
+* [🖼][p_win][⭐][a_all][💲](# "£170-£205 license per dev") [vbWatchDog](https://www.everythingaccess.com/vbwatchdog.asp) - `vbWatchdog` hacks the vba runtime to provide module name, procedure name and line number where error occurred.
 
 ## Examples
 
@@ -238,7 +243,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ## Resources
 
-### Books / Websites
+### Websites
 
 * [Excel Development Platform Blog](https://exceldevelopmentplatform.blogspot.com/) - Blog dealing with advanced topics/VBA.
 * [MSDN VBA Documentation](https://msdn.microsoft.com/en-us/vba/office-vba-reference)
@@ -248,10 +253,14 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [Chip Pearson's website](http://www.cpearson.com/excel) - Great resource for beginners-intermediate.
 * [VBA for smarties](http://www.snb-vba.eu/inhoud_en.html) - A great reference to numerous data structures and mechanics.
 * [💲](# "Some cheatsheets are paid-for content")[Automate Excel's cheat sheets](https://www.automateexcel.com/vba/cheatsheets/)
-* [💲](# "Costs money")[Excel VBA Programming For Dummies book](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book)
-* [VBA E-Book for beginners](https://goalkicker.com/VBABook/)
-* [Excel VBA E-Book for beginners](https://goalkicker.com/ExcelVBABook/)
 * [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics.
+
+### Books
+
+* [💲](# "~$6") [Excel VBA Programming For Dummies](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book) - It′s time to move to the next level—creating your own, customized Excel 2010 solutions using Visual Basic for Applications (VBA)...Using step–by–step instruction and the accessible, friendly For Dummies style, this practical book shows you how to use VBA, write macros, customize your Excel apps to look and work the way you want, avoid errors, and more
+* [💲](# "~$30") [Power Programming with VBA](https://www.wiley.com/en-us/Excel+2019+Power+Programming+with+VBA-p-9781119514916) - Excel 2019 Power Programming with VBA is fully updated to cover all the latest tools and tricks of Excel 2019. Encompassing an analysis of Excel application development and a complete introduction to Visual Basic for Applications (VBA), this comprehensive book presents all of the techniques you need to develop both large and small Excel applications.
+* [(E-Book) VBA beginners](https://goalkicker.com/VBABook/)
+* [(E-Book) Excel VBA beginners](https://goalkicker.com/ExcelVBABook/)
 
 ### Youtube
 
@@ -266,8 +275,9 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ### Forums
 
-* [Chandoo](https://chandoo.org/wp/) - Forum for the Chandoo - the blog of Purna Duggirala (MVP). Very active. 
 * [Reddit](http://reddit.co.uk/r/vba) - Daily VBA Q&A. Occasional Pro-Tip sharing and Show & Tell library publishing.
+* [StackOverflow](https://stackoverflow.com/questions/tagged/vba) - A great place to ask questions. Duplicate questions are flagged as duplicates and send the author to the correct place.
+* [Chandoo](https://chandoo.org/wp/) - Forum for the Chandoo - the blog of Purna Duggirala (MVP). Very active. 
 * [Visual Basic Discord](https://discord.gg/gpcSue9f) - A chat room for VB.NET/VBA/VB6 fanatics.
 * [Excel Discord](https://discord.gg/PU2vVDeb) - Focus on helping Excel users.
 * [MrExcel](https://www.mrexcel.com/board/) - Mostly Excel generic, but a lot of VBA content can be found here also.

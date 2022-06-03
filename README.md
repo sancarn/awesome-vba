@@ -91,7 +91,6 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 * [🖼][p_win][⭐][a_all] [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
 * [🖼][p_win][⭐][a_all][🏺][o_32] [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
-* [🖼][p_win][⭐][a_all][💲](# "Some modules free; Some require $299+ license")[👽](# "Requires external dll") [Chilkat AXL](https://www.chilkatsoft.com/refdoc/activex.asp) - Numerous useful ActiveX libraries hosted from a single zip.
 
 ## Libraries
 
@@ -181,8 +180,6 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [👑][p_all][⭐][a_all] [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
 * [👑][p_all][⭐][a_all] [VBA-WebSocket](https://github.com/EagleAglow/vba-websocket) - Microsoft example code for a WebSocket client which can be used in conjunction with an echo server. There is also [a class](https://github.com/EagleAglow/vba-websocket-class) and an [async version](https://github.com/EagleAglow/vba-websocket-async) built by the discoverer of the microsoft code.
 * [🖼][p_win][⭐][a_all][🏺][o_32] [vbAsyncSocket](https://github.com/wqweto/VbAsyncSocket) - Simple and thin WinSock API wrappers for VB6 loosly based on the original CAsyncSocket wrapper in MFC.
-* From Frameworks
-    * In `Chilkat AXL` find `HTTP`, `HTTPRequest`, `HTTPResponse`, `Auth*`, `OAuth*`, `REST`, `WebSocket` and numerous other useful web-related libraries.
 
 
 ## Developer tools

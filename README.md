@@ -105,6 +105,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 #### CSV
 
 * [👑][p_all][⭐][a_all] [VBA-CSV-interface](https://github.com/ws-garcia/VBA-CSV-interface) - Powerful, fast and comprehensive RFC-4180 compliant CSV/TSV/DSV data management library.
+* [🖼][p_win][📊][a_xl] [VBA-CSV](https://github.com/PGS62/VBA-CSV) - Fast and convenient CSV reading and writing for VBA and Excel spreadsheets.
 
 #### XML
 

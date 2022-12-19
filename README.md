@@ -134,6 +134,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 ### Math libraries
 
 * [👑][p_all][⭐][a_all] [VBA-Math-Objects](https://github.com/Beakerboy/VBA-Math-Objects) - A matrix and vector library.
+* [👑][p_all][⭐][a_all] [VBA Float](https://github.com/ws-garcia/VBA-float ) - An utility to perform computations over big integers and rational numbers with thousands digits.
 
 ### Database tools
 

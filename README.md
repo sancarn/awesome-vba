@@ -1,4 +1,4 @@
-# awesome-vba
+# Awesome VBA
 
 ## A note on symbology
 

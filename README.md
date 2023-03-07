@@ -1,8 +1,12 @@
-# awesome-vba
+# Awesome VBA ![VBALogo](./resources/VBALogo.png) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 
-## A note on symbology
+Visual Basic for Applications (VBA) is an implementation of Microsoft's event-driven programming language Visual Basic 6.0 (VB6) built into most desktop Microsoft Office applications.
 
-To help you in finding projects suitable for you, this awesome list uses the following symbology. The symbology also has tooltips which may provide more information.
+This is a curated list of Libraries and Resources for both VBA and VB6.
+
+## Symbology
+
+Because of the nature of VBA, many libraries do not work on all Operating Systems, in all Office Applications or in all architectures(x64/x86). Some libraries may also require external resources (DLL, Addins, etc.) which can be difficult to use due to VBA's lack of a package manager.  To help you in finding projects suitable for your needs, this awesome list uses the following symbology. The symbology also has tooltips which may provide more information.
 
 #### Platform Compatibility
 
@@ -46,46 +50,46 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ## Contents
 
-- [awesome-vba](#awesome-vba)
-  - [A note on symbology](#a-note-on-symbology)
-      - [Platform Compatibility](#platform-compatibility)
-      - [Application compatibility](#application-compatibility)
-      - [Other important information](#other-important-information)
-  - [Contents](#contents)
-  - [Frameworks](#frameworks)
-  - [Libraries](#libraries)
-    - [Data Formats](#data-formats)
-      - [JSON](#json)
-      - [CSV](#csv)
-      - [XML](#xml)
-    - [Data Structures](#data-structures)
-      - [Array-List](#array-list)
-      - [Dictionary](#dictionary)
-    - [Math libraries](#math-libraries)
-    - [Database tools](#database-tools)
-    - [Userform tools](#userform-tools)
-    - [Low level tools](#low-level-tools)
-    - [Parsers / Interpreters](#parsers--interpreters)
-    - [Web tools](#web-tools)
-  - [Developer tools](#developer-tools)
-  - [Examples](#examples)
-    - [UI Ribbon](#ui-ribbon)
-    - [UI Userforms](#ui-userforms)
-    - [Low Level Examples](#low-level-examples)
-    - [VBE UI](#vbe-ui)
-    - [AddIns](#addins)
-    - [Games / Fun projects](#games--fun-projects)
-  - [External tools](#external-tools)
-  - [Style Guides](#style-guides)
-  - [Information](#information)
-  - [Resources](#resources)
-    - [Websites](#websites)
-    - [Books](#books)
-    - [Youtube](#youtube)
-    - [Forums](#forums)
-  - [Contributing](#contributing)
+* [awesome-vba](#awesome-vba)
+  * [A note on symbology](#a-note-on-symbology)
+      * [Platform Compatibility](#platform-compatibility)
+      * [Application compatibility](#application-compatibility)
+      * [Other important information](#other-important-information)
+  * [Contents](#contents)
+  * [Frameworks](#frameworks)
+  * [Libraries](#libraries)
+    * [Data Formats](#data-formats)
+      * [JSON](#json)
+      * [CSV](#csv)
+      * [XML](#xml)
+    * [Data Structures](#data-structures)
+      * [Array-List](#array-list)
+      * [Dictionary](#dictionary)
+    * [Math libraries](#math-libraries)
+    * [Database tools](#database-tools)
+    * [Userform tools](#userform-tools)
+    * [Low level tools](#low-level-tools)
+    * [Parsers / Interpreters](#parsers--interpreters)
+    * [Web tools](#web-tools)
+  * [Developer tools](#developer-tools)
+  * [Examples](#examples)
+    * [UI Ribbon](#ui-ribbon)
+    * [UI Userforms](#ui-userforms)
+    * [Low Level Examples](#low-level-examples)
+    * [VBE UI](#vbe-ui)
+    * [AddIns](#addins)
+    * [Games / Fun projects](#games--fun-projects)
+  * [External tools](#external-tools)
+  * [Style Guides](#style-guides)
+  * [Information](#information)
+  * [Resources](#resources)
+    * [Websites](#websites)
+    * [Books](#books)
+    * [Youtube](#youtube)
+    * [Forums](#forums)
+  * [Contributing](#contributing)
 
-------
+---
 
 ## Frameworks
 
@@ -166,6 +170,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [🖼][p_win][⭐][a_all] [Safe Subclassing](https://www.mrexcel.com/board/threads/intercepting-resetting-of-vba-editor-as-well-as-unhandled-errors-for-safe-subclassing.1024295/) - Provides the ability to subclass Excel/Word/Powerpoint window or Userforms to perform further automation. In the later threads there is also an example for subclassing other windows from other applications.
 * [🖼][p_win][⭐][a_all] [Calling private module functions](https://codereview.stackexchange.com/questions/274532/low-level-vba-hacking-making-private-functions-public)
 * [🖼][p_win][⭐][a_all][🏺][o_32] [Universal DLL Calls](http://www.vbforums.com/showthread.php?781595-VB6-Call-Functions-By-Pointer-(Universall-DLL-Calls)) - A library which can be used to call functions of any function pointer, DLL or object in both `STDCALL` and `CDECL`. 
+* [👑][p_all][⭐][a_all] [VBA state-loss callback](https://github.com/cristianbuse/VBA-StateLossCallback) - A crash free detector for VBA state-loss. State loss can occur when: Someone clicks `end` in an unhandled error; You click the VBA stop button; You enter design mode; Application exits.
 * From Frameworks:
     * [🖼][p_win][⭐][a_all] In `stdVBA` find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
 
@@ -188,7 +193,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 * [🖼][p_win][⭐][a_all][💣](# "Requires installation") [Rubberduck](https://rubberduckvba.com/) - An open-source COM add-in project that integrates with the Visual Basic Editor to add modern-day features to the familiar IDE. Works in VBA6, VBA7.x (x86/x64), and yes, in VB6 too!
 * [🖼][p_win][📊][a_xl] [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
-* [🖼][p_win][📊][a_xl][✒️][a_wd][🔒][o_pass][🏺][o_32] - AndyPope's Visual Ribbon Editor.
+* [🖼][p_win][📊][a_xl][✒️][a_wd][🔒][o_pass] - [RibbonX](https://www.andypope.info/vba/ribboneditor_2010.htm) - AndyPope's Visual Ribbon Editor.
 * [🖼][p_win][📊][a_xl] [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
 * [🖼][p_win][⭐][a_all] [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool. 
 * [🖼][p_win][⭐][a_all][🏺][o_32] [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries 
@@ -214,7 +219,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ### AddIns
 
-* [🖼][p_win][📊][a_xl] [MenuRighter](https://yoursumbuddy.com/blog/menurighter/) - MenuRighter is an Excel addin that lets you modify right-click menus. You can add almost any control found in other right-click menus or Excel 2003’s “classic” menus.
+* [🖼][p_win][📊][a_xl] [MenuRighter](https://yoursumbuddy.com/blog/menurighter/) - MenuRighter is an Excel addin that lets you modify right-click menus. You can add almost any control found in other right-click menus or Excel 2003's "classic" menus.
 * [🖼][p_win][📊][a_xl] [Sam Rad's DatePicker](http://samradapps.com/datepicker/) - Visually impressive and professional DatePicker addin for Excel. Worksheet only / cannot be used with userforms.
 
 ### Games / Fun projects
@@ -237,7 +242,7 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 
 ## Information
 
-* [Thunder - The birth of Visual Basic](http://www.forestmoon.com/birthofvb/birthofvb.html) - A little article about the birth of VB7/VBA
+* [Thunder - The birth of Visual Basic](http://www.forestmoon.com/birthofvb/birthofvb.html) - A little article about the birth of VB7/VBA.
 * [My First Bill Gates Review](https://www.joelonsoftware.com/2006/06/16/my-first-billg-review/) - Joel Spolsky, program manager for the Excel team, recounts his first Bill Gates review. Joel got numerous features added e.g. `IDispatch`, `Variant`, `For each` and `With`. It also discusses the dreaded Date bug ported to Excel from Lotus 123. 
 * [Ruby, EB and DLL composition](https://github.com/sancarn/stdVBA-Inspiration/blob/master/_OtherDocumentation/VBA%20and%20VB6%20History%20-%20Eb%20and%20Ruby/VBA%20History.md) - Translated copy of [VBStreets article](http://bbs.vbstreets.ru/viewtopic.php?f=101&t=56551) created by Russian VBer `Хакер`. Details the composition of the VB6 and VBA dlls in amongst the history of the language.
 * [PCode Internals](https://www.vbforums.com/showthread.php?884919-pcode-internals) - VBA is compiled to PCode. Understanding the lower level P-Code is a topic of heavy interest and research.
@@ -267,14 +272,14 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [The VBA Developer's Handbook](https://www.academia.edu/29801473/VBA_Developers_Handbook_Second_Edition) - Write bulletproof VBA code for any situation. This book is the essential resource for developers working with any of the more than 300 products that employ the "Visual Basic for Applications" programming language. Hardbacks also available elsewhere.
 * [Advanced Visual Basic 6](https://pdfcoffee.com/advanced-visual-basic-6-power-techniques-for-everyday-programs978020170712024922-pdf-free.html) - Power Techniques for Everyday Programs Matthew Curland. Hardbacks also available elsewhere.
 * [Professional Excel Development](https://oiipdf.com/download/professional-excel-development-the-definitive-guide-to-developing-applications-using-microsoft-excel-vba-and-net) - In this book, four world-class Microsoft® Excel developers offer start-to-finish guidance for building powerful, robust, and secure applications with Excel. Hardbacks also available.
-* [💲](# "~$6") [Excel VBA Programming For Dummies](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book) - It′s time to move to the next level—creating your own, customized Excel 2010 solutions using Visual Basic for Applications (VBA)...Using step–by–step instruction and the accessible, friendly For Dummies style, this practical book shows you how to use VBA, write macros, customize your Excel apps to look and work the way you want, avoid errors, and more
+* [💲](# "~$6") [Excel VBA Programming For Dummies](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book) - It′s time to move to the next level—creating your own, customized Excel 2010 solutions using Visual Basic for Applications (VBA).Using step–by–step instruction and the accessible, friendly For Dummies style, this practical book shows you how to use VBA, write macros, customize your Excel apps to look and work the way you want, avoid errors, and more
 * [💲](# "~$30") [Power Programming with VBA](https://www.wiley.com/en-us/Excel+2019+Power+Programming+with+VBA-p-9781119514916) - Excel 2019 Power Programming with VBA is fully updated to cover all the latest tools and tricks of Excel 2019. Encompassing an analysis of Excel application development and a complete introduction to Visual Basic for Applications (VBA), this comprehensive book presents all of the techniques you need to develop both large and small Excel applications.
 * [(E-Book) VBA beginners](https://goalkicker.com/VBABook/)
 * [(E-Book) Excel VBA beginners](https://goalkicker.com/ExcelVBABook/)
 
-### Youtube
+### YouTube
 
-* [Excel Macro Mastery](https://www.youtube.com/c/Excelmacromastery) - Youtube channel for Paul Kelly (MVP) - excelmacromastery.com. 
+* [Excel Macro Mastery](https://www.youtube.com/c/Excelmacromastery) - Paul Kelly (MVP) - excelmacromastery.com. 
 * [Sigma Coding](https://www.youtube.com/c/SigmaCoding) - Large catalogue of tutorials - beginner through to advanced. Delves into interesting areas of VBA and it uses not explored by other content creators.
 * [WiseOwl's VBA tutorials](https://www.youtube.com/playlist?list=PLNIs-AWhQzckr8Dgmgb3akx_gFMnpxTN5) - Great all-round resource for VBA. Perfect introduction for beginners. In-depth lessons into all aspects of VBA. Huge playlist that covers most types of VBA. 
 * [💲](# "Some libraries used are non-FOSS and created by VBA A2Z") [VBA A2Z](https://www.youtube.com/c/VBAA2Z) - Many tutorials, some paid content. Good array of intereting and different topics - in-depth tutorials into different parts of VBA, with some .NET/VSTO videos. Strong focus on UI development.

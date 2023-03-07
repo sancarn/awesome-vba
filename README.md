@@ -95,6 +95,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 * [🖼][p_win][⭐][a_all] [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
 * [🖼][p_win][⭐][a_all][🏺][o_32] [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
+* [🖼][p_win][⭐][a_all] [Hidennotare](https://github.com/RelaxTools/Hidennotare) - A framework by japanese author RelaxTools. Contains numerous classes, interfaces and forms.
 
 ## Libraries
 
@@ -109,6 +110,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 #### CSV
 
 * [👑][p_all][⭐][a_all] [VBA-CSV-interface](https://github.com/ws-garcia/VBA-CSV-interface) - Powerful, fast and comprehensive RFC-4180 compliant CSV/TSV/DSV data management library.
+* From Frameworks:
+  * [🖼][p_win][⭐][a_all] In `Hidennotare` find `csvWriter` and `csvReader`.
 
 #### XML
 
@@ -133,6 +136,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [🖼][p_win][⭐][a_all][🏺][o_32] [clsTrickHashTable](https://www.vbforums.com/showthread.php?788247-VB6-Hash-table) - A hash table using machine code injected at runtime. Full replacement for scripting dictionary, with bonus features.
 * From Frameworks:
     * [🖼][p_win][⭐][a_all][🏺][o_32] In `VbCorLib` find `HashTable` - As above.
+    <!-- Hidennotare, though it simply wraps Scripting.Dictioanry... -->
 
 ### Math libraries
 
@@ -171,6 +175,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [🖼][p_win][⭐][a_all] [Calling private module functions](https://codereview.stackexchange.com/questions/274532/low-level-vba-hacking-making-private-functions-public)
 * [🖼][p_win][⭐][a_all][🏺][o_32] [Universal DLL Calls](http://www.vbforums.com/showthread.php?781595-VB6-Call-Functions-By-Pointer-(Universall-DLL-Calls)) - A library which can be used to call functions of any function pointer, DLL or object in both `STDCALL` and `CDECL`. 
 * [👑][p_all][⭐][a_all] [VBA state-loss callback](https://github.com/cristianbuse/VBA-StateLossCallback) - A crash free detector for VBA state-loss. State loss can occur when: Someone clicks `end` in an unhandled error; You click the VBA stop button; You enter design mode; Application exits.
+* [🖼][p_win][⭐][a_all] [vb2clr](https://github.com/jet2jet/vb2clr) - Use C# from VBA using the .NET CLR runtime.
 * From Frameworks:
     * [🖼][p_win][⭐][a_all] In `stdVBA` find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
 
@@ -187,7 +192,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [👑][p_all][⭐][a_all] [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
 * [👑][p_all][⭐][a_all] [VBA-WebSocket](https://github.com/EagleAglow/vba-websocket) - Microsoft example code for a WebSocket client which can be used in conjunction with an echo server. There is also [a class](https://github.com/EagleAglow/vba-websocket-class) and an [async version](https://github.com/EagleAglow/vba-websocket-async) built by the discoverer of the microsoft code.
 * [🖼][p_win][⭐][a_all][🏺][o_32] [vbAsyncSocket](https://github.com/wqweto/VbAsyncSocket) - Simple and thin WinSock API wrappers for VB6 loosly based on the original CAsyncSocket wrapper in MFC.
-
+* [🖼][p_win][⭐][a_all] [Edge Automation](https://www.codeproject.com/Tips/5307593/Automate-Chrome-Edge-using-VBA) - Automate Chromium Edge using devtools protocol. [Github backup here](https://github.com/sancarn/stdVBA-Inspiration/tree/master/ChromeEdgeAutomation)
+* [🖼][p_win][⭐][a_all] [Chrome Automation (via devtools protocol)](https://github.com/PerditionC/VBAChromeDevProtocol) - Automate Chrome using chrome devtools protocol. 
 
 ## Developer tools
 

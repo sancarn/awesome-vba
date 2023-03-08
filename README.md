@@ -101,7 +101,6 @@ To help you in finding projects suitable for you, this awesome list uses the fol
 * [👑][p_all][⭐][a_all] [VBA-JSON](https://github.com/VBA-tools/VBA-JSON) - JSON conversion and parsing.
 * [🖼][p_win][⭐][a_all] [mdJSON](https://www.vbforums.com/showthread.php?871695-VB6-VBA-JSON-parsing-to-built-in-VBA-Collections-with-JSON-Path-support) - JSON library with dot-notation for extracting paths.
 * [🖼][p_win][⭐][a_all] [JSONBag](https://www.vbforums.com/showthread.php?738845-VB6-JsonBag-Another-JSON-Parser-Generator) - Uses shebang notation to extract keys from JSON strings. Can also build JSON with this library.
-* [🖼][p_win][⭐][a_all] [VBA JSON Parser](https://github.com/omegastripes/VBA-JSON-parser) - Backus-Naur Form JSON Parser based on RegEx for VBA.
 
 #### CSV
 

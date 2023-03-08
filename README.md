@@ -50,44 +50,44 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Contents
 
-* [awesome-vba](#awesome-vba)
-  * [A note on symbology](#a-note-on-symbology)
-      * [Platform Compatibility](#platform-compatibility)
-      * [Application compatibility](#application-compatibility)
-      * [Other important information](#other-important-information)
-  * [Contents](#contents)
-  * [Frameworks](#frameworks)
-  * [Libraries](#libraries)
-    * [Data Formats](#data-formats)
-      * [JSON](#json)
-      * [CSV](#csv)
-      * [XML](#xml)
-    * [Data Structures](#data-structures)
-      * [Array-List](#array-list)
-      * [Dictionary](#dictionary)
-    * [Math libraries](#math-libraries)
-    * [Database tools](#database-tools)
-    * [Userform tools](#userform-tools)
-    * [Low level tools](#low-level-tools)
-    * [Parsers / Interpreters](#parsers--interpreters)
-    * [Web tools](#web-tools)
-  * [Developer tools](#developer-tools)
-  * [Examples](#examples)
-    * [UI Ribbon](#ui-ribbon)
-    * [UI Userforms](#ui-userforms)
-    * [Low Level Examples](#low-level-examples)
-    * [VBE UI](#vbe-ui)
-    * [AddIns](#addins)
-    * [Games / Fun projects](#games--fun-projects)
-  * [External tools](#external-tools)
-  * [Style Guides](#style-guides)
-  * [Information](#information)
-  * [Resources](#resources)
-    * [Websites](#websites)
-    * [Books](#books)
-    * [Youtube](#youtube)
-    * [Forums](#forums)
-  * [Contributing](#contributing)
+- [awesome-vba](#awesome-vba)
+  - [A note on symbology](#a-note-on-symbology)
+      - [Platform Compatibility](#platform-compatibility)
+      - [Application compatibility](#application-compatibility)
+      - [Other important information](#other-important-information)
+  - [Contents](#contents)
+  - [Frameworks](#frameworks)
+  - [Libraries](#libraries)
+    - [Data Formats](#data-formats)
+      - [JSON](#json)
+      - [CSV](#csv)
+      - [XML](#xml)
+    - [Data Structures](#data-structures)
+      - [Array-List](#array-list)
+      - [Dictionary](#dictionary)
+    - [Math libraries](#math-libraries)
+    - [Database tools](#database-tools)
+    - [Userform tools](#userform-tools)
+    - [Low level tools](#low-level-tools)
+    - [Web tools](#web-tools)
+  - [Developer tools](#developer-tools)
+  - [Miscellaneous](#miscellaneous)
+  - [Examples](#examples)
+    - [Algorithms, code optimisation, and performance testing](#algorithms-code-optimisation-and-performance-testing)
+    - [UI Ribbon](#ui-ribbon)
+    - [UI Userforms](#ui-userforms)
+    - [AddIns](#addins)
+    - [Games / Fun projects](#games--fun-projects)
+  - [External tools](#external-tools)
+  - [Style Guides](#style-guides)
+  - [Resources](#resources)
+    - [Win32 API Resources](#win32-api-resources)
+    - [VB6 / VBScript](#vb6--vbscript)
+    - [Websites](#websites)
+    - [Books](#books)
+    - [Youtube](#youtube)
+    - [Forums](#forums)
+  - [Contributing](#contributing)
 
 ---
 
@@ -162,6 +162,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [🖼][p_win][⭐][a_all] [Late-bound WebBrowser Control Events](https://www.vbforums.com/showthread.php?847773-VB6-elevated-IE-Control-usage-with-HTML5-elements-and-COM-Event-connectors) - A technique to latch onto WebBrowser events in a late-bound manner.
 * [🖼][p_win][⭐][a_all][💲](# "~£2 per control/application") [Mark's userform tools](https://www.kubiszyn.co.uk/) - Numerous UI tools and pretty userforms.
 * [🖼][p_win][⭐][a_all] [VBA-UserForm-MouseScroll](https://github.com/cristianbuse/VBA-UserForm-MouseScroll) - Allows Mouse Wheel Scrolling on MSForms Controls and Userforms. 
+* [👑][p_all][⭐][a_all] [MSForms (All VBA) Treeview Control](https://jkp-ads.com/Articles/treeview.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
 * [🖼][p_win][⭐][a_all] [Custom Userform TitleBar color](https://www.mrexcel.com/board/threads/using-winapi-to-change-the-color-on-the-title-bar-of-a-userform.1205894/page-2#post-5892050)
 * [🖼][p_win][⭐][a_all] [Multi-color ListBox class](https://www.mrexcel.com/board/threads/multicolor-drag-n-drop-listbox-class-win32.1206334/)
 * [🖼][p_win][⭐][a_all] [Use of GDIPlus in VBA](https://arkham46.developpez.com/articles/office/clgdiplus/) - GDIPlus can be used to create a `canvas` like element where any image can be drawn to. Additionally check out this [GDI32](https://arkham46.developpez.com/articles/office/clgdi32/) class from the same author.
@@ -201,11 +202,25 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [🖼][p_win][📊][a_xl] [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
 * [🖼][p_win][📊][a_xl][✒️][a_wd][🔒][o_pass] - [RibbonX](https://www.andypope.info/vba/ribboneditor_2010.htm) - AndyPope's Visual Ribbon Editor.
 * [🖼][p_win][📊][a_xl] [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
+* [🖼][p_win][⭐][a_all][💲](# "Costs upwards of $79") [MZ-Tools](https://www.mztools.com/) - VBE addin providing development tools
+* [🖼][p_win][⭐][a_all] [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if your implementing a new programming language in VBA.
 * [🖼][p_win][⭐][a_all] [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool. 
 * [🖼][p_win][⭐][a_all][🏺][o_32] [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries 
 * [🖼][p_win][⭐][a_all][💲](# "£170-£205 license per dev") [vbWatchDog](https://www.everythingaccess.com/vbwatchdog.asp) - `vbWatchdog` hacks the vba runtime to provide module name, procedure name and line number where error occurred.
 
+## Miscellaneous
+
+* [👑][p_all][⭐][a_all] [Excel Name Manager](https://jkp-ads.com/excel-name-manager.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
+* [👑][p_all][⭐][a_all] [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
+
 ## Examples
+
+
+
+### Algorithms, code optimisation, and performance testing
+
+* [VBSpeed](http://www.xbeat.net/vbspeed/) - The Visual Basic Performance Site - focus on VB6 but transferrable across to VBA.
+* 
 
 ### UI Ribbon
 
@@ -221,7 +236,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [🖼][p_win][⭐][a_all] [Iterating the ROT](https://www.mrexcel.com/board/threads/how-to-target-instances-of-excel.1118789/page-2#post-5395037) - An example of iterating the ROT to find Excel Workbook instances.
 * [🖼][p_win][⭐][a_all] [Iterating Excel Instances via IAccessible](https://www.mrexcel.com/board/threads/how-to-target-instances-of-excel.1118789/page-2#post-5395519) - In some cases Excel instances aren't registered to the ROT. The Excel application however implements `IAccessible`, which not only can be used to automate the UI, but can also be used to obtain the Excel Instance from a hwnd.
 
-### VBE UI
+<!-- ### VBE UI -->
 
 ### AddIns
 
@@ -258,6 +273,16 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Resources
 
+### Win32 API Resources
+
+* [JKP API Declarations](https://jkp-ads.com/Articles/apideclarations.asp)
+* [Microsoft Office Code Compatibility Inspector](https://docs.microsoft.com/en-us/previous-versions/office/office-2010/ee833946(v=office.14)) - The Microsoft Office Code Compatibility Inspector was designed by Microsoft to troubleshoot compatibility issues with VBA code as when upgrading Office from 32-bit to 64-bit. MS has not maintained a link to the software for download from its servers, though versions of it are apparently available on the internet.
+
+### VB6 / VBScript
+
+* [Planet Source Code](https://github.com/Planet-Source-Code/PSCIndex) - The original Github before Github was Github. Now available on Github. Possibly not the entire collection (?) of projects/source code that was previously available at the PSC website, though certainly more than enough for more people, and plenty to keep yourself amused on a Friday evening.
+* [vbAccelerator Archive](https://github.com/tannerhelland/vbAccelerator-Archive) - archived copy of vbAccelerator site (articles, source code, etc.) that disappeared in 2015, reappeared in 2018, and anyone's guess what's going to next... Primarily VB6, but useful VBA resource.
+
 ### Websites
 
 * [Excel Development Platform Blog](https://exceldevelopmentplatform.blogspot.com/) - Blog dealing with advanced topics/VBA.
@@ -269,8 +294,10 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [VBA for smarties](http://www.snb-vba.eu/inhoud_en.html) - A great reference to numerous data structures and mechanics.
 * [💲](# "Some cheatsheets are paid-for content")[Automate Excel's cheat sheets](https://www.automateexcel.com/vba/cheatsheets/)
 * [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics.
-* [MS KB Archive](https://github.com/jeffpar/kbarchive/tree/master/id/vbwin) - Massive archive of vb6/vba problems, solutions and tutorials.
+* [📧][a_ol] [Slipstick](https://www.slipstick.com/) - Website of Diane Poremsky (MVP) with focus on Outlook and VBA. 
 * [📧][a_ol] [TechnicLee](https://techniclee.wordpress.com/) - Outlook blog, many examples including code variations depending on user request.
+* [🎞️][a_pp] [Powerpoint VBA](https://pptvba.com/) - a site devoted to teaching VBA through making games in Powerpoint.
+* [MS KB Archive](https://github.com/jeffpar/kbarchive/tree/master/id/vbwin) - Massive archive of vb6/vba problems, solutions and tutorials.
 
 ### Books
 
@@ -300,7 +327,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [StackOverflow](https://stackoverflow.com/questions/tagged/vba) - A great place to ask questions. Duplicate questions are flagged as duplicates and send the author to the correct place.
 * [Chandoo](https://chandoo.org/wp/) - Forum for the Chandoo - the blog of Purna Duggirala (MVP). Very active. 
 * [Visual Basic Discord](https://discord.gg/gpcSue9f) - A chat room for VB.NET/VBA/VB6 fanatics.
-* [Excel Discord](https://discord.gg/PU2vVDeb) - Focus on helping Excel users.
+* [Excel Discord](https://discord.gg/PU2vVDeb) - Discord server moderated by Tim Heng (Excel MVP) with focus on helping Excel users.
 * [MrExcel](https://www.mrexcel.com/board/) - Mostly Excel generic, but a lot of VBA content can be found here also.
 * [Excel Forum](https://www.excelforum.com/)
 * [📧][a_ol] [Slipstick](https://www.forums.slipstick.com) - Excellent forum for the Slipstick website (Outlook VBA) of Diane Poremsky (MVP). Diane is quick to respond, and her answers are extremely helpful.

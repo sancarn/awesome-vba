@@ -150,7 +150,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ### Userform tools
 
 * [🖼][p_win][⭐][a_all][🏺][o_32] [Task Dialog](https://www.vbforums.com/showthread.php?777021-VB6-TaskDialogIndirect-Complete-class-implementation-of-Vista-Task-Dialogs) - A huge amount of UI functionality from this 1 class, in a strictly dynamic and modular way. Great for data input forms.
-* [🖼][p_win][🅰️][a_ac] [VBATaskDialog](https://accessui.com/Products/VBATaskDialog) - A port of fafaline's VB6 implementation.
+* [🖼][p_win][🅰️][a_ac] [VBATaskDialog](https://accessui.com/Products/VBATaskDialog) - A port of fafalone's VB6 implementation.
 * [🖼][p_win][⭐][a_all] [Material UI](https://github.com/todar/VBA-Material-Design) - Make your userform feel modern with Material UI.
 * [👑][p_all][⭐][a_all] [Easy EventListener](https://github.com/todar/VBA-Userform-EventListener) - Consolidate all event handling of a userform into 1 callback.
 * [🖼][p_win][⭐][a_all] [Pseudo Control Arrays](http://addinbox.sakura.ne.jp/Breakthrough_P-Ctrl_Arrays_Eng.htm) - Optimal means of Consolidating all event handling of a userform. Demonstrates usage of `ConnectToConnectionPoint` API. Also worth looking at [this class](https://stackoverflow.com/questions/61855925/reducing-withevent-declarations-and-subs-with-vba-and-activex#answer-61893857) too. 

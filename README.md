@@ -34,7 +34,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 [pa_pp]: ./resources/PowerPointLogo.svg "PowerPoint"
 
-[pa_misc]: ./resources/Duck.svg "Misc"
+[pa_misc_general]: ./resources/Duck.svg "Misc"
+[pa_misc_twinbasic]: ./resources/Duck.svg "VBA planned but as of 2022-05-27 can only compile to exe"
 
 
 * [![pa_all]](#-) - All applications
@@ -43,7 +44,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [![pa_ac]](#-) - Access
 * [![pa_ol]](#-) - Outlook
 * [![pa_pp]](#-) - Powerpoint
-* [![pa_misc]](#-) - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
+* [![pa_misc_general]](#-) - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
 
 #### Other important information
 
@@ -263,7 +264,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ## External tools
 
 * [![pp_all]](#-) [![pa_all]](#-) [oletools](https://github.com/decalage2/oletools) - Python tool which can be used to decode VBA P-Code (VBA's intermediate language).
-* [![pp_win]](#-) [![pa_misc]](# "VBA planned but as of 2022-05-27 can only compile to exe") [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
+* [![pp_win]](#-) [![pa_misc_twinbasic]](#-) [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
 
 ## Style Guides
 

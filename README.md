@@ -21,6 +21,9 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 #### Application compatibility 
 
 [a_all]: # "All applications"
+
+[pa_wd]: ./resources/WordLogoPure16.svg "Word"
+
 [a_wd]:  # "Word"
 [a_xl]:  # "Excel"
 [a_ac]:  # "Access"
@@ -29,7 +32,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 
 * [⭐][a_all] - All applications
-* [✒️][a_wd] - Word
+* ![pa_wd] - Word
 * [📊][a_xl] - Excel
 * [🅰️][a_ac] - Access
 * [📧][a_ol] - Outlook

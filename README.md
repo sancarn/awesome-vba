@@ -11,9 +11,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 #### Platform Compatibility
 
 [pp_all]: ./resources/Crown.svg  "Compatible on all platforms"
-
 [pp_mac]: ./resources/AppleLogo.svg "Mac OS only"
-
 [pp_win]: ./resources/WindowsLogo.svg "Windows OS only"
 
 * [![pp_all]](#-) - Compatible on all platforms
@@ -23,17 +21,11 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 #### Application compatibility 
 
 [pa_all]: ./resources/Star.svg "All applications"
-
 [pa_wd]: ./resources/WordLogo.svg "Word"
-
 [pa_xl]: ./resources/ExcelLogo.svg "Excel"
-
 [pa_ac]: ./resources/AccessLogo.svg "Access"
-
 [pa_ol]: ./resources/OutlookLogo.svg "Outlook"
-
 [pa_pp]: ./resources/PowerPointLogo.svg "PowerPoint"
-
 [pa_misc]: ./resources/Duck.svg
 
 * [![pa_all]](#-) - All applications
@@ -47,15 +39,10 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 #### Other important information
 
 [po_32]: ./resources/32-Bit.svg?v=2 "32-bit only"
-
 [po_pass]: ./resources/Padlock.svg?v=2 "VBA is password protected"
-
 [po_dll]: ./resources/DLL.svg "Requires external DLLs"
-
 [po_inst]: ./resources/Installation.svg?v=3 "Requires installation"
-
 [po_paid]: ./resources/Money.svg
-
 
 * [![po_32]](#-) - 32-bit only 
 * [![po_pass]](#-) - Written in VBA but the code is password protected

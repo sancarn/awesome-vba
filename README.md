@@ -32,7 +32,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 
 * [⭐][a_all] - All applications
-* ![pa_wd] - Word
+* [![pa_wd]](#-) - Word
 * [📊][a_xl] - Excel
 * [🅰️][a_ac] - Access
 * [📧][a_ol] - Outlook

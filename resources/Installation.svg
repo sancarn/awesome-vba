@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="18" viewBox="0 0 512 448" id="svg2" version="1.1"
+  xmlns="http://www.w3.org/2000/svg">
+  <g id="layer1" transform="translate(0,-604.36224)">
+    <path id="path4136" transform="translate(0,604.36224)" style="fill-rule: evenodd; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; fill: rgb(150, 150, 150);" d="M 192,0 192,160 80,160 256,336 432,160 320,160 320,0 192,0 Z M 0,288 0,448 512,448 512,288 384,288 256,416 128,288 0,288 Z m 416,32 64,0 0,64 -64,0 0,-64 z"/>
+  </g>
+</svg>

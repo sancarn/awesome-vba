@@ -22,7 +22,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 [a_all]: # "All applications"
 
-[pa_wd]: ./resources/WordLogoPure16.svg "Word"
+[pa_wd]: ./resources/WordLogo.svg "Word"
 
 [a_wd]:  # "Word"
 [a_xl]:  # "Excel"

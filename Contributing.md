@@ -63,7 +63,7 @@ Many people use VBA in business environments because they don't have better tool
 [o_inst]: ./resources/Installation.svg?v=3 "Requires installation"
 [o_paid]: ./resources/Money.svg
 
-* [![o_dll]](#- ""Requires external dependencies") - Requires external dependencies e.g. DLLs
+* [![o_dll]](#- "Requires external dependencies") - Requires external dependencies e.g. DLLs
 * [![o_inst]](#-) - Requires installation
 * [![o_32]](#-) - 32-bit/VB6 only 
 * [![o_paid]](#- "Link includes/leads to paid content") - Link includes/leads to paid content

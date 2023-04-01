@@ -321,7 +321,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [Excel VBA Is Fun](https://www.youtube.com/c/ExcelVbaIsFun)
 * [Excel for Freelancers](https://www.youtube.com/c/ExcelForFreelancers) - Hands-on tutorials to developing specific applications from beginning through to end. All levels.
 * [Leila Gharani](https://www.youtube.com/c/LeilaGharani) - Office-wide focus - useful for beginners.
-* [![o_paid]](#- "The video is from a consultant. Many of his videos are paid for.")[Get to know VBA](https://youtu.be/MFR_XARJjoY) - Some great applications presented and created with VBA.
+* [![o_paid]](#- "The video is from a consultant. Many of his videos are paid for.") [Get to know VBA](https://youtu.be/MFR_XARJjoY) - Some great applications presented and created with VBA.
 
 ### Forums
 

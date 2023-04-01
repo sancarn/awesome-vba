@@ -40,13 +40,13 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 [o_32]: ./resources/32-Bit.svg?v=2 "32-bit only"
 [o_pass]: ./resources/Padlock.svg?v=2 "VBA is password protected"
-[o_dll]: ./resources/Dependencies.svg "Requires external DLLs"
+[o_dll]: ./resources/Dependencies.svg
 [o_inst]: ./resources/Installation.svg?v=3 "Requires installation"
 [o_paid]: ./resources/Money.svg
 
 * [![o_32]](#-) - 32-bit only 
 * [![o_pass]](#-) - Written in VBA but the code is password protected
-* [![o_dll]](#-) - Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc.
+* [![o_dll]](#- "Requires external dependencies") - Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc.
 * [![o_inst]](#-) - Requires installation
 * [![o_paid]](#- "Link includes/leads to paid content") - Link includes/leads to paid content
 
@@ -157,7 +157,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [![p_win]](#-) [![a_all]](#-) [Material UI](https://github.com/todar/VBA-Material-Design) - Make your userform feel modern with Material UI.
 * [![p_all]](#-) [![a_all]](#-) [Easy EventListener](https://github.com/todar/VBA-Userform-EventListener) - Consolidate all event handling of a userform into 1 callback.
 * [![p_win]](#-) [![a_all]](#-) [Pseudo Control Arrays](http://addinbox.sakura.ne.jp/Breakthrough_P-Ctrl_Arrays_Eng.htm) - Optimal means of Consolidating all event handling of a userform. Demonstrates usage of `ConnectToConnectionPoint` API. Also worth looking at [this class](https://stackoverflow.com/questions/61855925/reducing-withevent-declarations-and-subs-with-vba-and-activex#answer-61893857) too. 
-* [![p_win]](#-) [![a_all]](#-) [![o_dll]](#-) [Modern UI Components](https://github.com/krishKM/Modern-UI-Components-for-VBA) - Custom modern looking controls. 
+* [![p_win]](#-) [![a_all]](#-) [![o_dll]](#- "Requires external DLLs") [Modern UI Components](https://github.com/krishKM/Modern-UI-Components-for-VBA) - Custom modern looking controls. 
 * [![p_win]](#-) [![a_all]](#-) [MVVM](https://github.com/rubberduck-vba/MVVM) - Model-View-ViewModel Infrastructure for maintainable userform development.
 * [![p_win]](#-) [![a_all]](#-) [VBA Userform Transitions and Animations](https://github.com/todar/VBA-Userform-Animations) - An excellent library for implementing animation easings into the Userform.
 * [![p_win]](#-) [![a_all]](#-) [Trick's Timer](https://github.com/thetrik/VbTrickTimer) - If you need to run a piece of code continuously and don't have access to `Application.OnTime` (and/or you need to run it faster than once per second), this is the class for you! Also check out the [forum post](https://www.vbforums.com/showthread.php?875635-VB6-VBA-Timer-class) for more information.

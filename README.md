@@ -40,7 +40,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 [po_32]: ./resources/32-Bit.svg?v=2 "32-bit only"
 [po_pass]: ./resources/Padlock.svg?v=2 "VBA is password protected"
-[po_dll]: ./resources/DLL.svg "Requires external DLLs"
+[po_dll]: ./resources/Dependencies.svg "Requires external DLLs"
 [po_inst]: ./resources/Installation.svg?v=3 "Requires installation"
 [po_paid]: ./resources/Money.svg
 

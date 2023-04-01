@@ -46,7 +46,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 * [![po_32]](#-) - 32-bit only 
 * [![po_pass]](#-) - Written in VBA but the code is password protected
-* [![po_dll]](#-) - Requires external DLLs
+* [![po_dll]](#-) - Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc.
 * [![po_inst]](#-) - Requires installation
 * [![po_paid]](#- "Link includes/leads to paid content") - Link includes/leads to paid content
 

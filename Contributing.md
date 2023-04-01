@@ -50,7 +50,7 @@ If a library is built for and/or only works within a specific application and/or
 * [![a_xl]](#-) - Excel
 * [![a_ac]](#-) - Access
 * [![a_ol]](#-) - Outlook
-* [![a_pp]](#-) - Powerpoint
+* [![a_pp]](#-) - PowerPoint
 * [![a_misc]](#- "Misc") - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
 
 #### 3. Specifying other important information

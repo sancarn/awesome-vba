@@ -33,7 +33,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [![a_xl]](#-) - Excel
 * [![a_ac]](#-) - Access
 * [![a_ol]](#-) - Outlook
-* [![a_pp]](#-) - Powerpoint
+* [![a_pp]](#-) - PowerPoint
 * [![a_misc]](#- "Misc") - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
 
 #### Other important information
@@ -175,7 +175,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ### Low level tools
 
 * [![p_all]](#-) [![a_all]](#-) [VBA-MemoryTools](https://github.com/cristianbuse/VBA-MemoryTools) - Provides an ultra-fast, copy memory alternative.
-* [![p_win]](#-) [![a_all]](#-) [Safe Subclassing](https://www.mrexcel.com/board/threads/intercepting-resetting-of-vba-editor-as-well-as-unhandled-errors-for-safe-subclassing.1024295/) - Provides the ability to subclass Excel/Word/Powerpoint window or Userforms to perform further automation. In the later threads there is also an example for subclassing other windows from other applications.
+* [![p_win]](#-) [![a_all]](#-) [Safe Subclassing](https://www.mrexcel.com/board/threads/intercepting-resetting-of-vba-editor-as-well-as-unhandled-errors-for-safe-subclassing.1024295/) - Provides the ability to subclass Excel/Word/PowerPoint window or Userforms to perform further automation. In the later threads there is also an example for subclassing other windows from other applications.
 * [![p_win]](#-) [![a_all]](#-) [Calling private module functions](https://codereview.stackexchange.com/questions/274532/low-level-vba-hacking-making-private-functions-public)
 * [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [Universal DLL Calls](http://www.vbforums.com/showthread.php?781595-VB6-Call-Functions-By-Pointer-(Universall-DLL-Calls)) - A library which can be used to call functions of any function pointer, DLL or object in both `STDCALL` and `CDECL`. 
 * [![p_all]](#-) [![a_all]](#-) [VBA state-loss callback](https://github.com/cristianbuse/VBA-StateLossCallback) - A crash free detector for VBA state-loss. State loss can occur when: Someone clicks `end` in an unhandled error; You click the VBA stop button; You enter design mode; Application exits.
@@ -298,7 +298,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics.
 * [![a_ol]](#-) [Slipstick](https://www.slipstick.com/) - Website of Diane Poremsky (MVP) with focus on Outlook and VBA. 
 * [![a_ol]](#-) [TechnicLee](https://techniclee.wordpress.com/) - Outlook blog, many examples including code variations depending on user request.
-* [![a_pp]](#-) [Powerpoint VBA](https://pptvba.com/) - a site devoted to teaching VBA through making games in Powerpoint.
+* [![a_pp]](#-) [PowerPoint VBA](https://pptvba.com/) - a site devoted to teaching VBA through making games in PowerPoint.
 * [MS KB Archive](https://github.com/jeffpar/kbarchive/tree/master/id/vbwin) - Massive archive of vb6/vba problems, solutions and tutorials.
 
 ### Books

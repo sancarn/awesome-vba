@@ -223,7 +223,6 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ### Algorithms, code optimisation, and performance testing
 
 * [VBSpeed](http://www.xbeat.net/vbspeed/) - The Visual Basic Performance Site - focus on VB6 but transferrable across to VBA.
-* 
 
 ### UI Ribbon
 
@@ -295,7 +294,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [Bytecomb VBA Reference](https://bytecomb.com/vba-reference/) - Intermediate-advanced topics.
 * [Chip Pearson's website](http://www.cpearson.com/excel) - Great resource for beginners-intermediate.
 * [VBA for smarties](http://www.snb-vba.eu/inhoud_en.html) - A great reference to numerous data structures and mechanics.
-* [![o_paid]](#- "Some cheatsheets are paid-for content")[Automate Excel's cheat sheets](https://www.automateexcel.com/vba/cheatsheets/)
+* [![o_paid]](#- "Some cheatsheets are paid-for content") [Automate Excel's cheat sheets](https://www.automateexcel.com/vba/cheatsheets/)
 * [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics.
 * [![a_ol]](#-) [Slipstick](https://www.slipstick.com/) - Website of Diane Poremsky (MVP) with focus on Outlook and VBA. 
 * [![a_ol]](#-) [TechnicLee](https://techniclee.wordpress.com/) - Outlook blog, many examples including code variations depending on user request.

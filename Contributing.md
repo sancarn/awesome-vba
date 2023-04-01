@@ -74,7 +74,7 @@ Many people use VBA in business environments because they don't have better tool
 As suggested in #1 tooltips should be added to symbology to further help new users browser the awesome list.
 
 ```md
-* [![p_all]](#- "Compatible on all platforms")[![a_all]](#- "All applications")
+* [![p_all]](#- "Compatible on all platforms") [![a_all]](#- "All applications")
 ```
 
 In order to keep the document clean, several IDs have been added for common tooltips:

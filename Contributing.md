@@ -57,10 +57,10 @@ If a library is built for and/or only works within a specific application and/or
 
 Many people use VBA in business environments because they don't have better tools available. Dependency download may be blocked, or installation may be something that can only be done by IT staff.
 
-[o_32]: ./resources/32-Bit.svg?v=2 "32-bit only"
-[o_pass]: ./resources/Padlock.svg?v=2 "VBA is password protected"
+[o_32]: ./resources/32-Bit.svg "32-bit only"
+[o_pass]: ./resources/Padlock.svg "VBA is password protected"
 [o_dll]: ./resources/Dependencies.svg
-[o_inst]: ./resources/Installation.svg?v=3 "Requires installation"
+[o_inst]: ./resources/Installation.svg "Requires installation"
 [o_paid]: ./resources/Money.svg
 
 * [![o_dll]](#- "Requires external dependencies") - Requires external dependencies e.g. DLLs

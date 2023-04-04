@@ -38,10 +38,10 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### Other important information
 
-[o_32]: ./resources/32-Bit.svg?v=2 "32-bit only"
-[o_pass]: ./resources/Padlock.svg?v=2 "VBA is password protected"
+[o_32]: ./resources/32-Bit.svg "32-bit only"
+[o_pass]: ./resources/Padlock.svg "VBA is password protected"
 [o_dll]: ./resources/Dependencies.svg
-[o_inst]: ./resources/Installation.svg?v=3 "Requires installation"
+[o_inst]: ./resources/Installation.svg "Requires installation"
 [o_paid]: ./resources/Money.svg
 
 * [![o_32]](#-) - 32-bit only 

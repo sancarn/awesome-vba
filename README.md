@@ -191,6 +191,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [![p_win]](#-) [![a_all]](#-) [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if your implementing a new programming language in VBA. Wqweto has also included some math expression parsers as tests.
 * [![p_all]](#-) [![a_all]](#-) [Volpi's Math Expression Parser](https://web.archive.org/web/20100703220609/http://digilander.libero.it/foxes/mathparser/MathExpressionsParser.htm) - A fast math expression parser. Doesn't allow calls to objects, no callstack.
 * [![p_all]](#-) [![a_all]](#-) [VBA Expressions](https://github.com/ws-garcia/VBA-Expressions) - A powerful string expression evaluator focussed on mathematics and data processing.
+* [![p_win]](#-) [![a_all]](#-) [ClooWrapperVBA](https://github.com/Excel-lent/ClooWrapperVBA) - Execute OpenCL from VBA, using either the GPU or CPU.
 * From Frameworks:
     * [![p_win]](#-) [![a_all]](#-) In `stdVBA` find `stdLambda` - Full programming language including object manipulation, call stack, etc. 
 

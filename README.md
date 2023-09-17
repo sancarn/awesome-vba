@@ -275,7 +275,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [PCode Internals](https://www.vbforums.com/showthread.php?884919-pcode-internals) - VBA is compiled to PCode. Understanding the lower level P-Code is a topic of heavy interest and research.
 * [How many lines of code in EB](http://bbs.vbstreets.ru/viewtopic.php?f=101&t=56633) - Untranlated article by Russian VBer `Хакер` which estimates the number of lines of code in VB6/VBA.
 * [SAFEARRAYS](https://www.vbforums.com/showthread.php?895566-RESOLVED-SAFEARRAY-Structure-for-an-Array) - The internal structure of arrays.
-
+* [Articles by Sancarn](https://sancarn.github.io/vba-articles) - Various articles written by Sancarn about VBA including, performance, actual issues with VBA etc.
 
 ## Resources
 

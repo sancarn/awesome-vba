@@ -123,6 +123,10 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 * [![p_all]](#-) [![a_all]](#-) [VBA-XML](https://github.com/VBA-tools/VBA-XML) - XML conversion and parsing.
 
+#### ZIP
+
+* [![p_win]](#-) [![a_all]](#-) [Excel-ZipTools](https://github.com/cristianbuse/Excel-ZipTools/tree/master) - Parse and Read Zip files.
+
 ### Data Structures
 
 #### Array-List
@@ -256,6 +260,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [![p_win]](#-) [![a_xl]](#-) [Arkanoid](http://leandroascierto.com/blog/juego-arkanoid-en-excel/) - Arkanoid, a retro arcade game, built in Excel. On some machines it runs faster than others.
 * [![p_win]](#-) [![a_xl]](#-) [Battleships](https://github.com/rubberduck-vba/Battleship)
 * [![p_win]](#-) [![a_ac]](#-) [Pacman](https://arkham46.developpez.com/articles/office/clgdiplus/tuto/tutoclgdiplusgame3/?page=Page_11#LXXIV)
+* [![p_win]](#-) [![a_xl]](#-) [ExcelCommodroid](https://github.com/raspberrypioneer/ExcelCommodroid/tree/main) - Commodore computer loader using MS Excel on Windows. VBA7 only.
 
 ## External tools
 

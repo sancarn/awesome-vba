@@ -266,6 +266,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 * [![p_all]](#-) [![a_all]](#-) [oletools](https://github.com/decalage2/oletools) - Python tool which can be used to decode VBA P-Code (VBA's intermediate language).
 * [![p_win]](#-) [![a_misc]](#- "VBA planned but as of 2022-05-27 can only compile to exe") [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
+* [![p_all]](#-) [![a_all]](#-) [vscode-vba](https://github.com/serkonda7/vscode-vba) - Extension that adds VBA editor support to Visual Studio Code.
 
 ## Style Guides
 

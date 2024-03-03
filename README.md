@@ -112,6 +112,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [![p_all]](#-) [![a_all]](#-) [VBA-JSON](https://github.com/VBA-tools/VBA-JSON) - JSON conversion and parsing.
 * [![p_win]](#-) [![a_all]](#-) [mdJSON](https://www.vbforums.com/showthread.php?871695-VB6-VBA-JSON-parsing-to-built-in-VBA-Collections-with-JSON-Path-support) - JSON library with dot-notation for extracting paths.
 * [![p_win]](#-) [![a_all]](#-) [JSONBag](https://www.vbforums.com/showthread.php?738845-VB6-JsonBag-Another-JSON-Parser-Generator) - Uses shebang notation to extract keys from JSON strings. Can also build JSON with this library.
+* From Frameworks:
+    * [![p_win]](#-) [![a_all]](#-) In `stdVBA` find `stdJSON` - As above.
 
 #### CSV
 
@@ -188,6 +190,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [![p_win]](#-) [![a_all]](#-) [vb2clr](https://github.com/jet2jet/vb2clr) - Use C# from VBA using the .NET CLR runtime.
 * From Frameworks:
     * [![p_win]](#-) [![a_all]](#-) In `stdVBA` find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
+    * [![p_win]](#-) [![a_all]](#-) In `stdVBA` find `stdReg` - Registry automation from searching to setting values.
 
 ### Parsers / Interpreters
 

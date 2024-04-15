@@ -141,6 +141,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### Dictionary
 
+* [![p_all]](#-) [![a_all]](#-) [VBA-FastDictionary](https://github.com/cristianbuse/VBA-FastDictionary) - Fast, cross-platform, native Dictionary. Replacement for scripting dictionary.
 * [![p_all]](#-) [![a_all]](#-) [VBA-Dictionary](https://github.com/VBA-tools/VBA-Dictionary) - A dictionary object which stores key-value pairs.
 * [![p_win]](#-) [![a_all]](#-) [VBA-ExtendedDictionary](https://github.com/SSlinky/VBA-ExtendedDictionary) - A dictionary object using Scripting.Dictionary but exposes some additional useful functionality.
 * [![p_all]](#-) [![a_all]](#-) [cHashList](https://www.vbforums.com/showthread.php?834515-Simple-and-fast-lightweight-HashList-Class-(no-APIs)) - Simple, Fast and lightweight HashList class with no use of Win32 API. Requires string keys however.

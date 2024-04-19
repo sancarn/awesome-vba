@@ -53,11 +53,10 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Contents
 
-
 - [Symbology](#symbology)
-    - [Platform Compatibility](#platform-compatibility)
-    - [Application compatibility](#application-compatibility)
-    - [Other important information](#other-important-information)
+  - [Platform Compatibility](#platform-compatibility)
+  - [Application compatibility](#application-compatibility)
+  - [Other important information](#other-important-information)
 - [Contents](#contents)
 - [Frameworks](#frameworks)
 - [Libraries](#libraries)

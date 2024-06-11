@@ -231,7 +231,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### UI Ribbon
 
-* [Ron de Bruin - Ribbons/QAT](https://www.rondebruin.nl/win/section2.htm) - A leading resource for information/samples on developing custom ribbons and context menus.
+* [Ron de Bruin - Ribbons/QAT](https://web.archive.org/web/20230806024653/https://www.rondebruin.nl/win/section2.htm) - A leading resource for information/samples on developing custom ribbons and context menus.
 * [Office MSO Icons](http://www.spreadsheet1.com/office-excel-ribbon-imagemso-icons-gallery-page-01.html) - Ribbon icons can often use one of the 1500 (3 pages on this site) MSO icons wich pre-exist in Office applications.
 
 ### UI Userforms
@@ -297,7 +297,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [Excel Development Platform Blog](https://exceldevelopmentplatform.blogspot.com/) - Blog dealing with advanced topics/VBA.
 * [MSDN VBA Documentation](https://msdn.microsoft.com/en-us/vba/office-vba-reference)
 * [MS-VBAL Language Spec](https://docs.microsoft.com/en-gb/openspecs/microsoft_general_purpose_programming_languages/ms-vbal/d5418146-0bd2-45eb-9c7a-fd9502722c74)
-* [Ron de Bruin](https://www.rondebruin.nl/index.htm) - Simple-Intermediate topics.
+* [Ron de Bruin](https://web.archive.org/web/20230806005811/https://www.rondebruin.nl/index.htm) - Simple-Intermediate topics. Note: Ron has archived all these sites, it will not be updated, and some information is out of date, yet it is still an incredible resource for VBA.
 * [Bytecomb VBA Reference](https://bytecomb.com/vba-reference/) - Intermediate-advanced topics.
 * [Chip Pearson's website](http://www.cpearson.com/excel) - Great resource for beginners-intermediate.
 * [VBA for smarties](http://www.snb-vba.eu/inhoud_en.html) - A great reference to numerous data structures and mechanics.

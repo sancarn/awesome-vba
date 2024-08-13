@@ -4,52 +4,7 @@ Visual Basic for Applications (VBA) is an implementation of Microsoft's event-dr
 
 This is a curated list of Libraries and Resources for both VBA and VB6.
 
-## Symbology
-
-Because of the nature of VBA, many libraries do not work on all Operating Systems, in all Office Applications or in all architectures(x64/x86). Some libraries may also require external resources (DLL, Addins, etc.) which can be difficult to use due to VBA's lack of a package manager.  To help you in finding projects suitable for your needs, this awesome list uses the following symbology. The symbology also has tooltips which may provide more information.
-
-#### Platform Compatibility
-
-[p_all]: ./resources/Crown.svg  "Compatible on all platforms"
-[p_mac]: ./resources/AppleLogo.svg "Mac OS only"
-[p_win]: ./resources/WindowsLogo.svg "Windows OS only"
-
-* [![p_all]](#-) - Compatible on all platforms
-* [![p_mac]](#-) - Mac compatible
-* [![p_win]](#-) - Windows compatible
-
-#### Application compatibility 
-
-[a_all]: ./resources/Star.svg "All applications"
-[a_wd]: ./resources/WordLogo.svg "Word"
-[a_xl]: ./resources/ExcelLogo.svg "Excel"
-[a_ac]: ./resources/AccessLogo.svg "Access"
-[a_ol]: ./resources/OutlookLogo.svg "Outlook"
-[a_pp]: ./resources/PowerPointLogo.svg "PowerPoint"
-[a_misc]: ./resources/Duck.svg
-
-* [![a_all]](#-) - All applications
-* [![a_wd]](#-) - Word
-* [![a_xl]](#-) - Excel
-* [![a_ac]](#-) - Access
-* [![a_ol]](#-) - Outlook
-* [![a_pp]](#-) - PowerPoint
-* [![a_misc]](#- "Misc") - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
-
-#### Other important information
-
-[o_32]: ./resources/32-Bit.svg "32-bit only"
-[o_pass]: ./resources/Padlock.svg "VBA is password protected"
-[o_dll]: ./resources/Dependencies.svg
-[o_inst]: ./resources/Installation.svg "Requires installation"
-[o_paid]: ./resources/Money.svg
-
-* [![o_32]](#-) - 32-bit only 
-* [![o_pass]](#-) - Written in VBA but the code is password protected
-* [![o_dll]](#- "Requires external dependencies") - Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc.
-* [![o_inst]](#-) - Requires installation
-* [![o_paid]](#- "Link includes/leads to paid content") - Link includes/leads to paid content
-
+Because of the nature of VBA, many libraries do not work on all Operating Systems, in all Office Applications or on all architectures(x64/x86), therefore we use symbology. [Read more about this here.](#symbology).
 
 ## Contents
 
@@ -264,6 +219,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [![p_all]](#-) [![a_all]](#-) [oletools](https://github.com/decalage2/oletools) - Python tool which can be used to decode VBA P-Code (VBA's intermediate language).
 * [![p_win]](#-) [![a_misc]](#- "VBA planned but as of 2022-05-27 can only compile to exe") [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
 * [![p_all]](#-) [![a_all]](#-) [vscode-vba](https://github.com/serkonda7/vscode-vba) - Extension that adds VBA editor support to Visual Studio Code.
+* [![p_all]](#-) [![a_all]](#-) [VBA Pro](https://marketplace.visualstudio.com/items?itemName=NotisDataAnalytics.vba-lsp) - VSCode Extension that adds enhanced VBA support based on Language Service Protocol. The source is also [on github](https://github.com/SSlinky/VBA-LanguageServer)
 
 ## Style Guides
 
@@ -342,7 +298,54 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 * [![a_ol]](#-) [Slipstick](https://www.forums.slipstick.com) - Excellent forum for the Slipstick website (Outlook VBA) of Diane Poremsky (MVP). Diane is quick to respond, and her answers are extremely helpful.
 * [VBForums - Office Development](https://www.vbforums.com/forumdisplay.php?37-Office-Development) - Forum with focus on VB6/.NET with VBA section.
 
+## Footnotes
+
+### Symbology
+
+Because of the nature of VBA, many libraries do not work on all Operating Systems, in all Office Applications or in all architectures(x64/x86). Some libraries may also require external resources (DLL, Addins, etc.) which can be difficult to use due to VBA's lack of a package manager. To help you in finding projects suitable for your needs, this awesome list uses the following symbology. The symbology also has tooltips which may provide more information.
+
+#### Platform Compatibility
+
+[p_all]: ./resources/Crown.svg "Compatible on all platforms"
+[p_mac]: ./resources/AppleLogo.svg "Mac OS only"
+[p_win]: ./resources/WindowsLogo.svg "Windows OS only"
+
+* [![p_all]](#-) - Compatible on all platforms
+* [![p_mac]](#-) - Mac compatible
+* [![p_win]](#-) - Windows compatible
+
+#### Application compatibility
+
+[a_all]: ./resources/Star.svg "All applications"
+[a_wd]: ./resources/WordLogo.svg "Word"
+[a_xl]: ./resources/ExcelLogo.svg "Excel"
+[a_ac]: ./resources/AccessLogo.svg "Access"
+[a_ol]: ./resources/OutlookLogo.svg "Outlook"
+[a_pp]: ./resources/PowerPointLogo.svg "PowerPoint"
+[a_misc]: ./resources/Duck.svg
+
+* [![a_all]](#-) - All applications
+* [![a_wd]](#-) - Word
+* [![a_xl]](#-) - Excel
+* [![a_ac]](#-) - Access
+* [![a_ol]](#-) - Outlook
+* [![a_pp]](#-) - PowerPoint
+* [![a_misc]](#- "Misc") - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
+
+#### Other important information
+
+[o_32]: ./resources/32-Bit.svg "32-bit only"
+[o_pass]: ./resources/Padlock.svg "VBA is password protected"
+[o_dll]: ./resources/Dependencies.svg
+[o_inst]: ./resources/Installation.svg "Requires installation"
+[o_paid]: ./resources/Money.svg
+
+* [![o_32]](#-) - 32-bit only
+* [![o_pass]](#-) - Written in VBA but the code is password protected
+* [![o_dll]](#- "Requires external dependencies") - Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc.
+* [![o_inst]](#-) - Requires installation
+* [![o_paid]](#- "Link includes/leads to paid content") - Link includes/leads to paid content
+
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [contribution guidelines](./Contributing.md) first.
-

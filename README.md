@@ -4,7 +4,7 @@ Visual Basic for Applications (VBA) is an implementation of Microsoft's event-dr
 
 This is a curated list of Libraries and Resources for both VBA and VB6.
 
-Because of the nature of VBA, many libraries do not work on all Operating Systems, in all Office Applications or on all architectures(x64/x86), therefore we use symbology. [Read more about this here.](#symbology).
+Because of the nature of VBA, many libraries do not work on all Operating Systems, in all Office Applications or on all architectures(x64/x86), therefore we use symbology. [Read more about this here](#symbology).
 
 ## Contents
 

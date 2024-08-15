@@ -150,7 +150,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_all]](#-) [![a_all]](#-) [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
 - [![p_all]](#-) [![a_all]](#-) [VBA-WebSocket](https://github.com/EagleAglow/vba-websocket) - Microsoft example code for a WebSocket client which can be used in conjunction with an echo server. There is also [a class](https://github.com/EagleAglow/vba-websocket-class) and an [async version](https://github.com/EagleAglow/vba-websocket-async) built by the discoverer of the microsoft code.
 - [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [vbAsyncSocket](https://github.com/wqweto/VbAsyncSocket) - Simple and thin WinSock API wrappers for VB6 loosely based on the original CAsyncSocket wrapper in MFC.
-- [![p_win]](#-) [![a_all]](#-) [Edge Automation](https://www.codeproject.com/Tips/5307593/Automate-Chrome-Edge-using-VBA) - Automate Chromium Edge using devtools protocol. [Github backup here](https://github.com/sancarn/stdVBA-Inspiration/tree/master/ChromeEdgeAutomation)
+- [![p_win]](#-) [![a_all]](#-) [Edge Automation](https://www.codeproject.com/Tips/5307593/Automate-Chrome-Edge-using-VBA) - Automate Chromium Edge using devtools protocol. [GitHub backup here](https://github.com/sancarn/stdVBA-Inspiration/tree/master/ChromeEdgeAutomation)
 - [![p_win]](#-) [![a_all]](#-) [Chrome Automation (via devtools protocol)](https://github.com/PerditionC/VBAChromeDevProtocol) - Automate Chrome using chrome devtools protocol. 
 - [![p_win]](#-) [![a_xl]](#-) [webxcel](https://github.com/michaelneu/webxcel) - A webserver which runs a RESTful backend. The creator also made an [article](https://dev.to/michaelneu/to-vba-and-beyond---building-a-restful-backend-using-plain-microsoft-excel-macros-76n) on how it works on dev.to.
 
@@ -240,7 +240,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### VB6 / VBScript
 
-- [Planet Source Code](https://github.com/Planet-Source-Code/PSCIndex) - The original Github before Github was Github. Now available on Github. Possibly not the entire collection (?) of projects/source code that was previously available at the PSC website, though certainly more than enough for more people, and plenty to keep yourself amused on a Friday evening.
+- [Planet Source Code](https://github.com/Planet-Source-Code/PSCIndex) - A code repository GitHub which holds copious amounts of code. The site was closed down in 2023, but fortunately all VBA/VB6 samples were archived on GitHub today. Possibly not the entire collection (?) of projects/source code that was previously available at the PSC website.
 - [vbAccelerator Archive](https://github.com/tannerhelland/vbAccelerator-Archive) - archived copy of vbAccelerator site (articles, source code, etc.) that disappeared in 2015, reappeared in 2018, and anyone's guess what's going to next... Primarily VB6, but useful VBA resource.
 
 ### Websites
@@ -284,7 +284,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ### Forums
 
 - [Reddit](http://reddit.co.uk/r/vba) - Daily VBA Q&A. Occasional Pro-Tip sharing and Show & Tell library publishing.
-- [StackOverflow](https://stackoverflow.com/questions/tagged/vba) - A great place to ask questions. Duplicate questions are flagged as duplicates and send the author to the correct place.
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/vba) - A great place to ask questions. Duplicate questions are flagged as duplicates and send the author to the correct place.
 - [Chandoo](https://chandoo.org/wp/) - Forum for the Chandoo - the blog of Purna Duggirala (MVP). Very active. 
 - [Visual Basic Discord](https://discord.gg/gpcSue9f) - A chat room for VB.NET/VBA/VB6 fanatics.
 - [Excel Discord](https://discord.gg/PU2vVDeb) - Discord server moderated by Tim Heng (Excel MVP) with focus on helping Excel users.

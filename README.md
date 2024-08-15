@@ -302,7 +302,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 #### Platform Compatibility
 
 [p_all]: ./resources/Crown.svg "Compatible on all platforms"
-[p_mac]: ./resources/AppleLogo.svg "Mac OS only"
+[p_mac]: ./resources/AppleLogo.svg "macOS only"
 [p_win]: ./resources/WindowsLogo.svg "Windows OS only"
 
 - [![p_all]](#-) - Compatible on all platforms

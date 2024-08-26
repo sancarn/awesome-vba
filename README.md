@@ -255,7 +255,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics.
 - [![a_ol]](#-) [Slipstick](https://www.slipstick.com/) - Website of Diane Poremsky (MVP) with focus on Outlook and VBA.
 - [![a_ol]](#-) [TechnicLee](https://techniclee.wordpress.com/) - Outlook blog, many examples including code variations depending on user request.
-- [![a_pp]](#-) [PowerPoint VBA](https://pptvba.com/) - a site devoted to teaching VBA through making games in PowerPoint.
+- [![a_pp]](#-) [PowerPoint VBA](https://pptvba.com/) - A site devoted to teaching VBA through making games in PowerPoint.
 - [MS KB Archive](https://github.com/jeffpar/kbarchive/tree/master/id/vbwin) - Massive archive of vb6/vba problems, solutions and tutorials.
 
 ### Books
@@ -264,7 +264,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [The VBA Developer's Handbook](https://www.academia.edu/29801473/VBA_Developers_Handbook_Second_Edition) - Write bulletproof VBA code for any situation. This book is the essential resource for developers working with any of the more than 300 products that employ the "Visual Basic for Applications" programming language. Hardbacks also available elsewhere.
 - [Advanced Visual Basic 6](https://pdfcoffee.com/advanced-visual-basic-6-power-techniques-for-everyday-programs978020170712024922-pdf-free.html) - Power Techniques for Everyday Programs Matthew Curland. Hardbacks also available elsewhere.
 - [Professional Excel Development](https://oiipdf.com/download/professional-excel-development-the-definitive-guide-to-developing-applications-using-microsoft-excel-vba-and-net) - In this book, four world-class Microsoft® Excel developers offer start-to-finish guidance for building powerful, robust, and secure applications with Excel. Hardbacks also available.
-- [![o_paid]](#- '~$6') [Excel VBA Programming For Dummies](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book) - It′s time to move to the next level—creating your own, customized Excel 2010 solutions using Visual Basic for Applications (VBA).Using step–by–step instruction and the accessible, friendly For Dummies style, this practical book shows you how to use VBA, write macros, customize your Excel apps to look and work the way you want, avoid errors, and more
+- [![o_paid]](#- '~$6') [Excel VBA Programming For Dummies](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book) - It′s time to move to the next level—creating your own, customized Excel 2010 solutions using Visual Basic for Applications (VBA).Using step–by–step instruction and the accessible, friendly For Dummies style, this practical book shows you how to use VBA, write macros, customize your Excel apps to look and work the way you want, avoid errors, and more.
 - [![o_paid]](#- '~$30') [Power Programming with VBA](https://www.wiley.com/en-us/Excel+2019+Power+Programming+with+VBA-p-9781119514916) - Excel 2019 Power Programming with VBA is fully updated to cover all the latest tools and tricks of Excel 2019. Encompassing an analysis of Excel application development and a complete introduction to Visual Basic for Applications (VBA), this comprehensive book presents all of the techniques you need to develop both large and small Excel applications.
 - [(E-Book) VBA beginners](https://goalkicker.com/VBABook/)
 - [(E-Book) Excel VBA beginners](https://goalkicker.com/ExcelVBABook/)

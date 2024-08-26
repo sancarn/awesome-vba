@@ -108,15 +108,15 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![a_all]](#-) [Task Dialog](https://github.com/fafalone/cTaskDialog64) - A huge amount of UI functionality from this 1 class, in a strictly dynamic and modular way. Great for data input forms. Also see [vbforums](https://www.vbforums.com/showthread.php?777021-VB6-TaskDialogIndirect-Complete-class-implementation-of-Vista-Task-Dialogs) post for more information.
 - [![p_win]](#-) [![a_all]](#-) [Material UI](https://github.com/todar/VBA-Material-Design) - Make your userform feel modern with Material UI.
 - [![p_all]](#-) [![a_all]](#-) [Easy EventListener](https://github.com/todar/VBA-Userform-EventListener) - Consolidate all event handling of a userform into 1 callback.
-- [![p_win]](#-) [![a_all]](#-) [Pseudo Control Arrays](http://addinbox.sakura.ne.jp/Breakthrough_P-Ctrl_Arrays_Eng.htm) - Optimal means of Consolidating all event handling of a userform. Demonstrates usage of `ConnectToConnectionPoint` API. Also worth looking at [this class](https://stackoverflow.com/questions/61855925/reducing-withevent-declarations-and-subs-with-vba-and-activex#answer-61893857) too. 
-- [![p_win]](#-) [![a_all]](#-) [![o_dll]](#- "Requires external DLLs") [Modern UI Components](https://github.com/krishKM/Modern-UI-Components-for-VBA) - Custom modern looking controls. 
+- [![p_win]](#-) [![a_all]](#-) [Pseudo Control Arrays](http://addinbox.sakura.ne.jp/Breakthrough_P-Ctrl_Arrays_Eng.htm) - Optimal means of Consolidating all event handling of a userform. Demonstrates usage of `ConnectToConnectionPoint` API. Also worth looking at [this class](https://stackoverflow.com/questions/61855925/reducing-withevent-declarations-and-subs-with-vba-and-activex#answer-61893857) too.
+- [![p_win]](#-) [![a_all]](#-) [![o_dll]](#- 'Requires external DLLs') [Modern UI Components](https://github.com/krishKM/Modern-UI-Components-for-VBA) - Custom modern looking controls.
 - [![p_win]](#-) [![a_all]](#-) [MVVM](https://github.com/rubberduck-vba/MVVM) - Model-View-ViewModel Infrastructure for maintainable userform development.
 - [![p_win]](#-) [![a_all]](#-) [VBA Userform Transitions and Animations](https://github.com/todar/VBA-Userform-Animations) - An excellent library for implementing animation easings into the Userform.
 - [![p_win]](#-) [![a_all]](#-) [Trick's Timer](https://github.com/thetrik/VbTrickTimer) - If you need to run a piece of code continuously and don't have access to `Application.OnTime` (and/or you need to run it faster than once per second), this is the class for you! Also check out the [forum post](https://www.vbforums.com/showthread.php?875635-VB6-VBA-Timer-class) for more information.
 - [![p_win]](#-) [![a_all]](#-) [Drag and Drop filepaths](https://www.mrexcel.com/board/threads/vba-drag-drop-filepath.843330/page-6#post-5898495) - Allow your userform to handle drag-and-drop files.
 - [![p_win]](#-) [![a_all]](#-) [Late-bound WebBrowser Control Events](https://www.vbforums.com/showthread.php?847773-VB6-elevated-IE-Control-usage-with-HTML5-elements-and-COM-Event-connectors) - A technique to latch onto WebBrowser events in a late-bound manner.
-- [![p_win]](#-) [![a_all]](#-) [![o_paid]](#- "~£2 per control/application") [Mark's userform tools](https://www.kubiszyn.co.uk/) - Numerous UI tools and pretty userforms.
-- [![p_win]](#-) [![a_all]](#-) [VBA-UserForm-MouseScroll](https://github.com/cristianbuse/VBA-UserForm-MouseScroll) - Allows Mouse Wheel Scrolling on MSForms Controls and Userforms. 
+- [![p_win]](#-) [![a_all]](#-) [![o_paid]](#- '~£2 per control/application') [Mark's userform tools](https://www.kubiszyn.co.uk/) - Numerous UI tools and pretty userforms.
+- [![p_win]](#-) [![a_all]](#-) [VBA-UserForm-MouseScroll](https://github.com/cristianbuse/VBA-UserForm-MouseScroll) - Allows Mouse Wheel Scrolling on MSForms Controls and Userforms.
 - [![p_all]](#-) [![a_all]](#-) [MSForms (All VBA) Treeview Control](https://jkp-ads.com/Articles/treeview.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
 - [![p_win]](#-) [![a_all]](#-) [Custom Userform TitleBar color](https://www.mrexcel.com/board/threads/using-winapi-to-change-the-color-on-the-title-bar-of-a-userform.1205894/page-2#post-5892050)
 - [![p_win]](#-) [![a_all]](#-) [Multi-color ListBox class](https://www.mrexcel.com/board/threads/multicolor-drag-n-drop-listbox-class-win32.1206334/)
@@ -129,7 +129,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_all]](#-) [![a_all]](#-) [VBA-MemoryTools](https://github.com/cristianbuse/VBA-MemoryTools) - Provides an ultra-fast, copy memory alternative.
 - [![p_win]](#-) [![a_all]](#-) [Safe Subclassing](https://www.mrexcel.com/board/threads/intercepting-resetting-of-vba-editor-as-well-as-unhandled-errors-for-safe-subclassing.1024295/) - Provides the ability to subclass Excel/Word/PowerPoint window or Userforms to perform further automation. In the later threads there is also an example for subclassing other windows from other applications.
 - [![p_win]](#-) [![a_all]](#-) [Calling private module functions](https://github.com/Greedquest/vbInvoke/tree/main) - You can also check out [Greedo's code review](https://codereview.stackexchange.com/questions/274532/low-level-vba-hacking-making-private-functions-public).
-- [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [Universal DLL Calls](http://www.vbforums.com/showthread.php?781595-VB6-Call-Functions-By-Pointer-(Universall-DLL-Calls)) - A library which can be used to call functions of any function pointer, DLL or object in both `STDCALL` and `CDECL`. 
+- [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [Universal DLL Calls](http://www.vbforums.com/showthread.php?781595-VB6-Call-Functions-By-Pointer-(Universall-DLL-Calls)) - A library which can be used to call functions of any function pointer, DLL or object in both `STDCALL` and `CDECL`.
 - [![p_all]](#-) [![a_all]](#-) [VBA state-loss callback](https://github.com/cristianbuse/VBA-StateLossCallback) - A crash free detector for VBA state-loss. State loss can occur when: Someone clicks `end` in an unhandled error; You click the VBA stop button; You enter design mode; Application exits.
 - [![p_win]](#-) [![a_all]](#-) [vb2clr](https://github.com/jet2jet/vb2clr) - Use C# from VBA using the .NET CLR runtime.
 - From Frameworks:
@@ -147,11 +147,11 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### Web tools
 
-- [![p_all]](#-) [![a_all]](#-) [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
+- [![p_all]](#-) [![a_all]](#-) [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web.
 - [![p_all]](#-) [![a_all]](#-) [VBA-WebSocket](https://github.com/EagleAglow/vba-websocket) - Microsoft example code for a WebSocket client which can be used in conjunction with an echo server. There is also [a class](https://github.com/EagleAglow/vba-websocket-class) and an [async version](https://github.com/EagleAglow/vba-websocket-async) built by the discoverer of the microsoft code.
 - [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [vbAsyncSocket](https://github.com/wqweto/VbAsyncSocket) - Simple and thin WinSock API wrappers for VB6 loosely based on the original CAsyncSocket wrapper in MFC.
-- [![p_win]](#-) [![a_all]](#-) [Edge Automation](https://www.codeproject.com/Tips/5307593/Automate-Chrome-Edge-using-VBA) - Automate Chromium Edge using devtools protocol. [GitHub backup here](https://github.com/sancarn/stdVBA-Inspiration/tree/master/ChromeEdgeAutomation)
-- [![p_win]](#-) [![a_all]](#-) [Chrome Automation (via devtools protocol)](https://github.com/PerditionC/VBAChromeDevProtocol) - Automate Chrome using chrome devtools protocol. 
+- [![p_win]](#-) [![a_all]](#-) [Edge Automation](https://www.codeproject.com/Tips/5307593/Automate-Chrome-Edge-using-VBA) - Automate Chromium Edge using devtools protocol. [GitHub backup here](https://github.com/sancarn/stdVBA-Inspiration/tree/master/ChromeEdgeAutomation).
+- [![p_win]](#-) [![a_all]](#-) [Chrome Automation (via devtools protocol)](https://github.com/PerditionC/VBAChromeDevProtocol) - Automate Chrome using chrome devtools protocol.
 - [![p_win]](#-) [![a_xl]](#-) [webxcel](https://github.com/michaelneu/webxcel) - A webserver which runs a RESTful backend. The creator also made an [article](https://dev.to/michaelneu/to-vba-and-beyond---building-a-restful-backend-using-plain-microsoft-excel-macros-76n) on how it works on dev.to.
 
 ## Developer tools
@@ -160,11 +160,11 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![a_xl]](#-) [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
 - [![p_win]](#-) [![a_xl]](#-) [![a_wd]](#-) [![o_pass]](#-) - [RibbonX](https://www.andypope.info/vba/ribboneditor_2010.htm) - AndyPope's Visual Ribbon Editor.
 - [![p_win]](#-) [![a_xl]](#-) [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
-- [![p_win]](#-) [![a_all]](#-) [![o_paid]](#- "Costs upwards of $79") [MZ-Tools](https://www.mztools.com/) - VBE addin providing development tools
+- [![p_win]](#-) [![a_all]](#-) [![o_paid]](#- 'Costs upwards of $79') [MZ-Tools](https://www.mztools.com/) - VBE addin providing development tools.
 - [![p_win]](#-) [![a_all]](#-) [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if you're implementing a new programming language in VBA.
-- [![p_win]](#-) [![a_all]](#-) [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool. 
-- [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries 
-- [![p_win]](#-) [![a_all]](#-) [![o_paid]](#- "£170-£205 license per dev") [vbWatchDog](https://www.everythingaccess.com/vbwatchdog.asp) - `vbWatchdog` hacks the VBA runtime to provide module name, procedure name and line number where error occurred.
+- [![p_win]](#-) [![a_all]](#-) [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool.
+- [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries.
+- [![p_win]](#-) [![a_all]](#-) [![o_paid]](#- '£170-£205 license per dev') [vbWatchDog](https://www.everythingaccess.com/vbwatchdog.asp) - `vbWatchdog` hacks the VBA runtime to provide module name, procedure name and line number where error occurred.
 
 ## Miscellaneous
 
@@ -212,19 +212,19 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ## External tools
 
 - [![p_all]](#-) [![a_all]](#-) [oletools](https://github.com/decalage2/oletools) - Python tool which can be used to decode VBA P-Code (VBA's intermediate language).
-- [![p_win]](#-) [![a_misc]](#- "VBA planned but as of 2022-05-27 can only compile to exe") [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
+- [![p_win]](#-) [![a_misc]](#- 'VBA planned but as of 2022-05-27 can only compile to exe') [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
 - [![p_all]](#-) [![a_all]](#-) [vscode-vba](https://github.com/serkonda7/vscode-vba) - Extension that adds VBA editor support to Visual Studio Code.
-- [![p_all]](#-) [![a_all]](#-) [VBA Pro](https://marketplace.visualstudio.com/items?itemName=NotisDataAnalytics.vba-lsp) - VSCode Extension that adds enhanced VBA support based on Language Service Protocol. The source is also [on github](https://github.com/SSlinky/VBA-LanguageServer)
+- [![p_all]](#-) [![a_all]](#-) [VBA Pro](https://marketplace.visualstudio.com/items?itemName=NotisDataAnalytics.vba-lsp) - VSCode Extension that adds enhanced VBA support based on Language Service Protocol. The source is also [on GitHub](https://github.com/SSlinky/VBA-LanguageServer).
 
 ## Style Guides
 
 - [RubberDuck's style guide](https://rubberduckvba.wordpress.com/2021/05/29/rubberduck-style-guide/) - Has some great intermediate - advanced guidance.
-- [VB6 Coding conventions](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa240822(v%3dvs.60)) - Variable/Class/Module naming conventions used in VBA. Greatly helps organisation in VBE (unless you have rubberduck). 
+- [VB6 Coding conventions](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa240822(v%3dvs.60)) - Variable/Class/Module naming conventions used in VBA. Greatly helps organisation in VBE (unless you have rubberduck).
 
 ## Information
 
 - [Thunder - The birth of Visual Basic](http://www.forestmoon.com/birthofvb/birthofvb.html) - A little article about the birth of VB7/VBA.
-- [My First Bill Gates Review](https://www.joelonsoftware.com/2006/06/16/my-first-billg-review/) - Joel Spolsky, program manager for the Excel team, recounts his first Bill Gates review. Joel got numerous features added e.g. `IDispatch`, `Variant`, `For each` and `With`. It also discusses the dreaded Date bug ported to Excel from Lotus 123. 
+- [My First Bill Gates Review](https://www.joelonsoftware.com/2006/06/16/my-first-billg-review/) - Joel Spolsky, program manager for the Excel team, recounts his first Bill Gates review. Joel got numerous features added e.g. `IDispatch`, `Variant`, `For each` and `With`. It also discusses the dreaded Date bug ported to Excel from Lotus 123.
 - [Ruby, EB and DLL composition](https://github.com/sancarn/stdVBA-Inspiration/blob/master/_OtherDocumentation/VBA%20and%20VB6%20History%20-%20Eb%20and%20Ruby/VBA%20History.md) - Translated copy of [VBStreets article](http://bbs.vbstreets.ru/viewtopic.php?f=101&t=56551) created by Russian VBer `Хакер`. Details the composition of the VB6 and VBA dlls in amongst the history of the language.
 - [PCode Internals](https://www.vbforums.com/showthread.php?884919-pcode-internals) - VBA is compiled to PCode. Understanding the lower level P-Code is a topic of heavy interest and research.
 - [How many lines of code in EB](http://bbs.vbstreets.ru/viewtopic.php?f=101&t=56633) - Untranlated article by Russian VBer `Хакер` which estimates the number of lines of code in VB6/VBA.
@@ -241,7 +241,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ### VB6 / VBScript
 
 - [Planet Source Code](https://github.com/Planet-Source-Code/PSCIndex) - A code repository GitHub which holds copious amounts of code. The site was closed down in 2023, but fortunately all VBA/VB6 samples were archived on GitHub today. Possibly not the entire collection (?) of projects/source code that was previously available at the PSC website.
-- [vbAccelerator Archive](https://github.com/tannerhelland/vbAccelerator-Archive) - archived copy of vbAccelerator site (articles, source code, etc.) that disappeared in 2015, reappeared in 2018, and anyone's guess what's going to next... Primarily VB6, but useful VBA resource.
+- [vbAccelerator Archive](https://github.com/tannerhelland/vbAccelerator-Archive) - Archived copy of vbAccelerator site (articles, source code, etc.) that disappeared in 2015, reappeared in 2018, and anyone's guess what's going to next&hellip; Primarily VB6, but useful VBA resource.
 
 ### Websites
 
@@ -253,7 +253,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [Chip Pearson's website](http://www.cpearson.com/excel) - Great resource for beginners-intermediate.
 - [VBA for smarties](http://www.snb-vba.eu/inhoud_en.html) - A great reference to numerous data structures and mechanics.
 - [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics.
-- [![a_ol]](#-) [Slipstick](https://www.slipstick.com/) - Website of Diane Poremsky (MVP) with focus on Outlook and VBA. 
+- [![a_ol]](#-) [Slipstick](https://www.slipstick.com/) - Website of Diane Poremsky (MVP) with focus on Outlook and VBA.
 - [![a_ol]](#-) [TechnicLee](https://techniclee.wordpress.com/) - Outlook blog, many examples including code variations depending on user request.
 - [![a_pp]](#-) [PowerPoint VBA](https://pptvba.com/) - a site devoted to teaching VBA through making games in PowerPoint.
 - [MS KB Archive](https://github.com/jeffpar/kbarchive/tree/master/id/vbwin) - Massive archive of vb6/vba problems, solutions and tutorials.
@@ -264,27 +264,27 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [The VBA Developer's Handbook](https://www.academia.edu/29801473/VBA_Developers_Handbook_Second_Edition) - Write bulletproof VBA code for any situation. This book is the essential resource for developers working with any of the more than 300 products that employ the "Visual Basic for Applications" programming language. Hardbacks also available elsewhere.
 - [Advanced Visual Basic 6](https://pdfcoffee.com/advanced-visual-basic-6-power-techniques-for-everyday-programs978020170712024922-pdf-free.html) - Power Techniques for Everyday Programs Matthew Curland. Hardbacks also available elsewhere.
 - [Professional Excel Development](https://oiipdf.com/download/professional-excel-development-the-definitive-guide-to-developing-applications-using-microsoft-excel-vba-and-net) - In this book, four world-class Microsoft® Excel developers offer start-to-finish guidance for building powerful, robust, and secure applications with Excel. Hardbacks also available.
-- [![o_paid]](#- "~$6") [Excel VBA Programming For Dummies](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book) - It′s time to move to the next level—creating your own, customized Excel 2010 solutions using Visual Basic for Applications (VBA).Using step–by–step instruction and the accessible, friendly For Dummies style, this practical book shows you how to use VBA, write macros, customize your Excel apps to look and work the way you want, avoid errors, and more
-- [![o_paid]](#- "~$30") [Power Programming with VBA](https://www.wiley.com/en-us/Excel+2019+Power+Programming+with+VBA-p-9781119514916) - Excel 2019 Power Programming with VBA is fully updated to cover all the latest tools and tricks of Excel 2019. Encompassing an analysis of Excel application development and a complete introduction to Visual Basic for Applications (VBA), this comprehensive book presents all of the techniques you need to develop both large and small Excel applications.
+- [![o_paid]](#- '~$6') [Excel VBA Programming For Dummies](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book) - It′s time to move to the next level—creating your own, customized Excel 2010 solutions using Visual Basic for Applications (VBA).Using step–by–step instruction and the accessible, friendly For Dummies style, this practical book shows you how to use VBA, write macros, customize your Excel apps to look and work the way you want, avoid errors, and more
+- [![o_paid]](#- '~$30') [Power Programming with VBA](https://www.wiley.com/en-us/Excel+2019+Power+Programming+with+VBA-p-9781119514916) - Excel 2019 Power Programming with VBA is fully updated to cover all the latest tools and tricks of Excel 2019. Encompassing an analysis of Excel application development and a complete introduction to Visual Basic for Applications (VBA), this comprehensive book presents all of the techniques you need to develop both large and small Excel applications.
 - [(E-Book) VBA beginners](https://goalkicker.com/VBABook/)
 - [(E-Book) Excel VBA beginners](https://goalkicker.com/ExcelVBABook/)
 
 ### YouTube
 
-- [Excel Macro Mastery](https://www.youtube.com/c/Excelmacromastery) - Paul Kelly (MVP) - excelmacromastery.com. 
+- [Excel Macro Mastery](https://www.youtube.com/c/Excelmacromastery) - Paul Kelly (MVP) - excelmacromastery.com.
 - [Sigma Coding](https://www.youtube.com/c/SigmaCoding) - Large catalogue of tutorials - beginner through to advanced. Delves into interesting areas of VBA not explored by other content creators.
-- [WiseOwl's VBA tutorials](https://www.youtube.com/playlist?list=PLNIs-AWhQzckr8Dgmgb3akx_gFMnpxTN5) - Great all-round resource for VBA. Perfect introduction for beginners. In-depth lessons into all aspects of VBA. Huge playlist that covers most types of VBA. 
-- [![o_paid]](#- "Some libraries used are non-FOSS and created by VBA A2Z") [VBA A2Z](https://www.youtube.com/c/VBAA2Z) - Many tutorials, some paid content. Good array of interesting and different topics - in-depth tutorials into different parts of VBA, with some .NET/VSTO videos. Strong focus on UI development.
+- [WiseOwl's VBA tutorials](https://www.youtube.com/playlist?list=PLNIs-AWhQzckr8Dgmgb3akx_gFMnpxTN5) - Great all-round resource for VBA. Perfect introduction for beginners. In-depth lessons into all aspects of VBA. Huge playlist that covers most types of VBA.
+- [![o_paid]](#- 'Some libraries used are non-FOSS and created by VBA A2Z') [VBA A2Z](https://www.youtube.com/c/VBAA2Z) - Many tutorials, some paid content. Good array of interesting and different topics - in-depth tutorials into different parts of VBA, with some .NET/VSTO videos. Strong focus on UI development.
 - [Excel VBA Is Fun](https://www.youtube.com/c/ExcelVbaIsFun)
 - [Excel for Freelancers](https://www.youtube.com/c/ExcelForFreelancers) - Hands-on tutorials to developing specific applications from beginning through to end. All levels.
 - [Leila Gharani](https://www.youtube.com/c/LeilaGharani) - Office-wide focus - useful for beginners.
-- [![o_paid]](#- "The video is from a consultant. Many of his videos are paid for.") [Get to know VBA](https://youtu.be/MFR_XARJjoY) - Some great applications presented and created with VBA.
+- [![o_paid]](#- 'The video is from a consultant. Many of his videos are paid for.') [Get to know VBA](https://youtu.be/MFR_XARJjoY) - Some great applications presented and created with VBA.
 
 ### Forums
 
 - [Reddit](http://reddit.co.uk/r/vba) - Daily VBA Q&A. Occasional Pro-Tip sharing and Show & Tell library publishing.
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/vba) - A great place to ask questions. Duplicate questions are flagged as duplicates and send the author to the correct place.
-- [Chandoo](https://chandoo.org/wp/) - Forum for the Chandoo - the blog of Purna Duggirala (MVP). Very active. 
+- [Chandoo](https://chandoo.org/wp/) - Forum for the Chandoo - the blog of Purna Duggirala (MVP). Very active.
 - [Visual Basic Discord](https://discord.gg/gpcSue9f) - A chat room for VB.NET/VBA/VB6 fanatics.
 - [Excel Discord](https://discord.gg/PU2vVDeb) - Discord server moderated by Tim Heng (Excel MVP) with focus on helping Excel users.
 - [MrExcel](https://www.mrexcel.com/board/) - Mostly Excel generic, but a lot of VBA content can be found here also.
@@ -300,9 +300,9 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### Platform Compatibility
 
-[p_all]: ./resources/Crown.svg "Compatible on all platforms"
-[p_mac]: ./resources/AppleLogo.svg "macOS only"
-[p_win]: ./resources/WindowsLogo.svg "Windows OS only"
+[p_all]: ./resources/Crown.svg 'Compatible on all platforms'
+[p_mac]: ./resources/AppleLogo.svg 'macOS only'
+[p_win]: ./resources/WindowsLogo.svg 'Windows OS only'
 
 - [![p_all]](#-) - Compatible on all platforms
 - [![p_mac]](#-) - Mac compatible
@@ -310,12 +310,12 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### Application compatibility
 
-[a_all]: ./resources/Star.svg "All applications"
-[a_wd]: ./resources/WordLogo.svg "Word"
-[a_xl]: ./resources/ExcelLogo.svg "Excel"
-[a_ac]: ./resources/AccessLogo.svg "Access"
-[a_ol]: ./resources/OutlookLogo.svg "Outlook"
-[a_pp]: ./resources/PowerPointLogo.svg "PowerPoint"
+[a_all]: ./resources/Star.svg 'All applications'
+[a_wd]: ./resources/WordLogo.svg 'Word'
+[a_xl]: ./resources/ExcelLogo.svg 'Excel'
+[a_ac]: ./resources/AccessLogo.svg 'Access'
+[a_ol]: ./resources/OutlookLogo.svg 'Outlook'
+[a_pp]: ./resources/PowerPointLogo.svg 'PowerPoint'
 [a_misc]: ./resources/Duck.svg
 
 - [![a_all]](#-) - All applications
@@ -324,21 +324,21 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![a_ac]](#-) - Access
 - [![a_ol]](#-) - Outlook
 - [![a_pp]](#-) - PowerPoint
-- [![a_misc]](#- "Misc") - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
+- [![a_misc]](#- 'Misc') - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
 
 #### Other important information
 
-[o_32]: ./resources/32-Bit.svg "32-bit only"
-[o_pass]: ./resources/Padlock.svg "VBA is password protected"
+[o_32]: ./resources/32-Bit.svg '32-bit only'
+[o_pass]: ./resources/Padlock.svg 'VBA is password protected'
 [o_dll]: ./resources/Dependencies.svg
-[o_inst]: ./resources/Installation.svg "Requires installation"
+[o_inst]: ./resources/Installation.svg 'Requires installation'
 [o_paid]: ./resources/Money.svg
 
 - [![o_32]](#-) - 32-bit only
 - [![o_pass]](#-) - Written in VBA but the code is password protected
-- [![o_dll]](#- "Requires external dependencies") - Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc.
+- [![o_dll]](#- 'Requires external dependencies') - Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc.
 - [![o_inst]](#-) - Requires installation
-- [![o_paid]](#- "Link includes/leads to paid content") - Link includes/leads to paid content
+- [![o_paid]](#- 'Link includes/leads to paid content') - Link includes/leads to paid content
 
 ## Contributing
 

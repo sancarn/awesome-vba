@@ -107,6 +107,9 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ### Userform tools
 
 - [![p_win]](#-) [![a_all]](#-) [Task Dialog](https://github.com/fafalone/cTaskDialog64) - A huge amount of UI functionality from this 1 class, in a strictly dynamic and modular way. Great for data input forms. Also see [vbforums](https://www.vbforums.com/showthread.php?777021-VB6-TaskDialogIndirect-Complete-class-implementation-of-Vista-Task-Dialogs) post for more information.
+- [![p_win]](#-) [![a_all]](#-) [![o_dll]](#- 'Requires external OCX') [ucSimplePlayer](https://github.com/fafalone/ucSimplePlayer) - Simple video player user control.
+- [![p_win]](#-) [![a_all]](#-) [![o_dll]](#- 'Requires external OCX') [ucWebView2](https://github.com/fafalone/ucWebView2) - WebView2 user control.
+- [![p_win]](#-) [![a_all]](#-) [![o_dll]](#- 'Requires external OCX') [ucAniGifEx](https://github.com/fafalone/ucAniGifEx) - Animated GIF user control.
 - [![p_win]](#-) [![a_all]](#-) [Material UI](https://github.com/todar/VBA-Material-Design) - Make your userform feel modern with Material UI.
 - [![p_all]](#-) [![a_all]](#-) [Easy EventListener](https://github.com/todar/VBA-Userform-EventListener) - Consolidate all event handling of a userform into 1 callback.
 - [![p_win]](#-) [![a_all]](#-) [Pseudo Control Arrays](http://addinbox.sakura.ne.jp/Breakthrough_P-Ctrl_Arrays_Eng.htm) - Optimal means of Consolidating all event handling of a userform. Demonstrates usage of `ConnectToConnectionPoint` API. Also worth looking at [this class](https://stackoverflow.com/questions/61855925/reducing-withevent-declarations-and-subs-with-vba-and-activex#answer-61893857) too.
@@ -118,7 +121,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![a_all]](#-) [Late-bound WebBrowser Control Events](https://www.vbforums.com/showthread.php?847773-VB6-elevated-IE-Control-usage-with-HTML5-elements-and-COM-Event-connectors) - A technique to latch onto WebBrowser events in a late-bound manner.
 - [![p_win]](#-) [![a_all]](#-) [![o_paid]](#- '~£2 per control/application') [Mark's userform tools](https://www.kubiszyn.co.uk/) - Numerous UI tools and pretty userforms.
 - [![p_win]](#-) [![a_all]](#-) [VBA-UserForm-MouseScroll](https://github.com/cristianbuse/VBA-UserForm-MouseScroll) - Allows Mouse Wheel Scrolling on MSForms Controls and Userforms.
-- [![p_all]](#-) [![a_all]](#-) [MSForms (All VBA) Treeview Control](https://jkp-ads.com/Articles/treeview.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
+- [![p_all]](#-) [![a_all]](#-) [MSForms (Pure VBA) Treeview Control](https://jkp-ads.com/Articles/treeview.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
+- [![p_all]](#-) [![a_all]](#-) [MSForms (Pure VBA) ListBox Control](https://app.monstercampaigns.com/c/fxzxd8wfvl4mnf4zmnp3/) - Featured in [this video](https://www.youtube.com/watch?v=QYW1SlKfKdM). It has tons of useful features like sorting, filtering, single or multi-selection with select and deselect all, page navigation and hover highlight,
 - [![p_win]](#-) [![a_all]](#-) [Custom Userform TitleBar color](https://www.mrexcel.com/board/threads/using-winapi-to-change-the-color-on-the-title-bar-of-a-userform.1205894/page-2#post-5892050)
 - [![p_win]](#-) [![a_all]](#-) [Multi-color ListBox class](https://www.mrexcel.com/board/threads/multicolor-drag-n-drop-listbox-class-win32.1206334/)
 - [![p_win]](#-) [![a_all]](#-) [Use of GDIPlus in VBA](https://arkham46.developpez.com/articles/office/clgdiplus/) - GDIPlus can be used to create a `canvas` like element where any image can be drawn to. Additionally check out this [GDI32](https://arkham46.developpez.com/articles/office/clgdi32/) class from the same author.
@@ -131,6 +135,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![a_all]](#-) [Safe Subclassing](https://www.mrexcel.com/board/threads/intercepting-resetting-of-vba-editor-as-well-as-unhandled-errors-for-safe-subclassing.1024295/) - Provides the ability to subclass Excel/Word/PowerPoint window or Userforms to perform further automation. In the later threads there is also an example for subclassing other windows from other applications.
 - [![p_win]](#-) [![a_all]](#-) [Calling private module functions](https://github.com/Greedquest/vbInvoke/tree/main) - You can also check out [Greedo's code review](https://codereview.stackexchange.com/questions/274532/low-level-vba-hacking-making-private-functions-public).
 - [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [Universal DLL Calls](http://www.vbforums.com/showthread.php?781595-VB6-Call-Functions-By-Pointer-(Universall-DLL-Calls)) - A library which can be used to call functions of any function pointer, DLL or object in both `STDCALL` and `CDECL`.
+- [![p_win]](#-) [![a_all]](#-) [vbInvoke](https://github.com/Greedquest/vbInvoke) - `Application.Run` but COM based and can call private module methods.
 - [![p_all]](#-) [![a_all]](#-) [VBA state-loss callback](https://github.com/cristianbuse/VBA-StateLossCallback) - A crash free detector for VBA state-loss. State loss can occur when: Someone clicks `end` in an unhandled error; You click the VBA stop button; You enter design mode; Application exits.
 - [![p_win]](#-) [![a_all]](#-) [vb2clr](https://github.com/jet2jet/vb2clr) - Use C# from VBA using the .NET CLR runtime.
 - From Frameworks:
@@ -139,6 +144,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### Parsers / Interpreters
 
+- [![p_win]](#-) [![a_all]](#-) [vba-regex](https://github.com/sihlfall/vba-regex) - A native regex expression parser and runtime engine.
 - [![p_win]](#-) [![a_all]](#-) [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if your implementing a new programming language in VBA. Wqweto has also included some math expression parsers as tests.
 - [![p_all]](#-) [![a_all]](#-) [Volpi's Math Expression Parser](https://web.archive.org/web/20100703220609/http://digilander.libero.it/foxes/mathparser/MathExpressionsParser.htm) - A fast math expression parser. Doesn't allow calls to objects, no callstack.
 - [![p_all]](#-) [![a_all]](#-) [VBA Expressions](https://github.com/ws-garcia/VBA-Expressions) - A powerful string expression evaluator focussed on mathematics and data processing.
@@ -153,7 +159,11 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [vbAsyncSocket](https://github.com/wqweto/VbAsyncSocket) - Simple and thin WinSock API wrappers for VB6 loosely based on the original CAsyncSocket wrapper in MFC.
 - [![p_win]](#-) [![a_all]](#-) [Edge Automation](https://www.codeproject.com/Tips/5307593/Automate-Chrome-Edge-using-VBA) - Automate Chromium Edge using devtools protocol. [GitHub backup here](https://github.com/sancarn/stdVBA-Inspiration/tree/master/ChromeEdgeAutomation).
 - [![p_win]](#-) [![a_all]](#-) [Chrome Automation (via devtools protocol)](https://github.com/PerditionC/VBAChromeDevProtocol) - Automate Chrome using chrome devtools protocol.
+- [![p_win]](#-) [![a_all]](#-) [SeleniumVBA](https://github.com/GCuser99/SeleniumVBA) - Drive selenium webdriver directly from VBA. If you don't have the driver installed, the library will attempt to download it for you and run it. However AV may restrict the running of this process.
 - [![p_win]](#-) [![a_xl]](#-) [webxcel](https://github.com/michaelneu/webxcel) - A webserver which runs a RESTful backend. The creator also made an [article](https://dev.to/michaelneu/to-vba-and-beyond---building-a-restful-backend-using-plain-microsoft-excel-macros-76n) on how it works on dev.to.
+- From Frameworks:
+    - [![p_win]](#-) [![a_all]](#-) In `stdVBA` find `stdHTTP` - Connect to and query web services.
+
 
 ## Developer tools
 
@@ -188,6 +198,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ### UI Userforms
 
 - [![p_win]](#-) [![a_all]](#-) [Drag and drop control](https://www.vbforums.com/showthread.php?888843-Load-image-into-STATIC-control-Win32&p=5496575&viewfull=1#post5496575) - Dragging and dropping image controls around a userform.
+- [![p_win]](#-) [![a_all]](#-) [EZPZMouseController](https://github.com/KallunWillock/EZPZMouseController/) - An example of using native Microsoft Ink Collector to detect mouse wheel and mouse move events.
 
 ### Low level examples
 
@@ -258,6 +269,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![a_ol]](#-) [TechnicLee](https://techniclee.wordpress.com/) - Outlook blog, many examples including code variations depending on user request.
 - [![a_pp]](#-) [PowerPoint VBA](https://pptvba.com/) - A site devoted to teaching VBA through making games in PowerPoint.
 - [MS KB Archive](https://github.com/jeffpar/kbarchive/tree/master/id/vbwin) - Massive archive of vb6/vba problems, solutions and tutorials.
+- [Sancarn's vba-articles](https://sancarn.github.io/vba-articles/) - Sancarn's articles on various topics related to VBA.
 
 ### Books
 

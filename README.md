@@ -176,6 +176,13 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![a_all]](#-) [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool.
 - [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries.
 - [![p_win]](#-) [![a_all]](#-) [![o_paid]](#- '£170-£205 license per dev') [vbWatchDog](https://www.everythingaccess.com/vbwatchdog.asp) - `vbWatchdog` hacks the VBA runtime to provide module name, procedure name and line number where error occurred.
+- [![p_win]](#-) [![a_all]](#-) [DLL Function Viewer](https://www.mrexcel.com/board/threads/dll-export-viewer-vba-based.1220909/) - Allows the export of function names from DLLs.
+- [![p_win]](#-) [![a_all]](#-) [Accessibility Inspector](https://github.com/sancarn/stdVBA-examples/tree/main/Examples/Inspector-Accessibility-v2) - An inspector/explorer for accessibility in applications. Useful for automation.
+- [![p_win]](#-) [![a_all]](#-) [Running Object Table Inspector](https://github.com/sancarn/stdVBA-examples/tree/main/Examples/Inspector-RunningObjectTable) - An inspector for the running object table (ROT), a table of global running COM objects which can be obtained.
+- [![p_win]](#-) [![a_all]](#-) [Clipboard Inspector](https://github.com/sancarn/stdVBA-examples/tree/main/Examples/Inspector-Clipboard) - Allows inspection of data held in the clipboard. Useful for reverse engineering clipboard usage in other applications.
+- [![p_win]](#-) [![a_all]](#-) [Registry Inspector](https://github.com/sancarn/stdVBA-examples/tree/main/Examples/Inspector-Registry) - Allows inspection of the win32 registry. Equivalent of regedit basically, but implemented entirely in VBA.
+- [![p_win]](#-) [![a_all]](#-) [JSON Inspector](https://github.com/sancarn/stdVBA-examples/tree/main/Examples/Inspector-JSON) - An inspector for JSON data, can be called on demand too as a dev tool for inspecting API responses.
+
 
 ## Miscellaneous
 
@@ -183,8 +190,6 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_all]](#-) [![a_all]](#-) [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
 
 ## Examples
-
-
 
 ### Algorithms, code optimisation, and performance testing
 
@@ -202,8 +207,9 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### Low level examples
 
-- [![p_win]](#-) [![a_all]](#-) [Iterating the ROT](https://www.mrexcel.com/board/threads/how-to-target-instances-of-excel.1118789/page-2#post-5395037) - An example of iterating the ROT to find Excel Workbook instances.
+- [![p_win]](#-) [![a_all]](#-) [Iterating the ROT](https://www.mrexcel.com/board/threads/how-to-target-instances-of-excel.1118789/page-2#post-5395037) - An example of iterating the Running Object Table (ROT) to find Excel Workbook instances.
 - [![p_win]](#-) [![a_all]](#-) [Iterating Excel Instances via IAccessible](https://www.mrexcel.com/board/threads/how-to-target-instances-of-excel.1118789/page-2#post-5395519) - In some cases Excel instances aren't registered to the ROT. The Excel application however implements `IAccessible`, which not only can be used to automate the UI, but can also be used to obtain the Excel Instance from a hwnd.
+- [![p_win]](#-) [![a_xl]](#-) [Excel Screen Reader](https://www.mrexcel.com/board/threads/excel-screen-reader-upon-navigating-with-the-mouse-with-vba-alone.1162338/) - Not only an example of UI Automation, but also an example of using SAPI to do text to speech.
 
 <!-- ### VBE UI -->
 
@@ -223,10 +229,11 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## External tools
 
-- [![p_all]](#-) [![a_all]](#-) [oletools](https://github.com/decalage2/oletools) - Python tool which can be used to decode VBA P-Code (VBA's intermediate language).
+- [![p_all]](#-) [![a_misc]](# "Python") [oletools](https://github.com/decalage2/oletools) - Python tool which can be used to decode VBA P-Code (VBA's intermediate language).
 - [![p_win]](#-) [![a_misc]](#- 'VBA planned but as of 2022-05-27 can only compile to exe') [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
-- [![p_all]](#-) [![a_all]](#-) [vscode-vba](https://github.com/serkonda7/vscode-vba) - Extension that adds VBA editor support to Visual Studio Code.
-- [![p_all]](#-) [![a_all]](#-) [VBA Pro](https://marketplace.visualstudio.com/items?itemName=NotisDataAnalytics.vba-lsp) - VSCode Extension that adds enhanced VBA support based on Language Service Protocol. The source is also [on GitHub](https://github.com/SSlinky/VBA-LanguageServer).
+- [![p_all]](#-) [![a_misc]](# "VSCode") [vscode-vba](https://github.com/serkonda7/vscode-vba) - Extension that adds VBA editor support to Visual Studio Code.
+- [![p_all]](#-) [![a_misc]](# "VSCode") [VBA Pro](https://marketplace.visualstudio.com/items?itemName=NotisDataAnalytics.vba-lsp) - VSCode Extension that adds enhanced VBA support based on Language Service Protocol. The source is also [on GitHub](https://github.com/SSlinky/VBA-LanguageServer).
+- [![p_all]](#-) [![a_misc]](# "Github") [VBA Build](https://github.com/DecimalTurn/VBA-Build) - Github action to automatically build a VBA project on commit.
 
 ## Style Guides
 

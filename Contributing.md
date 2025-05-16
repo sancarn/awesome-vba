@@ -25,19 +25,21 @@ This repository uses symbology to indicate restrictions in compatibility. This i
 
 Platform compatibility is especially important for Mac users as many libraries are windows only. If you've used `CreateObject` to create an object e.g. `Scripting.Dictionary`, `VBScript.Dictionary` etc. then your library is likely Windows OS Only. Additionally if you've used external DLL functions, the likelihood is your library is Windows only. In order to make these mac-compatible the library needs to use Mac-native functions from libc or objc.
 
-[p_all]: ./resources/Crown.svg  'Compatible on all platforms'
-[p_mac]: ./resources/AppleLogo.svg 'Mac OS only'
-[p_win]: ./resources/WindowsLogo.svg 'Windows OS only'
+[p_all]: ./resources/Crown.svg 'Compatible on all platforms'
+[p_mac]: ./resources/AppleLogo.svg 'macOS'
+[p_win]: ./resources/WindowsLogo.svg 'Windows OS'
+[p_now]: ./resources/NotApplicable.svg 'Not Windows OS'
+[p_nom]: ./resources/NotApplicable.svg 'Not macOS'
 
-* [![p_all]](#-) - Compatible on all platforms
-* [![p_mac]](#-) - Mac OS only
-* [![p_win]](#-) - Windows OS only
+- [![p_win]](#-) [![p_mac]](#-) - Available on all platforms
+- [![p_win]](#-) [![p_nom]](#-) - Available on Windows OS only
+- [![p_now]](#-) [![p_mac]](#-) - Available on Mac OS only
 
 #### 2. Specifying Application compatibility 
 
-If a library is built for and/or only works within a specific application and/or relies on the application running specify as below. If no 
+If a library is built for and/or only works within a specific application and/or relies on the application running specify as below.
 
-[a_all]: ./resources/Star.svg 'All applications'
+[a_all]: ./resources/OfficeLogoPlus.svg 'All applications'
 [a_wd]: ./resources/WordLogo.svg 'Word'
 [a_xl]: ./resources/ExcelLogo.svg 'Excel'
 [a_ac]: ./resources/AccessLogo.svg 'Access'
@@ -74,15 +76,16 @@ Many people use VBA in business environments because they don't have better tool
 As suggested in #1 tooltips should be added to symbology to further help new users browser the awesome list.
 
 ```md
-* [![p_all]](#- 'Compatible on all platforms') [![a_all]](#- 'All applications')
+* [![p_win]](#- 'Windows OS') [![p_mac]](#- 'macOS') [![a_all]](#- 'All applications')
 ```
 
 In order to keep the document clean, several IDs have been added for common tooltips:
 
 ```
-[p_all]:  #  'Compatible on all platforms'
-[p_mac]:  #  'Mac OS only'
-[p_win]:  #  'Windows OS only'
+[p_win]   #  'Windows OS'
+[p_mac]:  #  'macOS'
+[p_now]:  #  'Not Windows OS'
+[p_nom]:  #  'Not macOS'
  
 [a_all]:  #  'All applications'
 [a_wd]:   #  'Word'
@@ -98,26 +101,26 @@ In order to keep the document clean, several IDs have been added for common tool
 These can be used as follows:
 
 ```md
-* [![p_all]](#-) [![a_all]](#-)
+* [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-)
 ```
 
 Tooltips can be modified to give further helpful detail and should be considered especially for [![o_dll]](#-), [![o_paid]](#-) and [![a_misc]](#-).
 
 ```md
-* [![p_all]](#-) [![a_all]](#-) [![o_dll]](#- 'Requires external DLL')
-* [![p_all]](#-) [![a_all]](#-) [![o_inst]](#- 'Some non-FOSS cheatsheets')
-* [![p_all]](#-) [![a_all]](#-) [![a_misc]](#- 'Works in Auto-CAD')
+* [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [![o_dll]](#- 'Requires external DLL')
+* [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [![o_inst]](#- 'Some non-FOSS cheatsheets')
+* [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [![a_misc]](#- 'Works in Auto-CAD')
 ```
 
 
 
 ### Symbology Examples
 
-* [![p_all]](#-) [![a_all]](#-) - Compatible on all operating systems and in all applications
-* [![p_win]](#-) [![a_wd]](#-) [![a_xl]](#-) - Only compatible on windows and only works in Word and Excel.
+* [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) - Compatible on all operating systems and in all applications
+* [![p_win]](#-) [![p_nom]](#-) [![a_wd]](#-) [![a_xl]](#-) - Only compatible on windows and only works in Word and Excel.
 
 ### Contribution examples
 
 ```
-* [![p_win]](#- 'Windows OS only') [![a_all]](#- 'All applications') [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
+* [![p_win]](#-) [![a_all]](#-) [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
 ```

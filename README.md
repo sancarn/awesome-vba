@@ -214,6 +214,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [Sam Rad's DatePicker](http://samradapps.com/datepicker/) - Visually impressive and professional DatePicker addin for Excel. Worksheet only / cannot be used with userforms.
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [Excel Name Manager](https://jkp-ads.com/excel-name-manager.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
+- [![p_win]](#-) [![p_mac]](#-) [![a_wd]](#-) [Word VBA Syntax Highlighter](https://github.com/joey-melo/vba-syntax-higlight/tree/main) - Custom built Syntax Highlight tool for Word Documents.
 
 ### Games / Fun projects
 

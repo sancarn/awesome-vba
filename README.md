@@ -19,7 +19,6 @@ Because of the nature of VBA, many libraries do not work on all Operating System
   - [Parsers / Interpreters](#parsers--interpreters)
   - [Web tools](#web-tools)
 - [Developer tools](#developer-tools)
-- [Miscellaneous](#miscellaneous)
 - [Examples](#examples)
   - [Algorithms, code optimisation, and performance testing](#algorithms-code-optimisation-and-performance-testing)
   - [UI Ribbon](#ui-ribbon)
@@ -185,11 +184,6 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [JSON Inspector](https://github.com/sancarn/stdVBA-examples/tree/main/Examples/Inspector-JSON) - An inspector for JSON data, can be called on demand too as a dev tool for inspecting API responses.
 
 
-## Miscellaneous
-
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [Excel Name Manager](https://jkp-ads.com/excel-name-manager.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
-
 ## Examples
 
 ### Algorithms, code optimisation, and performance testing
@@ -218,6 +212,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [MenuRighter](https://yoursumbuddy.com/blog/menurighter/) - MenuRighter is an Excel addin that lets you modify right-click menus. You can add almost any control found in other right-click menus or Excel 2003's "classic" menus.
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [Sam Rad's DatePicker](http://samradapps.com/datepicker/) - Visually impressive and professional DatePicker addin for Excel. Worksheet only / cannot be used with userforms.
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [Excel Name Manager](https://jkp-ads.com/excel-name-manager.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
 
 ### Games / Fun projects
 

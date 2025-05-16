@@ -331,7 +331,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### Application compatibility
 
-[a_all]: ./resources/Star.svg 'All applications'
+[a_all]: ./resources/OfficeLogoPlus.svg 'All applications'
 [a_wd]: ./resources/WordLogo.svg 'Word'
 [a_xl]: ./resources/ExcelLogo.svg 'Excel'
 [a_ac]: ./resources/AccessLogo.svg 'Access'

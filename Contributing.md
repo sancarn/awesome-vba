@@ -103,7 +103,7 @@ E.G.
 These will render as follows:
 
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
-- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-)  ![GHStars](https://img.shields.io/github/stars/VBA‑tools/VBA‑JSON?style&logo=github&label) [VBA‑JSON](https://github.com/VBA‑tools/VBA‑JSON) – Simple JSON parser for Excel & Access.
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-)  ![GHStars](https://img.shields.io/github/stars/cristianbuse/VBA-FastJSON?style&logo=github&label) [VBA‑JSON](https://github.com/cristianbuse/VBA-FastJSON) – Simple JSON parser for Excel & Access.
 - [![p_now]](#-) [![p_mac]](#-) [![a_misc]](#- 'AutoCAD') [AutoCAD‑VBA‑Tools](https://example.com) – Helpers for scripting AutoCAD.
 - [![p_win]](#-) [![p_nom]](#-) [![a_misc]](#- 'VB6') [![o_32]](#-) [VB6‑CollectionPlus](https://example.com) – Drop‑in `Collection` with LINQ‑like helpers (VB6‑only).
 

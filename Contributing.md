@@ -67,6 +67,20 @@ Tooltips: append a custom title after the image to give extra detail, e.g.
 [![o_dll]](#- 'Requires WinHTTP')
 ```
 
+#### 4. Github star count
+
+If your repo is a github repo, please also add the star count to your submission. This should follow immediately after your symbology before your title. The syntax to be used is as follows:
+
+```
+![GHStars](https://img.shields.io/github/stars/<user-or-org>/<repo>?style&logo=github&label)
+```
+
+E.G.
+
+```
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/VBA-tools/VBA-XML?style&logo=github&label) [VBA-XML](https://github.com/VBA-tools/VBA-XML) - XML conversion and parsing.
+```
+
 #### Symbology Examples
 
 | Example                                                                     | Markup                                                                       | Description                                                                    |
@@ -80,11 +94,18 @@ Tooltips: append a custom title after the image to give extra detail, e.g.
 ### Contribution examples
 
 ```
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
-- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [VBA‑JSON](https://github.com/VBA‑tools/VBA‑JSON) – Simple JSON parser for Excel & Access.
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-)  ![GHStars](https://img.shields.io/github/stars/VBA‑tools/VBA‑JSON?style&logo=github&label) [VBA‑JSON](https://github.com/VBA‑tools/VBA‑JSON) – Simple JSON parser for Excel & Access.
 - [![p_now]](#-) [![p_mac]](#-) [![a_misc]](#- 'AutoCAD') [AutoCAD‑VBA‑Tools](https://example.com) – Helpers for scripting AutoCAD.
 - [![p_win]](#-) [![p_nom]](#-) [![a_misc]](#- 'VB6') [![o_32]](#-) [VB6‑CollectionPlus](https://example.com) – Drop‑in `Collection` with LINQ‑like helpers (VB6‑only).
 ```
+
+These will render as follows:
+
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-)  ![GHStars](https://img.shields.io/github/stars/VBA‑tools/VBA‑JSON?style&logo=github&label) [VBA‑JSON](https://github.com/VBA‑tools/VBA‑JSON) – Simple JSON parser for Excel & Access.
+- [![p_now]](#-) [![p_mac]](#-) [![a_misc]](#- 'AutoCAD') [AutoCAD‑VBA‑Tools](https://example.com) – Helpers for scripting AutoCAD.
+- [![p_win]](#-) [![p_nom]](#-) [![a_misc]](#- 'VB6') [![o_32]](#-) [VB6‑CollectionPlus](https://example.com) – Drop‑in `Collection` with LINQ‑like helpers (VB6‑only).
 
 ### VB6 Quickstart
 

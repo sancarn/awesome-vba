@@ -22,7 +22,7 @@ This awesome list uses icons to flag platform compatibility, host application, a
 Symbology should be of the form:
 
 ```md
-- <platform-compatiblity> <application-compatibility> <other-constraints> [<Title>](...) - <Description>
+- <platform-compatiblity> <application-compatibility> <other-constraints> <github-star-count>? [<Title>](...) - <Description>
 ```
 
 #### 1. Platform compatibility

@@ -70,7 +70,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### ZIP
 
-- [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/cristianbuse/Excel-ZipTools?style&logo=github&label) [Excel-ZipTools](https://github.com/cristianbuse/Excel-ZipTools/tree/master) - Parse and Read Zip files.
+- [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/cristianbuse/Excel-ZipTools?style&logo=github&label) [Excel-ZipTools](https://github.com/cristianbuse/Excel-ZipTools/tree/master) - Parse, read, and extract data from, Zip files. Written in pure vba.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/KallunWillock/vbaSquash?style&logo=github&label) [vbaSquash](https://github.com/KallunWillock/vbaSquash/tree/master) - Compress and decompress files and byte arrays using the built-in `cabinet.dll` functions available on Windows 8+. Provides access to compression algorithms `MSZIP`, `XPRESS`, `XPRESS_HUFF`, and `LZMS`.
 
 ### Data Structures
@@ -98,7 +98,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ### Math libraries
 
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/Beakerboy/VBA-Math-Objects?style&logo=github&label) [VBA-Math-Objects](https://github.com/Beakerboy/VBA-Math-Objects) - A matrix and vector library.
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/ws-garcia/VBA-float ?style&logo=github&label) [VBA Float](https://github.com/ws-garcia/VBA-float ) - An utility to perform computations over big integers and rational numbers with thousands digits.
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/ws-garcia/VBA-float?style&logo=github&label) [VBA Float](https://github.com/ws-garcia/VBA-float ) - An utility to perform computations over big integers and rational numbers with thousands digits.
 
 ### Database tools
 
@@ -213,8 +213,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [MenuRighter](https://yoursumbuddy.com/blog/menurighter/) - MenuRighter is an Excel addin that lets you modify right-click menus. You can add almost any control found in other right-click menus or Excel 2003's "classic" menus.
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [Sam Rad's DatePicker](http://samradapps.com/datepicker/) - Visually impressive and professional DatePicker addin for Excel. Worksheet only / cannot be used with userforms.
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [Excel Name Manager](https://jkp-ads.com/excel-name-manager.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
+- [![p_win]](#-) [![p_mac]](#-) [![a_xl]](#-) [Excel Name Manager](https://jkp-ads.com/excel-name-manager.asp) - An enhanced Name Manager replacement by JKP, Charles Williams and Matthew Henson. 2025 Finalist in the Best Microsoft Excel Add-In category.
+- [![p_win]](#-) [![p_mac]](#-) [![a_xl]](#-) [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - An enhanced Find-And-Replace replacement by JKP that exends the search scope to objects and VBA code.
 - [![p_win]](#-) [![p_mac]](#-) [![a_wd]](#-) ![GHStars](https://img.shields.io/github/stars/joey-melo/vba-syntax-higlight?style&logo=github&label) [Word VBA Syntax Highlighter](https://github.com/joey-melo/vba-syntax-higlight/tree/main) - Custom built Syntax Highlight tool for Word Documents.
 
 ### Games / Fun projects
@@ -233,7 +233,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_mac]](#-) ![GHStars](https://img.shields.io/github/stars/serkonda7/vscode-vba?style&logo=github&label) [![a_misc]](# "VSCode") [vscode-vba](https://github.com/serkonda7/vscode-vba) - Extension that adds VBA editor support to Visual Studio Code.
 - [![p_win]](#-) [![p_mac]](#-) ![GHStars](https://img.shields.io/github/stars/SSlinky/VBA-LanguageServer?style&logo=github&label) [![a_misc]](# "VSCode") [VBA Pro](https://marketplace.visualstudio.com/items?itemName=NotisDataAnalytics.vba-lsp) - VSCode Extension that adds enhanced VBA support based on Language Service Protocol. The source is also [on GitHub](https://github.com/SSlinky/VBA-LanguageServer).
 - [![p_win]](#-) [![p_mac]](#-) ![GHStars](https://img.shields.io/github/stars/DecimalTurn/VBA-Build?style&logo=github&label) [![a_misc]](# "Github") [VBA Build](https://github.com/DecimalTurn/VBA-Build) - Github action to automatically build a VBA project on commit.
-- [![p_win]](#-) [![p_mac]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/awesome-vba?style&logo=github&label) [![a_misc]](# "Python") [VBA Project Compiler](https://github.com/Beakerboy/MS-OVBA) - A python library which can be utilised to compile VBA projects. There is also a built-in [Excel addin generator](https://github.com/Beakerboy/Excel-Addin-Generator) made by the same author! You can see a list of related projects by the author [here](https://github.com/sancarn/awesome-vba/issues/35).
+- [![p_win]](#-) [![p_mac]](#-) ![GHStars](https://img.shields.io/github/stars/Beakerboy/MS-OVBA?style&logo=github&label) [![a_misc]](# "Python") [VBA Project Compiler](https://github.com/Beakerboy/MS-OVBA) - A python library which can be utilised to compile VBA projects. There is also a built-in [Excel addin generator](https://github.com/Beakerboy/Excel-Addin-Generator) made by the same author! You can see a list of related projects by the author [here](https://github.com/sancarn/awesome-vba/issues/35).
 
 ## Style Guides
 
@@ -277,6 +277,9 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![a_pp]](#-) [PowerPoint VBA](https://pptvba.com/) - A site devoted to teaching VBA through making games in PowerPoint.
 - [MS KB Archive](https://github.com/jeffpar/kbarchive/tree/master/id/vbwin) - Massive archive of vb6/vba problems, solutions and tutorials.
 - [Sancarn's vba-articles](https://sancarn.github.io/vba-articles/) - Sancarn's articles on various topics related to VBA.
+- [![a_ac]](#-) [No Longer Set](https://nolongerset.com) - Access + VBA site of Microsoft MVP Mike Wolfe. Provides weekly updates on development of TwinBasic.
+- [![a_ac]](#-) [Isladogs on Access](https://isladogs.co.uk/) - Access + VBA site of Microsoft MVP Colin Riddington. Excellent resource with VBA projects in Access VBA.
+- [![a_ac]](#-) [DevHut](https://www.devhut.net/) - Access + VBA site of Daniel Pineault. Publishes series of deep-dive articles into various uses of VBA. Companion site to Youtube account.
 
 ### Books
 
@@ -299,6 +302,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [Excel for Freelancers](https://www.youtube.com/c/ExcelForFreelancers) - Hands-on tutorials to developing specific applications from beginning through to end. All levels.
 - [Leila Gharani](https://www.youtube.com/c/LeilaGharani) - Office-wide focus - useful for beginners.
 - [![o_paid]](#- 'The video is from a consultant. Many of his videos are paid for.') [Get to know VBA](https://youtu.be/MFR_XARJjoY) - Some great applications presented and created with VBA.
+- [![a_ac]](#-) [D Pineault - Tech, Programming and more](https://www.youtube.com/channel/UC9lSC6AT4d0qour-aIbMjFQ) - Youtube channel of Daniel Pineault. Companion channel to DevHut site.
 
 ### Forums
 
@@ -311,6 +315,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [Excel Forum](https://www.excelforum.com/)
 - [![a_ol]](#-) [Slipstick](https://www.forums.slipstick.com) - Excellent forum for the Slipstick website (Outlook VBA) of Diane Poremsky (MVP). Diane is quick to respond, and her answers are extremely helpful.
 - [VBForums - Office Development](https://www.vbforums.com/forumdisplay.php?37-Office-Development) - Forum with focus on VB6/.NET with VBA section.
+- [![a_ac]](#-) [Access World](https://www.access-programmers.co.uk/forums/forums/modules-vba.12/) - Forum with focus on Access and Access VBA.
 
 ## Footnotes
 

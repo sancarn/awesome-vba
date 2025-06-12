@@ -75,7 +75,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### PDF
 
-- [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/PerditionC/vbaPDF?style&logo=github&label) [vbaPDF](https://github.com/PerditionC/vbaPDF) - VBA code for simple modification of PDF files (read in, combine, write out).
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/PerditionC/vbaPDF?style&logo=github&label) [vbaPDF](https://github.com/PerditionC/vbaPDF) - VBA code for simple modification of PDF files (read in, combine, write out).
 
 ### Data Structures
 

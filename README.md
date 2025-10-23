@@ -18,6 +18,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
   - [Low level tools](#low-level-tools)
   - [Parsers / Interpreters](#parsers--interpreters)
   - [Web tools](#web-tools)
+  - [AI and Machine Learning](#ai-and-machine-learning)
 - [Developer tools](#developer-tools)
 - [Examples](#examples)
   - [Algorithms, code optimisation, and performance testing](#algorithms-code-optimisation-and-performance-testing)
@@ -168,6 +169,12 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/michaelneu/webxcel?style&logo=github&label) [webxcel](https://github.com/michaelneu/webxcel) - A webserver which runs a RESTful backend. The creator also made an [article](https://dev.to/michaelneu/to-vba-and-beyond---building-a-restful-backend-using-plain-microsoft-excel-macros-76n) on how it works on dev.to.
 - From Frameworks:
     - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) In `stdVBA` find `stdHTTP` - Connect to and query web services.
+
+### AI and Machine Learning
+
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/Sven-Bo/Integrate-ChatGPT-in-Excel-using-VBA?style&logo=github&label) [Integrate-ChatGPT-in-Excel-using-VBA](https://github.com/Sven-Bo/Integrate-ChatGPT-in-Excel-using-VBA) - Integrate OpenAI's ChatGPT API in Microsoft Excel using VBA. Automate tasks and add AI-powered intelligence to data analysis and spreadsheet workflows.
+- [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/personalityson/VBANN?style&logo=github&label) [VBANN](https://github.com/personalityson/VBANN) - Machine learning library in VBA. Neural network implementation with support for training and inference directly in VBA.
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [ChatGPT Item Classifier](https://github.com/bradmwong/ChatGPT-Item-Classifier-using-VBA-Excel) - Automate classification tasks using OpenAI's GPT API. Custom VBA code for intelligent item categorization in Excel.
 
 
 ## Developer tools

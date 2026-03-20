@@ -8,34 +8,49 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Contents
 
-- [Frameworks](#frameworks)
-- [Libraries](#libraries)
-  - [Data Formats (JSON, CSV, XML, etc.)](#data-formats)
-  - [Data Structures (Array-List and Dictionary)](#data-structures)
-  - [Math libraries](#math-libraries)
-  - [Database tools](#database-tools)
-  - [Userform tools](#userform-tools)
-  - [Low level tools](#low-level-tools)
-  - [Parsers / Interpreters](#parsers--interpreters)
-  - [Web tools](#web-tools)
-- [Developer tools](#developer-tools)
-- [Examples](#examples)
-  - [Algorithms, code optimisation, and performance testing](#algorithms-code-optimisation-and-performance-testing)
-  - [UI Ribbon](#ui-ribbon)
-  - [UI Userforms](#ui-userforms)
-  - [Low level examples](#low-level-examples)
-  - [AddIns](#addins)
-  - [Games / Fun projects](#games--fun-projects)
-- [External tools](#external-tools)
-- [Style Guides](#style-guides)
-- [Information](#information)
-- [Resources](#resources)
-  - [Win32 API Resources](#win32-api-resources)
-  - [VB6 / VBScript](#vb6--vbscript)
-  - [Websites](#websites)
-  - [Books](#books)
-  - [YouTube](#youtube)
-  - [Forums](#forums)
+- [Awesome VBA  ](#awesome-vba--)
+  - [Contents](#contents)
+  - [Frameworks](#frameworks)
+  - [Libraries](#libraries)
+    - [Data Formats](#data-formats)
+      - [JSON](#json)
+      - [CSV](#csv)
+      - [XML](#xml)
+      - [ZIP](#zip)
+      - [PDF](#pdf)
+    - [Data Structures](#data-structures)
+      - [Array-List](#array-list)
+      - [Dictionary](#dictionary)
+    - [Math libraries](#math-libraries)
+    - [Database tools](#database-tools)
+    - [Userform tools](#userform-tools)
+    - [Low level tools](#low-level-tools)
+    - [Parsers / Interpreters](#parsers--interpreters)
+    - [Web tools](#web-tools)
+  - [Developer tools](#developer-tools)
+  - [Examples](#examples)
+    - [Algorithms, code optimisation, and performance testing](#algorithms-code-optimisation-and-performance-testing)
+    - [UI Ribbon](#ui-ribbon)
+    - [UI Userforms](#ui-userforms)
+    - [Low level examples](#low-level-examples)
+    - [AddIns](#addins)
+    - [Games / Fun projects](#games--fun-projects)
+  - [External tools](#external-tools)
+  - [Style Guides](#style-guides)
+  - [Information](#information)
+  - [Resources](#resources)
+    - [Win32 API Resources](#win32-api-resources)
+    - [VB6 / VBScript](#vb6--vbscript)
+    - [Websites](#websites)
+    - [Books](#books)
+    - [YouTube](#youtube)
+    - [Forums](#forums)
+  - [Footnotes](#footnotes)
+    - [Symbology](#symbology)
+      - [Platform Compatibility](#platform-compatibility)
+      - [Application compatibility](#application-compatibility)
+      - [Other important information](#other-important-information)
+  - [Contributing](#contributing)
 
 ---
 
@@ -142,6 +157,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [![o_32]](#-) [Universal DLL Calls](http://www.vbforums.com/showthread.php?781595-VB6-Call-Functions-By-Pointer-(Universall-DLL-Calls)) - A library which can be used to call functions of any function pointer, DLL or object in both `STDCALL` and `CDECL`.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/Greedquest/vbInvoke?style&logo=github&label) [vbInvoke](https://github.com/Greedquest/vbInvoke) - `Application.Run` but COM based and can call private module methods.
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/cristianbuse/VBA-StateLossCallback?style&logo=github&label) [VBA state-loss callback](https://github.com/cristianbuse/VBA-StateLossCallback) - A crash free detector for VBA state-loss. State loss can occur when: Someone clicks `end` in an unhandled error; You click the VBA stop button; You enter design mode; Application exits.
+- - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/Ariche2/VBAStack?style&logo=github&label) [VBAStack](https://github.com/Ariche2/VBAStack) – A library for retrieving VBA callstack information at runtime from Office applications. This enables debugging and error reporting capabilities for VBA add-ins and COM add-ins targeting Microsoft Office.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/jet2jet/vb2clr?style&logo=github&label) [vb2clr](https://github.com/jet2jet/vb2clr) - Use C# from VBA using the .NET CLR runtime.
 - From Frameworks:
     - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) In `stdVBA` find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
@@ -176,6 +192,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/spences10/VBA-IDE-Code-Export?style&logo=github&label) [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [![a_wd]](#-) [![o_pass]](#-) - [RibbonX](https://www.andypope.info/vba/ribboneditor_2010.htm) - AndyPope's Visual Ribbon Editor.
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [![a_ac]](#-) [![a_wd]](#-) [![a_pp]](#-) [![o_paid]](#-) [Ribbon Creator](https://ribboncreator2021.de/en/) - An excellent and intuitive WYSIWYG interface for the development of ribbons. The free shareware version allows for the export of up to two tabs per ribbon.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [![o_paid]](#- 'Costs upwards of $79') [MZ-Tools](https://www.mztools.com/) - VBE addin providing development tools.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/wqweto/VbPeg?style&logo=github&label) [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if you're implementing a new programming language in VBA.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool.
@@ -197,7 +214,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### UI Ribbon
 
-- [Ron de Bruin - Ribbons/QAT](https://web.archive.org/web/20230806024653/https://www.rondebruin.nl/win/section2.htm) - A leading resource for information/samples on developing custom ribbons and context menus.
+- [Access Ribbon](https://www.accessribbon.de/en/) - An excellent resource for information for developing custom ribbon XML. Although principally targeted at Access, it is equally applicable to Excel, Word and PowerPoint. 
+- [Ron de Bruin - Ribbons/QAT](https://jkp-ads.com/rdb/) - A leading resource for information/samples on developing custom ribbons and context menus. (Hosted on Jan Karel Pieterse's site)
 - [Office MSO Icons](http://www.spreadsheet1.com/office-excel-ribbon-imagemso-icons-gallery-page-01.html) - Ribbon icons can often use one of the 1500 (3 pages on this site) MSO icons wich pre-exist in Office applications.
 
 ### UI Userforms

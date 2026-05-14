@@ -65,6 +65,11 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [JSONBag](https://www.vbforums.com/showthread.php?738845-VB6-JsonBag-Another-JSON-Parser-Generator) - Uses shebang notation to extract keys from JSON strings. Can also build JSON with this library.
 - From Library Collections:
     - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) In `stdVBA` find `stdJSON` - As above.
+ 
+
+#### Parquet
+
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [![o_dll]](#- 'Requires duckdb.dll and duckdb_vba_bridge.dll') ![GHStars](https://img.shields.io/github/stars/EtienneLenoir/duckdb-vba?style&logo=github&label) [duckdb-vba](https://github.com/EtienneLenoir/duckdb-vba) - Embedded DuckDB OLAP engine for Excel/VBA through a native DLL bridge. Read, transform, and export Parquet/CSV/JSON files, with fast Range/Array ⇄ DuckDB ingestion.
 
 #### CSV
 

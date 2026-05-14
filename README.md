@@ -114,6 +114,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### Database tools
 
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [![o_dll]](#- 'Requires external DLLs') ![GHStars](https://img.shields.io/github/stars/EtienneLenoir/duckdb-vba?style&logo=github&label) [DuckDB VBA](https://github.com/EtienneLenoir/duckdb-vba) - Embedded DuckDB OLAP engine for Excel/VBA using the native DuckDB C API through a lightweight DLL bridge. No ODBC setup or external server required; supports fast DuckDB SQL analytics, dictionary lookups, Range/Array ingestion, Parquet/CSV/JSON workflows, DuckDB/SQLite/PostgreSQL connectivity, and Access-to-DuckDB migration.
+
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/Beakerboy/VBA-SQL-Library?style&logo=github&label) [SQL Library](https://github.com/Beakerboy/VBA-SQL-Library) - An OOP SQL Library for psql, mssql, mysql databases.
 
 ### Userform tools

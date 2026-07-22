@@ -233,6 +233,10 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_mac]](#-) [![a_xl]](#-) [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - An enhanced Find-And-Replace replacement by JKP that exends the search scope to objects and VBA code.
 - [![p_win]](#-) [![p_mac]](#-) [![a_wd]](#-) ![GHStars](https://img.shields.io/github/stars/joey-melo/vba-syntax-higlight?style&logo=github&label) [Word VBA Syntax Highlighter](https://github.com/joey-melo/vba-syntax-higlight/tree/main) - Custom built Syntax Highlight tool for Word Documents.
 
+### Complete applications
+
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/TMailletFR/ProjectEngine?style&logo=github&label) [ProjectEngine](https://github.com/TMailletFR/ProjectEngine) - Open-source CPM scheduling engine for Microsoft Excel with dependency scheduling, critical path, float, Gantt and S-curves.
+
 ### Games / Fun projects
 
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/DylanTallchiefGit/xlStudio?style&logo=github&label) [xlStudio](https://github.com/DylanTallchiefGit/xlStudio) - A DAW for Microsoft Excel. Also check out the awesome [video](https://youtu.be/RFdCM2kHL64).

@@ -26,6 +26,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
     - [Database tools](#database-tools)
     - [Userform tools](#userform-tools)
     - [Low level tools](#low-level-tools)
+    - [Encryption](#encryption)
     - [Parsers / Interpreters](#parsers--interpreters)
     - [Web tools](#web-tools)
   - [Developer tools](#developer-tools)
@@ -93,6 +94,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### ZIP
 
+
+- [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/wqweto/ZipArchive?style&logo=github&label) [ZipArchive](https://github.com/wqweto/ZipArchive) - A single-class pure VB6 library for zip with ASM speed. Compatible with 32-bit VBA and Twinbasic.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/cristianbuse/Excel-ZipTools?style&logo=github&label) [Excel-ZipTools](https://github.com/cristianbuse/Excel-ZipTools/tree/master) - Parse, read, and extract data from, Zip files. Written in pure vba.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/KallunWillock/vbaSquash?style&logo=github&label) [vbaSquash](https://github.com/KallunWillock/vbaSquash/tree/master) - Compress and decompress files and byte arrays using the built-in `cabinet.dll` functions available on Windows 8+. Provides access to compression algorithms `MSZIP`, `XPRESS`, `XPRESS_HUFF`, and `LZMS`.
 
@@ -170,6 +173,10 @@ Because of the nature of VBA, many libraries do not work on all Operating System
     - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) In `stdVBA` find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
     - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) In `stdVBA` find `stdReg` - Registry automation from searching to setting values.
 
+### Encryption
+
+- [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/wqweto/SHA256?style&logo=github&label) [SHA256](https://github.com/wqweto/sha256) - A repository of cryptographic primitives implemented in VBx and compatible with VB6, both 32- and 64-bit VBA and TwinBasic.
+
 ### Parsers / Interpreters
 
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sihlfall/vba-regex?style&logo=github&label) [vba-regex](https://github.com/sihlfall/vba-regex) - A native regex expression parser and runtime engine.
@@ -243,6 +250,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_mac]](#-) [![a_xl]](#-) [Excel Name Manager](https://jkp-ads.com/excel-name-manager.asp) - An enhanced Name Manager replacement by JKP, Charles Williams and Matthew Henson. 2025 Finalist in the Best Microsoft Excel Add-In category.
 - [![p_win]](#-) [![p_mac]](#-) [![a_xl]](#-) [Excel Flex Find](https://jkp-ads.com/excel-flexfind.asp) - An enhanced Find-And-Replace replacement by JKP that exends the search scope to objects and VBA code.
 - [![p_win]](#-) [![p_mac]](#-) [![a_wd]](#-) ![GHStars](https://img.shields.io/github/stars/joey-melo/vba-syntax-higlight?style&logo=github&label) [Word VBA Syntax Highlighter](https://github.com/joey-melo/vba-syntax-higlight/tree/main) - Custom built Syntax Highlight tool for Word Documents.
+- [![p_win]](#-) [![p_mac]](#-) [![a_ac]](#-) ![GHStars](https://img.shields.io/github/stars/joyfullservice/msaccess-vcs-addin?style&logo=github&label) [MS Access VCS Addin](https://github.com/joyfullservice/msaccess-vcs-addin) - Synchronize Access Forms, Macros, Modules, Queries, Reports, and more with a version control system for MS Access.
 
 ### Games / Fun projects
 
@@ -262,7 +270,9 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_mac]](#-) ![GHStars](https://img.shields.io/github/stars/DecimalTurn/VBA-Build?style&logo=github&label) [![a_misc]](# "Github") [VBA Build](https://github.com/DecimalTurn/VBA-Build) - Github action to automatically build a VBA project on commit.
 - [![p_win]](#-) [![p_mac]](#-) ![GHStars](https://img.shields.io/github/stars/Beakerboy/MS-OVBA?style&logo=github&label) [![a_misc]](# "Python") [VBA Project Compiler](https://github.com/Beakerboy/MS-OVBA) - A python library which can be utilised to compile VBA projects. There is also a built-in [Excel addin generator](https://github.com/Beakerboy/Excel-Addin-Generator) made by the same author! You can see a list of related projects by the author [here](https://github.com/sancarn/awesome-vba/issues/35).
 - [![p_win]](#-) [![p_nom]](#-) [![o_paid]](#- 'Will be licensed') [![o_dll]](#- 'Uses an external exe') [WinVBA](https://winvba.com/) - A modern IDE for Visual Basic for Applications (VBA) development.
+- [![p_win]](#-) [![p_nom]](#-) [![o_dll]](#- 'Uses an external exe') [VBE_Colours](https://www.thevbahelp.com/vbe-colours) - A small external utility to configure the colours of the VBE editor. Not open-source, but [its Github presence provides additional information](https://github.com/john-tvh/VBE_Colours).
 
+ 
 ## Style Guides
 
 - [RubberDuck's style guide](https://rubberduckvba.wordpress.com/2021/05/29/rubberduck-style-guide/) - Has some great intermediate - advanced guidance.
@@ -309,6 +319,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![a_ac]](#-) [Isladogs on Access](https://isladogs.co.uk/) - Access + VBA site of Microsoft MVP Colin Riddington. Excellent resource with VBA projects in Access VBA.
 - [![a_ac]](#-) [DevHut](https://www.devhut.net/) - Access + VBA site of Daniel Pineault. Publishes series of deep-dive articles into various uses of VBA. Companion site to Youtube account.
 - [![o_paid]](#- 'Various paid content available through the site') [AnalystCave](https://analystcave.com/) - A site dedicated to VBA for analytics.
+- [The VBA Help](https://www.thevbahelp.com/) - A site dedicated to VBA with a large number of instructive blog posts. Written by the author of VBE_Extras, an AddIn for the VBA IDE and VBE_Colours, a small utility to configure the available colors used by the VBA IDE.
 
 ### Books
 

@@ -234,7 +234,6 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [Access Ribbon](https://www.accessribbon.de/en/) - An excellent resource for information for developing custom ribbon XML. Although principally targeted at Access, it is equally applicable to Excel, Word and PowerPoint. 
 - [Ron de Bruin - Ribbons/QAT](https://jkp-ads.com/rdb/) - A leading resource for information/samples on developing custom ribbons and context menus. (Hosted on Jan Karel Pieterse's site)
 - [Office MSO Icons](http://www.spreadsheet1.com/office-excel-ribbon-imagemso-icons-gallery-page-01.html) - Ribbon icons can often use one of the 1500 (3 pages on this site) MSO icons wich pre-exist in Office applications.
-- [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/noambrand/idMso-names-Excel-365?style&logo=github&label) [idMso names Excel 365](https://github.com/noambrand/idMso-names-Excel-365) - Plain-text list of the 3,852 idMso names Excel 365 exposes as ribbon icons.
 
 ### UI Userforms
 

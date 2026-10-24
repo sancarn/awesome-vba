@@ -23,6 +23,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
       - [Array-List](#array-list)
       - [Dictionary](#dictionary)
     - [Math libraries](#math-libraries)
+    - [Machine learning](#machine-learning)
     - [Database tools](#database-tools)
     - [Userform tools](#userform-tools)
     - [Low level tools](#low-level-tools)
@@ -130,6 +131,10 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/Beakerboy/VBA-Math-Objects?style&logo=github&label) [VBA-Math-Objects](https://github.com/Beakerboy/VBA-Math-Objects) - A matrix and vector library.
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/ws-garcia/VBA-float?style&logo=github&label) [VBA Float](https://github.com/ws-garcia/VBA-float ) - An utility to perform computations over big integers and rational numbers with thousands digits.
+
+### Machine learning
+
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/personalityson/VBANN?style&logo=github&label) [VBANN](https://github.com/personalityson/VBANN) - A machine learning framework for training neural networks inside an Excel workbook, with an optional OpenBLAS speedup.
 
 ### Database tools
 

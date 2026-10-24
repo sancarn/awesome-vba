@@ -22,7 +22,7 @@ This awesome list uses icons to flag platform compatibility, host application, a
 Symbology should be of the form:
 
 ```md
-- <platform-compatiblity> <application-compatibility> <other-constraints> <github-star-count>? [<Title>](...) - <Description>
+- <platform-compatiblity> <application-compatibility> <other-constraints> <author>? <github-star-count>? [<Title>](...) - <Description>
 ```
 
 #### 1. Platform compatibility
@@ -69,7 +69,7 @@ Tooltips: append a custom title after the image to give extra detail, e.g.
 
 #### 4. Github star count
 
-If your repo is a github repo, please also add the star count to your submission. This should follow immediately after your symbology before your title. The syntax to be used is as follows:
+If your repo is a github repo, please also add the star count to your submission. This should follow the author badge, or the other symbology when there is no author, and it comes before the title. The syntax to be used is as follows:
 
 ```
 ![GHStars](https://img.shields.io/github/stars/<user-or-org>/<repo>?style&logo=github&label)
@@ -80,6 +80,18 @@ E.G.
 ```
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/VBA-tools/VBA-XML?style&logo=github&label) [VBA-XML](https://github.com/VBA-tools/VBA-XML) - XML conversion and parsing.
 ```
+
+#### 5. Author
+
+The author badge names who wrote the linked work. It is optional. It is not a claim about who invented a technique, and it is left off when the author is unknown, a company, or a collective you cannot name honestly. Several people share one badge. Prefer the name published on the link (a forum display name, a GitHub profile name, or the login when no other name is published).
+
+Place it after the other badges and immediately before the GitHub star count. When there is no star count, place it immediately before the title:
+
+```md
+[![o_by]](#- 'LaVolpe')
+```
+
+Several authors use one badge, for example `[![o_by]](#- 'JKP, Peter Thornton')`.
 
 #### Symbology Examples
 
@@ -94,7 +106,7 @@ E.G.
 ### Contribution examples
 
 ```
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [![o_by]](#- 'Sancarn') ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-)  ![GHStars](https://img.shields.io/github/stars/cristianbuse/VBA-FastJSON?style&logo=github&label) [VBA‑FastJSON](https://github.com/cristianbuse/VBA-FastJSON) – Simple JSON parser for Excel & Access.
 - [![p_now]](#-) [![p_mac]](#-) [![a_misc]](#- 'AutoCAD') [AutoCAD‑VBA‑Tools](https://example.com) – Helpers for scripting AutoCAD.
 - [![p_win]](#-) [![p_nom]](#-) [![a_misc]](#- 'VB6') [![o_32]](#-) [VB6‑CollectionPlus](https://example.com) – Drop‑in `Collection` with LINQ‑like helpers (VB6‑only).
@@ -102,7 +114,7 @@ E.G.
 
 These will render as follows:
 
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [![o_by]](#- 'Sancarn') ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-)  ![GHStars](https://img.shields.io/github/stars/cristianbuse/VBA-FastJSON?style&logo=github&label) [VBA‑FastJSON](https://github.com/cristianbuse/VBA-FastJSON) – Simple JSON parser for Excel & Access.
 - [![p_now]](#-) [![p_mac]](#-) [![a_misc]](#- 'AutoCAD') [AutoCAD‑VBA‑Tools](https://example.com) – Helpers for scripting AutoCAD.
 - [![p_win]](#-) [![p_nom]](#-) [![a_misc]](#- 'VB6') [![o_32]](#-) [VB6‑CollectionPlus](https://example.com) – Drop‑in `Collection` with LINQ‑like helpers (VB6‑only).
@@ -158,3 +170,4 @@ If the project comes with paid content for the developer/user, include the follo
 [o_dll]: ./resources/Dependencies.svg
 [o_inst]: ./resources/Installation.svg 'Requires installation'
 [o_paid]: ./resources/Money.svg
+[o_by]: ./resources/Author.svg

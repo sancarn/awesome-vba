@@ -175,6 +175,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/Greedquest/vbInvoke?style&logo=github&label) [vbInvoke](https://github.com/Greedquest/vbInvoke) - `Application.Run` but COM based and can call private module methods.
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/cristianbuse/VBA-StateLossCallback?style&logo=github&label) [VBA state-loss callback](https://github.com/cristianbuse/VBA-StateLossCallback) - A crash free detector for VBA state-loss. State loss can occur when: Someone clicks `end` in an unhandled error; You click the VBA stop button; You enter design mode; Application exits.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/Ariche2/VBAStack?style&logo=github&label) [VBAStack](https://github.com/Ariche2/VBAStack) - A library for retrieving VBA callstack information at runtime from Office applications. The author also made a [pure VBA native version](https://www.reddit.com/r/vba/comments/1qrf29m/update_to_vbastack_can_now_work_in_vba6_as_well/).
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/Eschamali/TaskbarExtensionsVBA?style&logo=github&label) [TaskbarExtensionsVBA](https://github.com/Eschamali/TaskbarExtensionsVBA) - Pure VBA control of Windows taskbar progress, overlay icons, jump lists, and thumbnail buttons. No external DLL. Thumbnail clicks need 64-bit Office.
 - From Library Collections:
     - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) In `stdVBA` find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
     - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) In `stdVBA` find `stdReg` - Registry automation from searching to setting values.
@@ -263,6 +264,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### Games / Fun projects
 
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [Space Shooter](https://www.reddit.com/r/vba/comments/1wmrczg/excel_i_built_a_120_fps_space_shooter_in_pure_vba/) - A 120 FPS 2D space shooter in pure VBA and WinAPI GDI. Also check out the [video](https://youtu.be/xpXRNlfyqXk).
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/DylanTallchiefGit/xlStudio?style&logo=github&label) [xlStudio](https://github.com/DylanTallchiefGit/xlStudio) - A DAW for Microsoft Excel. Also check out the awesome [video](https://youtu.be/RFdCM2kHL64).
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [Cellivization](https://s0lly.itch.io/cellivization) - A cool RTS-like game created in Excel. Also check out the awesome [video](https://www.youtube.com/watch?v=PzETBRcr_i8).
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [Arkanoid](http://leandroascierto.com/blog/juego-arkanoid-en-excel/) - Arkanoid, a retro arcade game, built in Excel. On some machines it runs faster than others.

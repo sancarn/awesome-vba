@@ -25,6 +25,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
     - [Math libraries](#math-libraries)
     - [Database tools](#database-tools)
     - [Userform tools](#userform-tools)
+    - [Image tools](#image-tools)
     - [Low level tools](#low-level-tools)
     - [Encryption](#encryption)
     - [Parsers / Interpreters](#parsers--interpreters)
@@ -98,10 +99,12 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/wqweto/ZipArchive?style&logo=github&label) [ZipArchive](https://github.com/wqweto/ZipArchive) - A single-class pure VB6 library for zip with ASM speed. Compatible with 32-bit VBA and Twinbasic.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/cristianbuse/Excel-ZipTools?style&logo=github&label) [Excel-ZipTools](https://github.com/cristianbuse/Excel-ZipTools/tree/master) - Parse, read, and extract data from, Zip files. Written in pure vba.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/KallunWillock/vbaSquash?style&logo=github&label) [vbaSquash](https://github.com/KallunWillock/vbaSquash/tree/master) - Compress and decompress files and byte arrays using the built-in `cabinet.dll` functions available on Windows 8+. Provides access to compression algorithms `MSZIP`, `XPRESS`, `XPRESS_HUFF`, and `LZMS`.
+- [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/KallunWillock/ChibiArc?style&logo=github&label) [ChibiArc](https://github.com/KallunWillock/ChibiArc) - Read and write ZIP, 7-Zip, TAR, CAB, and ISO via built-in `archiveint.dll` (64-bit, Windows 10+).
 
 #### PDF
 
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/PerditionC/vbaPDF?style&logo=github&label) [vbaPDF](https://github.com/PerditionC/vbaPDF) - VBA code for simple modification of PDF files (read in, combine, write out).
+- [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/KallunWillock/ChibiPDF?style&logo=github&label) [ChibiPDF](https://github.com/KallunWillock/ChibiPDF) - Dependency-free PDF text extraction, OCR, and page rendering for Windows 10+.
 
 ### Data Structures
 
@@ -162,6 +165,10 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [Use of OpenGL in VBA](https://arkham46.developpez.com/articles/office/vbaopengl/?page=Page_1) - OpenGL is a cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics. In this article the authors of the GDIPlus class.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [![o_32]](#-) [VB6 Graph Control](https://vb6awards.blogspot.com/2017/11/vb6-graph-control.html) - Won't work natively in VBA without a `PictureBox` compatible substitute, but an extremely performant graph control regardless.
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/tarboh/WebView2-For-Excel-VBA?style&logo=github&label) [WebView2 for Excel VBA](https://github.com/tarboh/WebView2-For-Excel-VBA) – A lightweight wrapper that exposes Microsoft Edge WebView2 on a UserForm, enabling HTML/JS UI, rendering, and two‑way communication with VBA. Effectively replaces the WebBrowser control.
+
+### Image tools
+
+- [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/KallunWillock/vbaImageSearch?style&logo=github&label) [vbaImageSearch](https://github.com/KallunWillock/vbaImageSearch) - Find a bitmap on screen or inside another image, with optional colour tolerance.
 
 ### Low level tools
 

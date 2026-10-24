@@ -61,6 +61,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-)  [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [![o_32]](#-) ![GHStars](https://img.shields.io/github/stars/kellyethridge/VBCorLib?style&logo=github&label) [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/RelaxTools/Hidennotare?style&logo=github&label) [Hidennotare](https://github.com/RelaxTools/Hidennotare) - A framework by Japanese author RelaxTools. Contains numerous classes, interfaces and forms.
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/WilliamSmithEdward/ROneCOne?style&logo=github&label) [ROneCOne](https://github.com/WilliamSmithEdward/ROneCOne) - A dependency-free C#-style framework for Windows x64 Excel: LINQ, tasks, data tables, and JSON in one class module.
 
 ## Libraries
 
@@ -129,6 +130,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/Beakerboy/VBA-Math-Objects?style&logo=github&label) [VBA-Math-Objects](https://github.com/Beakerboy/VBA-Math-Objects) - A matrix and vector library.
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/ws-garcia/VBA-float?style&logo=github&label) [VBA Float](https://github.com/ws-garcia/VBA-float ) - An utility to perform computations over big integers and rational numbers with thousands digits.
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/personalityson/VBANN?style&logo=github&label) [VBANN](https://github.com/personalityson/VBANN) - A machine learning framework for training neural networks inside an Excel workbook, with an optional OpenBLAS speedup.
 
 ### Database tools
 

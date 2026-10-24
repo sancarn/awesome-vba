@@ -22,7 +22,7 @@ This awesome list uses icons to flag platform compatibility, host application, a
 Symbology should be of the form:
 
 ```md
-- <platform-compatiblity> <application-compatibility> <other-constraints> <github-star-count>? [<Title>](...) - <Description>
+- <platform-compatiblity> <application-compatibility> <other-constraints> <github-star-count>? <author>? [<Title>](...) - <Description>
 ```
 
 #### 1. Platform compatibility
@@ -81,6 +81,18 @@ E.G.
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/VBA-tools/VBA-XML?style&logo=github&label) [VBA-XML](https://github.com/VBA-tools/VBA-XML) - XML conversion and parsing.
 ```
 
+#### 5. Author
+
+The author badge names who wrote the linked work. It is optional. It is not a claim about who invented a technique, and it is left off when the author is unknown, a company, or a collective you cannot name honestly. Several people share one badge. Prefer the name published on the link (a forum display name, a GitHub profile name, or the login when no other name is published).
+
+Place it immediately before the title, after the other badges:
+
+```md
+[![o_by]](#- 'LaVolpe')
+```
+
+Several authors use one badge, for example `[![o_by]](#- 'JKP, Peter Thornton')`.
+
 #### Symbology Examples
 
 | Example                                                                     | Markup                                                                       | Description                                                                    |
@@ -94,7 +106,7 @@ E.G.
 ### Contribution examples
 
 ```
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [![o_by]](#- 'Sancarn') [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-)  ![GHStars](https://img.shields.io/github/stars/cristianbuse/VBA-FastJSON?style&logo=github&label) [VBA‑FastJSON](https://github.com/cristianbuse/VBA-FastJSON) – Simple JSON parser for Excel & Access.
 - [![p_now]](#-) [![p_mac]](#-) [![a_misc]](#- 'AutoCAD') [AutoCAD‑VBA‑Tools](https://example.com) – Helpers for scripting AutoCAD.
 - [![p_win]](#-) [![p_nom]](#-) [![a_misc]](#- 'VB6') [![o_32]](#-) [VB6‑CollectionPlus](https://example.com) – Drop‑in `Collection` with LINQ‑like helpers (VB6‑only).
@@ -102,7 +114,7 @@ E.G.
 
 These will render as follows:
 
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
+- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [![o_by]](#- 'Sancarn') [stdVBA](https://github.com/sancarn/stdVBA) – Framework of common utilities & collections.
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-)  ![GHStars](https://img.shields.io/github/stars/cristianbuse/VBA-FastJSON?style&logo=github&label) [VBA‑FastJSON](https://github.com/cristianbuse/VBA-FastJSON) – Simple JSON parser for Excel & Access.
 - [![p_now]](#-) [![p_mac]](#-) [![a_misc]](#- 'AutoCAD') [AutoCAD‑VBA‑Tools](https://example.com) – Helpers for scripting AutoCAD.
 - [![p_win]](#-) [![p_nom]](#-) [![a_misc]](#- 'VB6') [![o_32]](#-) [VB6‑CollectionPlus](https://example.com) – Drop‑in `Collection` with LINQ‑like helpers (VB6‑only).
@@ -158,3 +170,4 @@ If the project comes with paid content for the developer/user, include the follo
 [o_dll]: ./resources/Dependencies.svg
 [o_inst]: ./resources/Installation.svg 'Requires installation'
 [o_paid]: ./resources/Money.svg
+[o_by]: ./resources/Author.svg 'Author'

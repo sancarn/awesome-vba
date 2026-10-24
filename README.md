@@ -344,7 +344,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### YouTube
 
-- [Excel Macro Mastery](https://www.youtube.com/c/Excelmacromastery) - Paul Kelly (MVP) - excelmacromastery.com.
+- [Excel Macro Mastery](https://www.youtube.com/c/Excelmacromastery) - Paul Kelly (MVP) - excelmacromastery.com. Also see his [Articles](https://excelmacromastery.com/vba-articles/) and [Courses](https://courses.excelmacromastery.com/).
 - [Sigma Coding](https://www.youtube.com/c/SigmaCoding) - Large catalogue of tutorials - beginner through to advanced. Delves into interesting areas of VBA not explored by other content creators.
 - [WiseOwl's VBA tutorials](https://www.youtube.com/playlist?list=PLNIs-AWhQzckr8Dgmgb3akx_gFMnpxTN5) - Great all-round resource for VBA. Perfect introduction for beginners. In-depth lessons into all aspects of VBA. Huge playlist that covers most types of VBA.
 - [![o_paid]](#- 'Some libraries used are non-FOSS and created by VBA A2Z') [VBA A2Z](https://www.youtube.com/c/VBAA2Z) - Many tutorials, some paid content. Good array of interesting and different topics - in-depth tutorials into different parts of VBA, with some .NET/VSTO videos. Strong focus on UI development.

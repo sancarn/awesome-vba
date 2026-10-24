@@ -339,7 +339,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![a_ac]](#-) [![o_by]](#- 'Daniel Pineault') [DevHut](https://www.devhut.net/) - Access + VBA site of Daniel Pineault. Publishes series of deep-dive articles into various uses of VBA. Companion site to Youtube account.
 - [![o_paid]](#- 'Various paid content available through the site') [AnalystCave](https://analystcave.com/) - A site dedicated to VBA for analytics.
 - [![o_by]](#- 'John') [The VBA Help](https://www.thevbahelp.com/) - A site dedicated to VBA with a large number of instructive blog posts. Written by the author of VBE_Extras, an AddIn for the VBA IDE and VBE_Colours, a small utility to configure the available colors used by the VBA IDE.
-- [![o_by]](#- 'Leandro Ascierto') [Leandro Ascierto's website](https://www.vbforums.com/showthread.php?912265-leandroascierto-com) - Full of low-level examples of using VBA and VB6. The original site closed in September 2026; this thread hosts the archive.
+- [![o_by]](#- 'Leandro Ascierto') [Leandro Ascierto's website](https://www.vbforums.com/showthread.php?912265-leandroascierto-com) - Full of low-level examples of using VBA and VB6. The original site closed in September 2026; this thread hosts the archive. Download: [https://mega.nz/file/iIIBUCiI#l8fVsNtrhXOuBZtrkSNrdBWEVLSYp3scVnCQELs1bgI](https://mega.nz/file/iIIBUCiI#l8fVsNtrhXOuBZtrkSNrdBWEVLSYp3scVnCQELs1bgI).
 
 ### Books
 

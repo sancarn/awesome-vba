@@ -61,6 +61,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_nom]](#-)  [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/sancarn/stdVBA?style&logo=github&label) [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [![o_32]](#-) ![GHStars](https://img.shields.io/github/stars/kellyethridge/VBCorLib?style&logo=github&label) [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) ![GHStars](https://img.shields.io/github/stars/RelaxTools/Hidennotare?style&logo=github&label) [Hidennotare](https://github.com/RelaxTools/Hidennotare) - A framework by Japanese author RelaxTools. Contains numerous classes, interfaces and forms.
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) ![GHStars](https://img.shields.io/github/stars/WilliamSmithEdward/ROneCOne?style&logo=github&label) [ROneCOne](https://github.com/WilliamSmithEdward/ROneCOne) - A dependency-free C#-style framework for Windows x64 Excel: LINQ, tasks, data tables, and JSON in one class module.
 
 ## Libraries
 

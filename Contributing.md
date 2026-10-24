@@ -170,4 +170,4 @@ If the project comes with paid content for the developer/user, include the follo
 [o_dll]: ./resources/Dependencies.svg
 [o_inst]: ./resources/Installation.svg 'Requires installation'
 [o_paid]: ./resources/Money.svg
-[o_by]: ./resources/Author.svg 'Author'
+[o_by]: ./resources/Author.svg

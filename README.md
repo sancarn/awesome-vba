@@ -420,7 +420,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 [o_dll]: ./resources/Dependencies.svg
 [o_inst]: ./resources/Installation.svg 'Requires installation'
 [o_paid]: ./resources/Money.svg
-[o_by]: ./resources/Author.svg 'Author'
+[o_by]: ./resources/Author.svg
 
 - [![o_32]](#-) - 32-bit only
 - [![o_pass]](#-) - Written in VBA but the code is password protected

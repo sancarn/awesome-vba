@@ -270,6 +270,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### Games / Fun projects
 
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [![o_paid]](#- 'Free download; optional payment') [![o_by]](#- 'Cookie#Soft') [Lemmings for Excel](https://cookiesoft.itch.io/lemmings-for-excel) - Cell-based Lemmings recreation with random maps, specialist units and shareable level codes; VBA source is accessible.
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [Space Shooter](https://www.reddit.com/r/vba/comments/1wmrczg/excel_i_built_a_120_fps_space_shooter_in_pure_vba/) - A 120 FPS 2D space shooter in pure VBA and WinAPI GDI. Also check out the [video](https://youtu.be/xpXRNlfyqXk).
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [![o_by]](#- 'DylanTallchiefGit') ![GHStars](https://img.shields.io/github/stars/DylanTallchiefGit/xlStudio?style&logo=github&label) [xlStudio](https://github.com/DylanTallchiefGit/xlStudio) - A DAW for Microsoft Excel. Also check out the awesome [video](https://youtu.be/RFdCM2kHL64).
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [![o_by]](#- 's0lly') [Cellivization](https://s0lly.itch.io/cellivization) - A cool RTS-like game created in Excel. Also check out the awesome [video](https://www.youtube.com/watch?v=PzETBRcr_i8).

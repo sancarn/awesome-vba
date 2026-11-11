@@ -270,6 +270,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### Games / Fun projects
 
+- [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [![o_by]](#- 'Dynamic Pear') [Excel FPS Survival](https://storyteller-blog.com/2026/06/05/i-made-a-3d-fps-game-in-excel-free-download/) - A raycasting survival FPS rendered with MSForms label controls rather than GDI drawing calls.
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [Space Shooter](https://www.reddit.com/r/vba/comments/1wmrczg/excel_i_built_a_120_fps_space_shooter_in_pure_vba/) - A 120 FPS 2D space shooter in pure VBA and WinAPI GDI. Also check out the [video](https://youtu.be/xpXRNlfyqXk).
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [![o_by]](#- 'DylanTallchiefGit') ![GHStars](https://img.shields.io/github/stars/DylanTallchiefGit/xlStudio?style&logo=github&label) [xlStudio](https://github.com/DylanTallchiefGit/xlStudio) - A DAW for Microsoft Excel. Also check out the awesome [video](https://youtu.be/RFdCM2kHL64).
 - [![p_win]](#-) [![p_nom]](#-) [![a_xl]](#-) [![o_by]](#- 's0lly') [Cellivization](https://s0lly.itch.io/cellivization) - A cool RTS-like game created in Excel. Also check out the awesome [video](https://www.youtube.com/watch?v=PzETBRcr_i8).

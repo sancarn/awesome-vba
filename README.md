@@ -70,7 +70,6 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [![o_by]](#- 'W. García') ![GHStars](https://img.shields.io/github/stars/ECP-Solutions/ASF?style&logo=github&label) [Advanced Scripting Framework (ASF)](https://github.com/ECP-Solutions/ASF) - Complete scripting platform with JavaScript-like syntax, native Office ecosystem integration, classes with inheritance, professional debugging, zero dependencies, and VS Code extension.
 - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [![o_by]](#- 'jet2jet') ![GHStars](https://img.shields.io/github/stars/jet2jet/vb2clr?style&logo=github&label) [vb2clr](https://github.com/jet2jet/vb2clr) - Use C# from VBA using the .NET CLR runtime.
-- [![p_win]](#-) [![p_mac]](#-) [![a_all]](#-) [![o_by]](#- 'W. García') ![GHStars](https://img.shields.io/github/stars/ECP-Solutions/VBA-Expressions?style&logo=github&label) [VBA Expressions](https://github.com/ECP-Solutions/VBA-Expressions) - A powerful string expression evaluator focussed on mathematics and data processing.
 - From Library Collections:
     - [![p_win]](#-) [![p_nom]](#-) [![a_all]](#-) [![o_by]](#- 'Sancarn') In `stdVBA` find `stdLambda` - Full programming language including object manipulation, call stack, etc.
 	

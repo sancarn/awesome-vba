@@ -289,6 +289,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [![p_win]](#-) [![p_mac]](#-) [![o_by]](#- 'Kevin Nowaczyk') ![GHStars](https://img.shields.io/github/stars/Beakerboy/MS-OVBA?style&logo=github&label) [![a_misc]](# "Python") [VBA Project Compiler](https://github.com/Beakerboy/MS-OVBA) - A python library which can be utilised to compile VBA projects. There is also a built-in [Excel addin generator](https://github.com/Beakerboy/Excel-Addin-Generator) made by the same author! You can see a list of related projects by the author [here](https://github.com/sancarn/awesome-vba/issues/35).
 - [![p_win]](#-) [![p_nom]](#-) [![o_paid]](#- 'Will be licensed') [![o_dll]](#- 'Uses an external exe') [WinVBA](https://winvba.com/) - A modern IDE for Visual Basic for Applications (VBA) development.
 - [![p_win]](#-) [![p_nom]](#-) [![o_dll]](#- 'Uses an external exe') [![o_by]](#- 'John') [VBE_Colours](https://www.thevbahelp.com/vbe-colours) - A small external utility to configure the colours of the VBE editor. Not open-source, but [its Github presence provides additional information](https://github.com/john-tvh/VBE_Colours).
+- [![p_win]](#-) [![p_nom]](#-) [![a_misc]](#- 'VB6') [![o_inst]](#- 'pip install') ![GHStars](https://img.shields.io/github/stars/47Hunter47/vb6decompiler?style&logo=github&label) [vb6decompiler](https://github.com/47Hunter47/vb6decompiler) - Recovers structure from native-compiled VB6 binaries, with measured coverage.
 
  
 ## Style Guides

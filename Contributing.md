@@ -2,6 +2,8 @@
 
 Thanks for helping make Awesome‑VBA truly awesome!  Whether you write VBA, VB6 or both, we welcome your pull‑requests.
 
+Read the [curation guidelines](CURATION.md) for the list's scope and quality criteria. This document covers how to format and submit an entry.
+
 ## Quick checklist
 
 1. Try to stick to one link per PR. Small, focused PRs are easier to review.
@@ -13,7 +15,7 @@ Thanks for helping make Awesome‑VBA truly awesome!  Whether you write VBA, VB6
 6. Search existing Issues/PRs first to avoid duplicates.
 7. Proof‑read for spelling/grammar and remove trailing whitespace.
 
-Pull‑requests will be generally accepted by maintainers. In some cases we will await 👍 reactions from the community/maintainers/contributors. Feel free to add your vote to open PRs and issues.
+Maintainers assess submissions using the [curation guidelines](CURATION.md). In some cases we will await 👍 reactions from the community/maintainers/contributors. Feel free to add your vote to open PRs and issues.
 
 ### Symbology
 

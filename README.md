@@ -434,4 +434,4 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Contributing
 
-Your contributions are always welcome! Please take a look at the [contribution guidelines](./Contributing.md) first.
+Your contributions are always welcome! Please take a look at the [curation guidelines](./CURATION.md) for what belongs here and the [contribution guidelines](./Contributing.md) for how to submit an entry.

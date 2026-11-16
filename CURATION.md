@@ -89,6 +89,16 @@ Age or a quiet commit history alone does not disqualify a resource. Stable libra
 
 Keep the merit decision separate from improvement feedback. Fixing access, compatibility or implementation problems may allow reconsideration, but does not automatically make a resource awesome.
 
+## Related projects and companion resources
+
+Treat a framework and its companion documentation, tutorials and example repositories as one body of work when they primarily explain or demonstrate that framework. Prefer one main recommendation that leads readers to those resources. Splitting a project across several repositories does not by itself justify several entries, even when each repository is excellent.
+
+Keep useful entry points discoverable. The main entry can include concise links to documentation or examples when they would otherwise be difficult to find. A selective cross-reference in a relevant topic or Examples section can also help readers who start there, using the existing "From Library Collections" approach where appropriate. Group related material and make its relationship to the framework clear; avoid turning a section into a catalogue of one framework's examples.
+
+A companion resource can earn a separate entry when it makes a distinct, exceptional contribution worth recommending in its own right. For example, an application might demonstrate an unusually useful architecture, or a tutorial might teach a substantial technique beyond routine use of the framework's API. It can still depend on that framework; explain the dependency and what readers gain beyond the main recommendation. Being useful documentation or another good usage example is usually a reason to link it through the parent project.
+
+Apply this principle consistently across projects. Sharing an author does not make otherwise distinct resources duplicates, and having different authors does not automatically make companion resources independent recommendations. Base the decision on their relationship and the value of each entry to readers.
+
 ## Suggesting a resource
 
 Open an issue or submit a pull request with:

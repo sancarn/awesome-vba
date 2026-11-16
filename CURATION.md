@@ -99,18 +99,6 @@ A companion resource can earn a separate entry when it makes a distinct, excepti
 
 Apply this principle consistently across projects. Sharing an author does not make otherwise distinct resources duplicates, and having different authors does not automatically make companion resources independent recommendations. Base the decision on their relationship and the value of each entry to readers.
 
-## Suggesting a resource
+## Contributing
 
-Open an issue or submit a pull request with:
-
-- A direct link to the resource or its original creator. Prefer the relevant repository, release, documentation or forum post over a general promotional page, and omit referral parameters.
-- A short, factual description of what it does and a specific explanation of what makes it worth including.
-- Its intended audience and, where useful, why someone would choose it over relevant alternatives.
-- Enough material to assess it, with any limits on what you have personally verified.
-- Significant costs, access restrictions, compatibility requirements and dependencies, such as external DLLs or OCXs, installation, accounts, external services or a particular host version.
-
-Commercial resources are welcome. Identify paid content and password-protected or hidden source using the existing symbols where applicable. Source access is especially helpful when recommending an implementation for study or reuse; a tool can earn a place through its value to developers without publishing its source.
-
-Follow the [contribution guidelines](Contributing.md) for entry formatting and symbology. Keep listing descriptions concise, accurate and supported by the resource; avoid universal claims such as "works in all VBA hosts" unless they can be substantiated. Put the fuller inclusion case and review evidence in the issue or pull request.
-
-Adapted from [Awesome Excel's curation guidelines](https://github.com/sancarn/awesome-excel/blob/main/CURATION.md).
+See the [contribution guidelines](Contributing.md) to suggest a resource, submit an entry and apply the list's formatting and symbology.

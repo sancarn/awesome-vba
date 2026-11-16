@@ -4,6 +4,19 @@ Thanks for helping make Awesome‑VBA truly awesome!  Whether you write VBA, VB6
 
 Read the [curation guidelines](CURATION.md) for the list's scope and quality criteria. This document covers how to format and submit an entry.
 
+## Suggesting a resource
+
+Open an issue or submit a pull request with:
+
+- A direct link to the resource or its original creator. Prefer the relevant repository, release, documentation or forum post over a general promotional page, and omit referral parameters.
+- A specific explanation of what makes it worth including, its intended audience and, where useful, why someone would choose it over relevant alternatives.
+- Enough material to assess it, with any limits on what you have personally verified.
+- Significant costs, access restrictions, compatibility requirements and dependencies, such as external DLLs or OCXs, installation, accounts, external services or a particular host version.
+
+Commercial resources are welcome. Identify paid content and password-protected or hidden source using the symbols below where applicable. Source access is especially helpful when recommending an implementation for study or reuse; a tool can earn a place through its value to developers without publishing its source.
+
+Keep listing descriptions factual, accurate and supported by the resource; avoid universal claims such as "works in all VBA hosts" unless they can be substantiated. Put the fuller inclusion case and review evidence in the issue or pull request.
+
 ## Quick checklist
 
 1. Try to stick to one link per PR. Small, focused PRs are easier to review.

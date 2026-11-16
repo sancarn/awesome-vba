@@ -19,6 +19,8 @@ Resources primarily aimed at Excel users may also fit [Awesome Excel](https://gi
 
 Each list has its own quality threshold. Falling below Awesome Excel's threshold does not establish a case for inclusion here. Using VBA or making its source accessible is insufficient on its own; explain the specific value for this audience. General spreadsheet templates, formula collections or unrelated programming tools need a clear VBA or VB6 inclusion case.
 
+Equally, exclusion from Awesome VBA does not rule out inclusion in Awesome Excel or another list. An outstanding spreadsheet may merit inclusion in Awesome Excel even when its VBA implementation offers little of particular interest to VBA developers. Assess each resource against the audience, scope and quality criteria of the list where it is being proposed.
+
 ## What makes something awesome
 
 ### A clear purpose and audience

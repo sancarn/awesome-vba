@@ -10,12 +10,20 @@ When suggesting a resource, start with this question: **What makes it exceptiona
 
 - **Libraries and frameworks** that provide useful, reusable capabilities or meaningfully improve how developers write and maintain code.
 - **Developer tools and add-ins** that improve editing, debugging, testing, version control, deployment or other parts of VBA and VB6 development.
-- **Exceptional examples and showcases**, including games, simulations, artwork and finished applications. These can qualify through exceptional programming, reusable engineering, an instructive implementation or an outstanding finished experience.
+- **Exceptional examples and showcases**, including games, simulations, artwork and finished applications whose VBA or VB6 implementation stands out through exceptional programming, reusable engineering or an instructive approach.
 - **Learning resources** that stand out for their clarity, depth, originality or practical value, from introductory lessons to advanced techniques.
 - **External tools and integrations** that offer substantial value for working with VBA or VB6, including interoperability with other languages and environments. They do not have to be written in VBA or VB6 themselves.
 - **Reference material, style guides and historical resources** that help readers understand the languages, their runtimes or their development practices particularly well.
 
-Resources primarily aimed at Excel users may also fit [Awesome Excel](https://github.com/sancarn/awesome-excel). Consider the reason for recommending a resource to each audience: an Excel add-in might improve everyday spreadsheet work, while its implementation might offer a valuable technique for VBA developers. A resource can qualify for both lists.
+## Awesome VBA and Awesome Excel
+
+[Awesome Excel](https://github.com/sancarn/awesome-excel) focuses on resources for working in Excel. The inclusion case centres on what a tool, workbook or other resource enables Excel users to do, understand or enjoy. Its implementation may use VBA, formulas or another technology.
+
+Awesome VBA focuses on VBA and VB6 development. Generic, reusable code that can serve projects across different environments is central to this list. For code submissions, explain what makes the implementation exceptional in its own right: its capabilities, design, engineering or techniques that other developers can use or learn from. Developer tools and learning resources qualify through the value they offer people working with these languages.
+
+Portability is valuable, but code does not have to run in multiple hosts to qualify. A resource specific to Excel, Access or another environment can belong here when its implementation offers exceptional value to VBA or VB6 developers. The host application alone does not determine which list it suits.
+
+For example, an outstanding Excel planning workbook may fit Awesome Excel because of the experience it offers spreadsheet users. Its use of ordinary VBA to connect buttons and update cells would not by itself establish a case here. A reusable scheduling library or an exceptional VBA technique within that workbook could provide a separate inclusion case. A resource can qualify for both lists when it offers distinct value to each audience.
 
 Each list has its own quality threshold. Falling below Awesome Excel's threshold does not establish a case for inclusion here. Using VBA or making its source accessible is insufficient on its own; explain the specific value for this audience. General spreadsheet templates, formula collections or unrelated programming tools need a clear VBA or VB6 inclusion case.
 
@@ -45,7 +53,7 @@ Judge the resulting experience, insight or capability. Large amounts of code, mo
 
 For libraries, consider whether the API and implementation deliver their promised value and can be used reliably. Clear setup instructions, examples and an understandable dependency model help readers put them to work.
 
-For showcases, explain what stands out beyond the surprise that something runs in VBA or VB6. This could be inventive use of the language or host, thoughtful interaction, exceptional artwork, substantial educational value or outstanding execution. A finished experience can qualify without being a reusable library or a tutorial.
+For showcases, explain what stands out beyond the surprise that something runs in VBA or VB6. This could be inventive use of the language or host, thoughtful interaction implemented particularly well, reusable techniques or substantial educational value. A showcase need not be a library or tutorial, but the recommendation here should identify what is exceptional about its VBA or VB6 implementation.
 
 Straightforward techniques can produce exceptional work. Technical mystery, complexity and avoiding external dependencies are not requirements; assess the quality and inventiveness of their use.
 
